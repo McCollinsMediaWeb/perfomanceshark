@@ -6,6 +6,7 @@ import CaseStudies from "@/components/CaseStudies";
 import WhatWeDo from "@/components/WhatWedo";
 import VideoBox from "@/components/videobox";
 import OurPartners from "@/components/OurPartners";
+import OurServices from "@/components/OurServices";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <WhatWeDo/>
       <VideoBox/>
       <OurPartners/>
+      <OurServices/>
     </>
   );
 }
