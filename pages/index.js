@@ -1,19 +1,20 @@
-import Head from "next/head";
+
 import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
-
+import HeroBanner from "@/components/HeroBanner";
+import BestBrands from "@/components/BestBrands";
+import CaseStudies from "@/components/CaseStudies";
+import WhatWeDo from "@/components/WhatWedo";
+import VideoBox from "@/components/videobox";
+import OurPartners from "@/components/OurPartners";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Performance Shark</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className={`${styles.main} ${inter.className}`}>Home page</main>
+      <HeroBanner/>
+      <BestBrands/>
+      <CaseStudies/>
+      <WhatWeDo/>
+      <VideoBox/>
+      <OurPartners/>
     </>
   );
 }
