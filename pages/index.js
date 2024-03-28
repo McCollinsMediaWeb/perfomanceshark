@@ -7,6 +7,8 @@ import WhatWeDo from "@/components/WhatWedo";
 import VideoBox from "@/components/videobox";
 import OurPartners from "@/components/OurPartners";
 import OurServices from "@/components/OurServices";
+import WhyPErfomanceShark from "@/components/WhyPerfomanceShark";
+import ProofInNumber from "@/components/ProofInNumbers";
 export default function Home() {
   return (
     <>
@@ -17,6 +19,8 @@ export default function Home() {
       <VideoBox/>
       <OurPartners/>
       <OurServices/>
+      <WhyPErfomanceShark/>
+      <ProofInNumber/>
     </>
   );
 }
