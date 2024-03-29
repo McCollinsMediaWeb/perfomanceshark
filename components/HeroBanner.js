@@ -8,8 +8,9 @@ export default function HeroBanner() {
   return (
     <>
      <div className="HeroBannerWrp">
-     {isDesktop && (
+     
       <div className="DeskHero">
+      {isDesktop && (
         <div className="BannerImageBox">
         <Image
            src="/herobanner.jpg"
@@ -20,6 +21,7 @@ export default function HeroBanner() {
             className="MainBanner"
          />
         </div>
+        )}
         <div className="BannerContentBox">
           <div className="container">
             <div className="row">
@@ -44,11 +46,7 @@ actually answers their questions and solves their problems.</div>
             </div>
           </div>
         </div>
-      </div>
-     )}
-     {!isDesktop && (
-      <div>Mobile</div>
-     )}
+      </div> 
      </div>
     </>
   );

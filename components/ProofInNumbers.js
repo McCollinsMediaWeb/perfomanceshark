@@ -29,8 +29,8 @@ export default function ProofInNumber() {
           <div className="row">
             <div className="col-md-9">
               <div className="AdsT1">The Proof Is In The Numbers</div>
-              <div className="row">
-                <div className="col-md-4">
+              <div className="row ProofBx1Row">
+                <div className="col-md-4 ProofBx1">
                   <div className="prrofBox">
                     <div className="prrofBoxLyr1">
                       <div className="prrofBoxLyr2">
@@ -51,7 +51,7 @@ export default function ProofInNumber() {
                     Sales For Our Clients
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 ProofBx1">
                   <div className="prrofBox">
                     <div className="prrofBoxLyr1">
                       <div className="prrofBoxLyr2">
@@ -72,7 +72,7 @@ export default function ProofInNumber() {
                     Facebook-Certified Team
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 ProofBx1">
                   <div className="prrofBox">
                     <div className="prrofBoxLyr1">
                       <div className="prrofBoxLyr2">

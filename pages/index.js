@@ -14,13 +14,33 @@ import Announcement from "@/components/Announcement";
 export default function Home() {
   return (
     <>
+    <div id="zero">
       <HeroBanner/>
+      </div>
+      <div id="one">
       <BestBrands/>
+      </div>
+      <div id="two">
       <CaseStudies/>
+      </div>
+      <div id="three">
       <WhatWeDo/>
+      </div>
+      <div id="four">
       <VideoBox/>
+      </div>
+      <div id="five">
       <OurPartners/>
+      </div>
+      <div id="six">
       <OurServices/>
+      </div>
+     
+      
+     
+     
+      
+     
       <WhyPErfomanceShark/>
       <ProofInNumber/>
       <Testimonials/>

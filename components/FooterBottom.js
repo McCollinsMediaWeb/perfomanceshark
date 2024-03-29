@@ -8,7 +8,7 @@ export default function FooterBottom11() {
         <div className="container">
           <div className="FtBtmLinkRow">
             <div className="FtBtmLinkRowFlex">
-              <div className="FtBtmLinkColumn">
+              <div className="FtBtmLinkColumn first">
                 <div className="FtrImage">
                   <Image
                     src="/p2.png"

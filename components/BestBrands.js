@@ -18,6 +18,7 @@ export default function BestBrands() {
           infinite: true,
           dots: false,
           centerMode: true,
+          
         },
       },
     ],
