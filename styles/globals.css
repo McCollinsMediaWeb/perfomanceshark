@@ -1418,4 +1418,7 @@ text-align: center;
 .slider1.setup1 .slick-prev, .slider1.setup1 .slick-next {
   display: none !important;
 }
+.m-pt-0{
+  padding-top: 0 !important;
+}
 }

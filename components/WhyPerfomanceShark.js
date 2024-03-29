@@ -24,7 +24,7 @@ export default function WhyPErfomanceShark() {
   };
   return (
     <>
-      <div className=" pd-common bg4">
+      <div className=" pd-common bg4 m-pt-0">
         <div className="container">
           <div className="row">
             <div className="col-md-7">
