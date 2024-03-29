@@ -24,7 +24,7 @@ export default function ProofInNumber() {
   };
   return (
     <>
-      <div className=" pd-common bg4 pt-0">
+      <div className=" pd-common bg4">
         <div className="container">
           <div className="row">
             <div className="col-md-9">
@@ -45,8 +45,11 @@ export default function ProofInNumber() {
                       </div>
                     </div>
                   </div>
-                  <div className="PrTT1">Average Increase In<br/>
-Sales For Our Clients</div>
+                  <div className="PrTT1">
+                    Average Increase In
+                    <br />
+                    Sales For Our Clients
+                  </div>
                 </div>
                 <div className="col-md-4">
                   <div className="prrofBox">
@@ -63,8 +66,11 @@ Sales For Our Clients</div>
                       </div>
                     </div>
                   </div>
-                  <div className="PrTT1">Google And<br/>
-Facebook-Certified Team</div>
+                  <div className="PrTT1">
+                    Google And
+                    <br />
+                    Facebook-Certified Team
+                  </div>
                 </div>
                 <div className="col-md-4">
                   <div className="prrofBox">
@@ -81,19 +87,22 @@ Facebook-Certified Team</div>
                       </div>
                     </div>
                   </div>
-                  <div className="PrTT1">Results Improved<br/>
-Compared To Previous Agencies</div>
+                  <div className="PrTT1">
+                    Results Improved
+                    <br />
+                    Compared To Previous Agencies
+                  </div>
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div className="AdsBlock">
                 <div className="AdsHeader">
-                    <div className="AdsHdT1">282,000</div>
-                    <div className="AdsHdT2">Leads Generated So Far…</div>
+                  <div className="AdsHdT1">282,000</div>
+                  <div className="AdsHdT2">Leads Generated So Far…</div>
                 </div>
                 <div className="AdsFooter">
-                    <div className="AdsHdT3">Contact Us</div>
+                  <div className="AdsHdT3">Contact Us</div>
                 </div>
               </div>
             </div>

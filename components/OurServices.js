@@ -24,7 +24,7 @@ export default function OurServices() {
   };
   return (
     <>
-      <div className="OurServicesWrap pd-common bg4 pt-0">
+      <div className="OurServicesWrap pd-common bg4">
         <div className="container">
           <div className="CaseStudiesHeader">
             <div className="row">

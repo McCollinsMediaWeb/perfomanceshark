@@ -5,7 +5,8 @@ import "@/styles/bootstrap.css";
 import "@/styles/globals.css";
 import { useState, useEffect } from "react";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Footer1 from "@/components/Footer";
+import FooterBottom11 from "@/components/FooterBottom";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
   return <>
   <Header/>
   <Component {...pageProps} />
-  <Footer/>
+  <Footer1/>
+  <FooterBottom11/>
   </>;
 }

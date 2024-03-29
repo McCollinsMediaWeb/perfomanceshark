@@ -9,6 +9,8 @@ import OurPartners from "@/components/OurPartners";
 import OurServices from "@/components/OurServices";
 import WhyPErfomanceShark from "@/components/WhyPerfomanceShark";
 import ProofInNumber from "@/components/ProofInNumbers";
+import Testimonials from "@/components/Testimonials";
+import Announcement from "@/components/Announcement";
 export default function Home() {
   return (
     <>
@@ -21,6 +23,10 @@ export default function Home() {
       <OurServices/>
       <WhyPErfomanceShark/>
       <ProofInNumber/>
+      <Testimonials/>
+      <Announcement/>
+
+   
     </>
   );
 }
