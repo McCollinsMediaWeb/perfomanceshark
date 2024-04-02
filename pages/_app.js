@@ -13,13 +13,15 @@ export default function App({ Component, pageProps }) {
     window.addEventListener("scroll", () => {
       const scrollCheck = window.scrollY > 100;
       if (scrollCheck) {
-        document.getElementsByTagName("body")[0].classList.add("StickyHeader");
+        document.getElementsByTagName("body")[0].classList.add("HideNavBar");
       } else {
         document
           .getElementsByTagName("body")[0]
           .classList.remove("StickyHeader");
       }
     });
+
+   
   });
   return <>
   <Header/>

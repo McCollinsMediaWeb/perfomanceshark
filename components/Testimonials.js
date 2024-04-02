@@ -1,8 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
+import React,{useEffect} from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Testimonials() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const settings = {
     dots: false,
     infinite: false,
@@ -25,7 +32,7 @@ export default function Testimonials() {
   return (
     <>
       <div className="TestimonialsBox pd-common bg4">
-        <div className="container position-relative">
+        <div className="container position-relative"   data-aos="fade-up" data-aos-duration="700">
             <div className="ArrowIcon">&nbsp;</div>
           <div className="row">
             <div className="col-md-8 slider1 setup1">

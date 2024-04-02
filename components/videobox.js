@@ -2,8 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import React,{useEffect} from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function VideoBox() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="VideoBox">
@@ -28,7 +35,7 @@ export default function VideoBox() {
           />
         )}
         <div className="VideoBoxContent">
-          <div>
+          <div  data-aos="fade-up" data-aos-duration="700">
             <div className="VidT1">Unleashing The Power Of SEO Tactics</div>
             <div className="VidT2">Play Now</div>
           </div>

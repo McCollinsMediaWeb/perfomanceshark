@@ -1,8 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
+import React, { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function ProofInNumber() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const settings = {
     dots: true,
     infinite: false,
@@ -28,69 +35,77 @@ export default function ProofInNumber() {
         <div className="container">
           <div className="row">
             <div className="col-md-9">
-              <div className="AdsT1">The Proof Is In The Numbers</div>
+              <div className="AdsT1" data-aos="fade-up" data-aos-duration="700">
+                The Proof Is In The Numbers
+              </div>
               <div className="row ProofBx1Row">
                 <div className="col-md-4 ProofBx1">
-                  <div className="prrofBox">
-                    <div className="prrofBoxLyr1">
-                      <div className="prrofBoxLyr2">
-                        <div className="prrofBoxLyr3">
-                          <div>
-                            <div className="prrofBoxContent">
-                              <div className="prrofBoxContentT1">37%</div>
-                              <div className="prrofBoxContentT2">&nbsp;</div>
+                  <div data-aos="fade-up" data-aos-duration="700">
+                    <div className="prrofBox">
+                      <div className="prrofBoxLyr1">
+                        <div className="prrofBoxLyr2">
+                          <div className="prrofBoxLyr3">
+                            <div>
+                              <div className="prrofBoxContent">
+                                <div className="prrofBoxContentT1">37%</div>
+                                <div className="prrofBoxContentT2">&nbsp;</div>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="PrTT1">
-                    Average Increase In
-                    <br />
-                    Sales For Our Clients
+                    <div className="PrTT1">
+                      Average Increase In
+                      <br />
+                      Sales For Our Clients
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-4 ProofBx1">
-                  <div className="prrofBox">
-                    <div className="prrofBoxLyr1">
-                      <div className="prrofBoxLyr2">
-                        <div className="prrofBoxLyr3">
-                          <div>
-                            <div className="prrofBoxContent">
-                              <div className="prrofBoxContentT1">100%</div>
-                              <div className="prrofBoxContentT2">&nbsp;</div>
+                  <div data-aos="fade-up" data-aos-duration="700">
+                    <div className="prrofBox">
+                      <div className="prrofBoxLyr1">
+                        <div className="prrofBoxLyr2">
+                          <div className="prrofBoxLyr3">
+                            <div>
+                              <div className="prrofBoxContent">
+                                <div className="prrofBoxContentT1">100%</div>
+                                <div className="prrofBoxContentT2">&nbsp;</div>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="PrTT1">
-                    Google And
-                    <br />
-                    Facebook-Certified Team
+                    <div className="PrTT1">
+                      Google And
+                      <br />
+                      Facebook-Certified Team
+                    </div>
                   </div>
                 </div>
                 <div className="col-md-4 ProofBx1">
-                  <div className="prrofBox">
-                    <div className="prrofBoxLyr1">
-                      <div className="prrofBoxLyr2">
-                        <div className="prrofBoxLyr3">
-                          <div>
-                            <div className="prrofBoxContent">
-                              <div className="prrofBoxContentT1">81%</div>
-                              <div className="prrofBoxContentT2">&nbsp;</div>
+                  <div data-aos="fade-up" data-aos-duration="700">
+                    <div className="prrofBox">
+                      <div className="prrofBoxLyr1">
+                        <div className="prrofBoxLyr2">
+                          <div className="prrofBoxLyr3">
+                            <div>
+                              <div className="prrofBoxContent">
+                                <div className="prrofBoxContentT1">81%</div>
+                                <div className="prrofBoxContentT2">&nbsp;</div>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="PrTT1">
-                    Results Improved
-                    <br />
-                    Compared To Previous Agencies
+                    <div className="PrTT1">
+                      Results Improved
+                      <br />
+                      Compared To Previous Agencies
+                    </div>
                   </div>
                 </div>
               </div>

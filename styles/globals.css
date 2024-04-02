@@ -277,7 +277,7 @@ body {
 }
 
 .HeaderWrap {
-  position: fixed;
+  /* position: fixed;
 
   left: 0;
 
@@ -285,7 +285,8 @@ body {
 
   z-index: 9;
 
-  width: 100%;
+  width: 100%; */
+  position: relative;
   padding: 10px 0px;
 
 }

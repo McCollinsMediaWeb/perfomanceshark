@@ -32,16 +32,7 @@ export default function Home() {
       <div id="five">
       <OurPartners/>
       </div>
-      <div id="six">
-      <OurServices/>
-      </div>
-     
       
-     
-     
-      
-     
-      <WhyPErfomanceShark/>
       <ProofInNumber/>
       <Testimonials/>
       <Announcement/>

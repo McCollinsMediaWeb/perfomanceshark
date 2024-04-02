@@ -1,8 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
+import React,{useEffect} from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default function BestBrands() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const settings = {
     dots: true,
     infinite: false,
@@ -27,10 +35,10 @@ export default function BestBrands() {
     <>
       <div className="BestBrandsWrap pd-common bg2">
         <div className="container">
-          <div className="Bt4 text-center">
-            The Best Brands Choose Performance Shark
+          <div className="Bt4 text-center"   data-aos="fade-up" data-aos-duration="700">
+          Our Valued Partners in Success
           </div>
-          <div className="BrndBoxes slider1">
+          <div className="BrndBoxes slider1"   data-aos="fade-up" data-aos-duration="700">
             <Slider {...settings}>
             <div>
                 <div className="BrandBoxItem">

@@ -1,10 +1,17 @@
 import Head from "next/head";
 import Image from "next/image";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 export default function HeroBanner() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
      <div className="HeroBannerWrp">
@@ -26,12 +33,12 @@ export default function HeroBanner() {
           <div className="container">
             <div className="row">
               <div className="col-md-8">
-                <div className="Bt1">Performance  Marketing
+                <div className="Bt1"  data-aos="fade-up" data-aos-duration="700">Performance  Marketing
 that Drives Revenue</div>
-<div className="Bt2">Amplify your business with our data-centric, performance-driven digital marketing solutions</div>
+<div className="Bt2"  data-aos="fade-up" data-aos-duration="700">Amplify your business with our data-centric, performance-driven digital marketing solutions</div>
               </div>
               <div className="col-md-4">
-                <div className="BannerForm">
+                <div className="BannerForm"  data-aos="fade-up" data-aos-duration="700">
                   <div className="Bt3">Build trust with your audience by writing content that
 actually answers their questions and solves their problems.</div>
                   <div className="BannerFormItem">

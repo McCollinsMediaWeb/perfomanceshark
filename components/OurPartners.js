@@ -1,8 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function OurPartners() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
     const settings = {
         dots: true,
         infinite: false,
@@ -29,12 +36,12 @@ export default function OurPartners() {
           <div className="WhatWedoHeader">
             <div className="row">
               <div className="col-md-12">
-                <div className="T1">OUR PARTNERAS</div>
-                <div className="T2">We Have Global Premium Partners</div>
+                <div className="T1 text-uppercase"  data-aos="fade-up" data-aos-duration="700">Certified Partners</div>
+                <div className="T2"  data-aos="fade-up" data-aos-duration="700">We Have Global Premium Partners</div>
               </div>
             </div>
           </div>
-          <div className="PartnerSliderWrap">
+          <div className="PartnerSliderWrap" data-aos="fade-up" data-aos-duration="700">
             <div className="BrndBoxes slider1">
               <Slider {...settings}>
                 <div>

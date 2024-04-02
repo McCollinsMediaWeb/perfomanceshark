@@ -2,7 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
 
+import React,{useEffect} from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function CaseStudies() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const settings = {
     dots: true,
     infinite: false,
@@ -29,11 +37,11 @@ export default function CaseStudies() {
           <div className="CaseStudiesHeader">
             <div className="row">
               <div className="col-md-7">
-                <div className="CsT1">Case Studies</div>
-                <div className="CsT2">Our Work Drives Businesses Forward</div>
+                <div className="CsT1"   data-aos="fade-up" data-aos-duration="700">Case Studies</div>
+                <div className="CsT2"   data-aos="fade-up" data-aos-duration="700">Our Work Drives Businesses Forward</div>
               </div>
               <div className="col-md-5">
-                <div className="CsT3">
+                <div className="CsT3"  data-aos="fade-up" data-aos-duration="700">
                   Together, we help our clients achieve tangible, measurable
                   results. Focused on business outcomes — we bring a unique set
                   of expertise and skills to the party.
@@ -41,7 +49,7 @@ export default function CaseStudies() {
               </div>
             </div>
           </div>
-          <div className="BrndBoxes slider1">
+          <div className="BrndBoxes slider1"  data-aos="fade-up" data-aos-duration="700">
             <Slider {...settings}>
               <div>
                 <div className="CaseStudyItem">
