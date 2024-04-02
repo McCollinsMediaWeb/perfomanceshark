@@ -714,6 +714,11 @@ body {
 .StIcon {
   background-size: 100% 100%;
 }
+.StIcon.kk {
+  background-image: url(../public/packages.png);
+  width: 35px;
+  height: 35px;
+}
 
 .StIcon.k1 {
   background-image: url(../public/k1.png);
@@ -1169,7 +1174,59 @@ body {
   padding: 10px;
   font-weight: bold;
 }
+.PriceBox{
+  font-size: 35px;
+  padding: 15px 0px;
+  border-top: 1px solid #383838;
+  border-bottom: 1px solid #383838;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.StLink12{
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #06080A;
+  text-align: center;
+  display: block;
+}
+.FtDescBox{
+  margin-top: 15px;
+  min-height: 65px;
+}
+.FtDescBoxItem{
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 23px;
+}
+.FtDescBoxItem::before{
+  content: "";
+  width: 19px;
+  height: 14px;
+  background-image: url(../public/tick.png);
+  background-size: 100% 100%;
+  display: inline-block;
+ position: absolute;
+ left: 0;
+ top: 0;
+}
 @media only screen and (max-width: 1000px) {
+  .FtDescBox {
+    min-height: 90px;
+  }
+  .StName {
+    font-size: 19px;
+  }
+  .PriceBox {
+    font-size: 28px;
+    padding: 10px 0px;
+    border-top: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .FooterMediaIcons {
     display: block;
   }

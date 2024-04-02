@@ -44,7 +44,7 @@ export default function Header() {
                 Our Partners
               </Link>
               <Link href="#six" scroll={true} className="m-d-none">
-                Our Services
+                Our Packages
               </Link>
               <Link href="#zero" scroll={true} className="FreeAudiBtn">
                 Free Audit
@@ -112,7 +112,7 @@ export default function Header() {
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
                     <Link href="#six" scroll={true}>
-                      Our Services
+                      Our Packages
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>

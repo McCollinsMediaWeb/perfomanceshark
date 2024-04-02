@@ -11,6 +11,7 @@ import WhyPErfomanceShark from "@/components/WhyPerfomanceShark";
 import ProofInNumber from "@/components/ProofInNumbers";
 import Testimonials from "@/components/Testimonials";
 import Announcement from "@/components/Announcement";
+import OurPackeges from "@/components/OurPackages";
 export default function Home() {
   return (
     <>
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div id="one">
       <BestBrands/>
+      </div>
+      <div id="six">
+        <OurPackeges/>
       </div>
       <div id="two">
       <CaseStudies/>
@@ -32,6 +36,7 @@ export default function Home() {
       <div id="five">
       <OurPartners/>
       </div>
+     
       
       <ProofInNumber/>
       <Testimonials/>
