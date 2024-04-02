@@ -1516,4 +1516,16 @@ text-align: center;
 .HeaderImage{
   width: 75px;
 }
+.HeaderWrap {
+  position: fixed;
+
+  left: 0;
+
+  top: 0;
+
+  z-index: 9;
+
+  width: 100%;
+
+}
 }

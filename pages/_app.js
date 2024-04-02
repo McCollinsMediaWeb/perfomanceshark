@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
     window.addEventListener("scroll", () => {
       const scrollCheck = window.scrollY > 100;
       if (scrollCheck) {
-        document.getElementsByTagName("body")[0].classList.add("HideNavBar");
+        document.getElementsByTagName("body")[0].classList.add("StickyHeader");
       } else {
         document
           .getElementsByTagName("body")[0]
