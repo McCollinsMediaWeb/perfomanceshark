@@ -11,6 +11,15 @@ export default function Header() {
       document.body.classList.remove("PanelActivated");
     }
   }, [open]);
+
+  const [open1, setOpen1] = useState(false);
+  useEffect(() => {
+    if (open1) {
+      document.body.classList.add("PanelActivated1");
+    } else {
+      document.body.classList.remove("PanelActivated1");
+    }
+  }, [open1]);
   return (
     <>
       <div className="HeaderWrap">
@@ -46,9 +55,9 @@ export default function Header() {
               <Link href="#six" scroll={true} className="m-d-none">
                 Our Packages
               </Link>
-              <Link href="#zero" scroll={true} className="FreeAudiBtn">
+              <a href="javascript:void(0);" scroll={true} className="FreeAudiBtn" onClick={() => setOpen1(true)}>
                 Free Audit
-              </Link>
+              </a>
               <a
                 className="MenuIcon"
                 href="javascript:void(0);"
@@ -65,7 +74,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="MegaMenu">
+      <div className="MegaMenu MegaMenu1">
         <div className="container">
           <div className="text-right">
             <div className="closeBtn" onClick={() => setOpen(false)}>
@@ -135,6 +144,52 @@ export default function Header() {
                     <div className="socialicon linkedin m-0">&nbsp;</div>
                   </a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="MegaMenu MegaMenu2">
+        <div className="container">
+          <div className="text-right">
+            <div className="closeBtn" onClick={() => setOpen1(false)}>
+              &nbsp;
+            </div>
+          </div>
+          <div className="MegaMenuContent">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="text-center">
+                  <div className="MegaMenuLogo">
+                    <Image
+                      src="/p2.png"
+                      layout="responsive"
+                      width={"279"}
+                      height={"284"}
+                      priority={true}
+                      className="MainBanner"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-12">
+                <div className="MegamenuForm">
+                  <div className="BannerFormItem">
+                    <div className="row">
+                      <div className="col-md-6"><input type="text" placeholder="Your Name*"/></div>
+                      <div className="col-md-6"> <input type="text" placeholder="Email Address*"/></div>
+                      <div className="col-md-6"><input type="text" placeholder="Contact Number*"/></div>
+                      <div className="col-md-6"><input type="text" placeholder="Website URL*"/></div>
+                      <div className="col-md-12"><button>Submit Inquiry</button></div>
+                    </div>
+                    
+                   
+                    
+                    
+                    
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>

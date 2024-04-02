@@ -706,7 +706,19 @@ body {
   left: 0;
   display: inline-block;
 }
-
+.MegamenuForm{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.MegamenuForm button{
+  display: block;
+  width: 100%;
+  border-radius: 0;
+}
+.MegamenuForm .col-md-6 ,
+.MegamenuForm .col-md-12{
+ padding: 0 10px;
+}
 .ServicesBoxWrp {
   margin: 35px 0px;
 }
@@ -1106,8 +1118,13 @@ body {
   z-index: 99;
   transition: 0.4s;
 }
+.MegaMenu1 ,
+.MegaMenu2{
+  left: -100%;
+}
 
-.PanelActivated .MegaMenu {
+.PanelActivated .MegaMenu1,
+.PanelActivated1 .MegaMenu2 {
   left: 0;
 }
 
