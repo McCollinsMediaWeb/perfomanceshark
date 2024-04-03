@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function OurPackeges() {
+
   const settings = {
     dots: true,
     infinite: false,
