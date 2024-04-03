@@ -35,7 +35,7 @@ export default function VideoBox() {
           />
         )}
         <div className="VideoBoxContent">
-          <div  data-aos="fade-up" data-aos-duration="700">
+          <div>
             <div className="VidT1">Unleashing The Power Of SEO Tactics</div>
             <div className="VidT2">Play Now</div>
           </div>

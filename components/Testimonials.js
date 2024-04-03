@@ -32,7 +32,7 @@ export default function Testimonials() {
   return (
     <>
       <div className="TestimonialsBox pd-common bg4">
-        <div className="container position-relative"   data-aos="fade-up" data-aos-duration="700">
+        <div className="container position-relative">
             <div className="ArrowIcon">&nbsp;</div>
           <div className="row">
             <div className="col-md-8 slider1 setup1">

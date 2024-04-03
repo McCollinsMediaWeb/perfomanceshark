@@ -36,12 +36,12 @@ export default function OurPartners() {
           <div className="WhatWedoHeader">
             <div className="row">
               <div className="col-md-12">
-                <div className="T1 text-uppercase"  data-aos="fade-up" data-aos-duration="700">Certified Partners</div>
-                <div className="T2"  data-aos="fade-up" data-aos-duration="700">We Have Global Premium Partners</div>
+                <div className="T1 text-uppercase">Certified Partners</div>
+                <div className="T2">We Have Global Premium Partners</div>
               </div>
             </div>
           </div>
-          <div className="PartnerSliderWrap" data-aos="fade-up" data-aos-duration="700">
+          <div className="PartnerSliderWrap">
             <div className="BrndBoxes slider1">
               <Slider {...settings}>
                 <div>

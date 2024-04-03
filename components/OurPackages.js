@@ -78,7 +78,7 @@ export default function OurPackeges() {
                   <div className="StDesc">
                     Level-up with more power and enhanced features
                   </div>
-                  <div className="PriceBox">$2.5 K</div>
+                  <div className="PriceBox">2500 AED</div>
                   <a className="StLink12" href="#zero">
                     Contact Us
                   </a>
@@ -97,7 +97,7 @@ export default function OurPackeges() {
                   <div className="StDesc">
                     Level-up with more power and enhanced features
                   </div>
-                  <div className="PriceBox">$5 K</div>
+                  <div className="PriceBox">5000 AED</div>
                   <a className="StLink12" href="#zero">
                     Contact Us
                   </a>
@@ -119,7 +119,7 @@ export default function OurPackeges() {
                   <div className="StDesc">
                     Level-up with more power and enhanced features
                   </div>
-                  <div className="PriceBox">$2.5 K</div>
+                  <div className="PriceBox">7500 AED</div>
                   <a className="StLink12" href="#zero">
                     Contact Us
                   </a>
@@ -139,7 +139,7 @@ export default function OurPackeges() {
                   <div className="StDesc">
                   Full-Scale Performance Marketing Dominance
                   </div>
-                  <div className="PriceBox">$10 K</div>
+                  <div className="PriceBox">10000 AED</div>
                   <a className="StLink12" href="#zero">
                     Contact Us
                   </a>

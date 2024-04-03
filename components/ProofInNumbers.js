@@ -35,12 +35,12 @@ export default function ProofInNumber() {
         <div className="container">
           <div className="row">
             <div className="col-md-9">
-              <div className="AdsT1" data-aos="fade-up" data-aos-duration="700">
+              <div className="AdsT1">
                 The Proof Is In The Numbers
               </div>
               <div className="row ProofBx1Row">
                 <div className="col-md-4 ProofBx1">
-                  <div data-aos="fade-up" data-aos-duration="700">
+                  <div >
                     <div className="prrofBox">
                       <div className="prrofBoxLyr1">
                         <div className="prrofBoxLyr2">
@@ -63,7 +63,7 @@ export default function ProofInNumber() {
                   </div>
                 </div>
                 <div className="col-md-4 ProofBx1">
-                  <div data-aos="fade-up" data-aos-duration="700">
+                  <div >
                     <div className="prrofBox">
                       <div className="prrofBoxLyr1">
                         <div className="prrofBoxLyr2">
@@ -86,7 +86,7 @@ export default function ProofInNumber() {
                   </div>
                 </div>
                 <div className="col-md-4 ProofBx1">
-                  <div data-aos="fade-up" data-aos-duration="700">
+                  <div >
                     <div className="prrofBox">
                       <div className="prrofBoxLyr1">
                         <div className="prrofBoxLyr2">
