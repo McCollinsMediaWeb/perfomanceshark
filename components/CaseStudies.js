@@ -42,9 +42,7 @@ export default function CaseStudies() {
               </div>
               <div className="col-md-5">
                 <div className="CsT3"  data-aos="fade-up" data-aos-duration="700">
-                  Together, we help our clients achieve tangible, measurable
-                  results. Focused on business outcomes — we bring a unique set
-                  of expertise and skills to the party.
+                Explore how our strategies and expertise have propelled businesses forward, achieving measurable results and tangible success stories
                 </div>
               </div>
             </div>

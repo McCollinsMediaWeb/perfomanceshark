@@ -59,9 +59,8 @@ export default function OurPackeges() {
                   data-aos="fade-up"
                   data-aos-duration="700"
                 >
-                  We makes it easy to create content that engages your audience
-                  by taking the guesswork out of research, strategy, and
-                  writing.
+                Choose from our high-impact marketing services designed to fuel startup growth and amplify your brand's visibility in the digital realm.
+
                 </div>
               </div>
             </div>

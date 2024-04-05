@@ -45,7 +45,7 @@ actually answers their questions and solves their problems.</div>
                     <input type="text" placeholder="Your Name*"/>
                     <input type="text" placeholder="Email Address*"/>
                     <input type="text" placeholder="Contact Number*"/>
-                    <input type="text" placeholder="Website URL*"/>
+                    <input type="text" placeholder="Website URL"/>
                     <button>Submit Inquiry</button>
                   </div>
                 </div>
