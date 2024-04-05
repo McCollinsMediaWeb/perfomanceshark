@@ -1460,19 +1460,19 @@ body {
   width: 75px;
 }
 .ProofBx1{
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
   margin-bottom: 10px;
 }
 .ProofBx1Row{
   justify-content: center;
 }
 .prrofBox {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
 }
 .prrofBoxContentT1 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .PrTT1 br ,
 .ArrowIcon{
@@ -1587,5 +1587,71 @@ text-align: center;
 
   width: 100%;
 
+}
+.scroller {
+  overflow: hidden;
+  margin: 0 5px;
+}
+.scroller__inner {
+  padding-bottom: 20px;
+  margin-bottom: -20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
+}
+.product-list--scrollable {
+  overflow: visible;
+  border: none;
+  background: transparent;
+}
+.product-list--scrollable {
+  flex-wrap: nowrap;
+}
+.product-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 1;
+}
+.product-item {
+  position: relative;
+  padding: 20px;
+  min-width: 0;
+  flex-shrink: 0;
+  background: var(--secondary-background);
+  white-space: normal;
+}
+.product-item--vertical, .product-item--vertical .product-item__info {
+  display: flex;
+  flex-direction: column;
+}
+.product-list--scrollable .product-item {
+  width: 62%;
+}
+.slick-list{
+  padding: 0px !important;
+}
+.slick-slide .TEstRow{
+  opacity: 0.5;
+}
+.slick-slide.slick-active .TEstRow{
+  opacity: 1;
+}
+.prrofBoxLyr1 {
+  padding: 5px;
+}
+.prrofBoxLyr2 {
+  padding: 1px;
+}
+.prrofBoxContentT2 {
+  width: 12px;
+  height: 11px;
 }
 }

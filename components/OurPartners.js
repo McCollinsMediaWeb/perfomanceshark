@@ -44,31 +44,7 @@ export default function OurPartners() {
           <div className="PartnerSliderWrap">
             <div className="BrndBoxes slider1">
               <Slider {...settings}>
-                <div>
-                  <div className="partnerItem1">
-                    <Image
-                      src="/facebook.jpg"
-                      layout="responsive"
-                      width={"528"}
-                      height={"209"}
-                      priority={true}
-                      className="MainBanner"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <div className="partnerItem1">
-                    <Image
-                      src="/ticktock.jpg"
-                      layout="responsive"
-                      width={"528"}
-                      height={"209"}
-                      priority={true}
-                      className="MainBanner"
-                    />
-                  </div>
-                </div>
-                <div>
+              <div>
                   <div className="partnerItem1">
                     <Image
                       src="/google.jpg"
@@ -116,30 +92,8 @@ export default function OurPartners() {
                     />
                   </div>
                 </div>
-                <div>
-                  <div className="partnerItem1">
-                    <Image
-                      src="/google.jpg"
-                      layout="responsive"
-                      width={"528"}
-                      height={"209"}
-                      priority={true}
-                      className="MainBanner"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <div className="partnerItem1">
-                    <Image
-                      src="/googlecloud.jpg"
-                      layout="responsive"
-                      width={"528"}
-                      height={"209"}
-                      priority={true}
-                      className="MainBanner"
-                    />
-                  </div>
-                </div>
+                
+                
               </Slider>
             </div>
           </div>

@@ -2,11 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
 import React, { useEffect } from "react";
+import useMediaQuery from "@/hooks/useMediaQuery";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function OurPackeges() {
+  const isDesktop = useMediaQuery("(min-width: 960px)");
 
   const settings = {
     dots: true,
@@ -20,7 +22,7 @@ export default function OurPackeges() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
           dots: false,
           centerMode: true,
         },
@@ -69,90 +71,98 @@ export default function OurPackeges() {
             data-aos="fade-up"
             data-aos-duration="700"
           >
-            <Slider {...settings}>
-              <div>
-                <div className="ServiceItem">
-                  <div className="StIcons">
-                    <div className="StIcon kk">&nbsp;</div>
-                  </div>
-                  <div className="StName">Baby Shark </div>
-                  <div className="StDesc">
-                    Level-up with more power and enhanced features
-                  </div>
-                  <div className="PriceBox">2500 AED</div>
-                  <a className="StLink12" href="#zero">
-                    Contact Us
-                  </a>
-                  <div className="FtDescBox">
-                    <div className="FtDescBoxItem">Google or Meta Ads</div>
-                  </div>
-                  
-                </div>
-              </div>
-              <div>
-                <div className="ServiceItem">
-                  <div className="StIcons">
-                    <div className="StIcon kk">&nbsp;</div>
-                  </div>
-                  <div className="StName">Dynamic Dolphin </div>
-                  <div className="StDesc">
-                    Level-up with more power and enhanced features
-                  </div>
-                  <div className="PriceBox">5000 AED</div>
-                  <a className="StLink12" href="#zero">
-                    Contact Us
-                  </a>
-                  <div className="FtDescBox">
-                    <div className="FtDescBoxItem">Search Engine Marketing</div>
-                    <div className="FtDescBoxItem">
-                      Google & Meta Ads Marketing
+           
+              <Slider {...settings}>
+                <div>
+                  <div className="ServiceItem">
+                    <div className="StIcons">
+                      <div className="StIcon kk">&nbsp;</div>
+                    </div>
+                    <div className="StName">Baby Shark </div>
+                    <div className="StDesc">
+                      Level-up with more power and enhanced features
+                    </div>
+                    <div className="PriceBox">2500 AED</div>
+                    <a className="StLink12" href="#zero">
+                      Contact Us
+                    </a>
+                    <div className="FtDescBox">
+                      <div className="FtDescBoxItem">Google or Meta Ads</div>
                     </div>
                   </div>
-                  
                 </div>
-              </div>
-              <div>
-                <div className="ServiceItem">
-                  <div className="StIcons">
-                    <div className="StIcon kk">&nbsp;</div>
+                <div>
+                  <div className="ServiceItem">
+                    <div className="StIcons">
+                      <div className="StIcon kk">&nbsp;</div>
+                    </div>
+                    <div className="StName">Dynamic Dolphin </div>
+                    <div className="StDesc">
+                      Level-up with more power and enhanced features
+                    </div>
+                    <div className="PriceBox">5000 AED</div>
+                    <a className="StLink12" href="#zero">
+                      Contact Us
+                    </a>
+                    <div className="FtDescBox">
+                      <div className="FtDescBoxItem">
+                        Search Engine Marketing
+                      </div>
+                      <div className="FtDescBoxItem">
+                        Google & Meta Ads Marketing
+                      </div>
+                    </div>
                   </div>
-                  <div className="StName">Power Penguin</div>
-                  <div className="StDesc">
-                    Level-up with more power and enhanced features
-                  </div>
-                  <div className="PriceBox">7500 AED</div>
-                  <a className="StLink12" href="#zero">
-                    Contact Us
-                  </a>
-                  <div className="FtDescBox">
-                    <div className="FtDescBoxItem">Search Engine Marketing</div>
-                    <div className="FtDescBoxItem">Google & Meta Ads Marketing</div>
-                  </div>
-                  
                 </div>
-              </div>
-              <div>
-                <div className="ServiceItem">
-                  <div className="StIcons">
-                    <div className="StIcon kk">&nbsp;</div>
+                <div>
+                  <div className="ServiceItem">
+                    <div className="StIcons">
+                      <div className="StIcon kk">&nbsp;</div>
+                    </div>
+                    <div className="StName">Power Penguin</div>
+                    <div className="StDesc">
+                      Level-up with more power and enhanced features
+                    </div>
+                    <div className="PriceBox">7500 AED</div>
+                    <a className="StLink12" href="#zero">
+                      Contact Us
+                    </a>
+                    <div className="FtDescBox">
+                      <div className="FtDescBoxItem">
+                        Search Engine Marketing
+                      </div>
+                      <div className="FtDescBoxItem">
+                        Google & Meta Ads Marketing
+                      </div>
+                    </div>
                   </div>
-                  <div className="StName">Big Blue Whale</div>
-                  <div className="StDesc">
-                  Full-Scale Performance Marketing Dominance
-                  </div>
-                  <div className="PriceBox">10000 AED</div>
-                  <a className="StLink12" href="#zero">
-                    Contact Us
-                  </a>
-                  <div className="FtDescBox">
-                    <div className="FtDescBoxItem">Search Engine Marketing,</div>
-                    <div className="FtDescBoxItem">Google & Meta Ads Marketing</div>
-                    <div className="FtDescBoxItem"> Email Marketing</div>
-                  </div>
-                  
                 </div>
-              </div>
-            </Slider>
+                <div>
+                  <div className="ServiceItem">
+                    <div className="StIcons">
+                      <div className="StIcon kk">&nbsp;</div>
+                    </div>
+                    <div className="StName">Big Blue Whale</div>
+                    <div className="StDesc">
+                      Full-Scale Performance Marketing Dominance
+                    </div>
+                    <div className="PriceBox">10000 AED</div>
+                    <a className="StLink12" href="#zero">
+                      Contact Us
+                    </a>
+                    <div className="FtDescBox">
+                      <div className="FtDescBoxItem">
+                        Search Engine Marketing,
+                      </div>
+                      <div className="FtDescBoxItem">
+                        Google & Meta Ads Marketing
+                      </div>
+                      <div className="FtDescBoxItem"> Email Marketing</div>
+                    </div>
+                  </div>
+                </div>
+              </Slider>
+            
           </div>
         </div>
       </div>
