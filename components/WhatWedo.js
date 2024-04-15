@@ -101,12 +101,13 @@ export default function WhatWeDo() {
                                 <div className="ServiceFlex">
                                     <div className="ServiceLeft">
                                         <div className="ServiceIconBox">
-                                            <div className="serviceleftIcon four">&nbsp;</div>
+                                            <div className="serviceleftIcon three">&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="ServiceRight">
                                         <div>
-                                            <div className="serviceName">AI Development</div>
+                                            <div className="serviceName">Email Marketing 
+</div>
                                             <div className="servicedesc">Leverage our expertise in targeted email marketing campaigns for e-commerce businesses, honed over more than a decade, to maximize your online sales potential.</div>
                                             <div className="serviceLinkIcon">&nbsp;</div>
                                         </div>

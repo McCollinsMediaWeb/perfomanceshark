@@ -37,7 +37,7 @@ export default function OurPartners() {
             <div className="row">
               <div className="col-md-12">
                 <div className="T1 text-uppercase">Certified Partners</div>
-                <div className="T2">We Have Global Premium Partners</div>
+                <div className="T2">We Have Global Partners</div>
               </div>
             </div>
           </div>

@@ -34,7 +34,7 @@ export default function OurPackeges() {
       <div className="OurServicesWrap pd-common bg4 m-pt-0">
         <div className="container">
           <div className="CaseStudiesHeader">
-            
+
             <div className="row">
               <div className="col-md-8">
                 <div
@@ -105,9 +105,9 @@ export default function OurPackeges() {
                       Contact Us
                     </a>
                     <div className="FtDescBox">
-                      <div className="FtDescBoxItem">
+                      {/* <div className="FtDescBoxItem">
                         Search Engine Marketing
-                      </div>
+                      </div> */}
                       <div className="FtDescBoxItem">
                         Google & Meta Ads Marketing
                       </div>
@@ -128,9 +128,9 @@ export default function OurPackeges() {
                       Contact Us
                     </a>
                     <div className="FtDescBox">
-                      <div className="FtDescBoxItem">
+                      {/* <div className="FtDescBoxItem">
                         Search Engine Marketing
-                      </div>
+                      </div> */}
                       <div className="FtDescBoxItem">
                         Google & Meta Ads Marketing
                       </div>
