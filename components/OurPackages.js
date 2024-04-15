@@ -34,7 +34,6 @@ export default function OurPackeges() {
       <div className="OurServicesWrap pd-common bg4 m-pt-0">
         <div className="container">
           <div className="CaseStudiesHeader">
-
             <div className="row">
               <div className="col-md-8">
                 <div
@@ -60,8 +59,9 @@ export default function OurPackeges() {
                   data-aos="fade-up"
                   data-aos-duration="700"
                 >
-                Choose from our high-impact marketing services designed to fuel startup growth and amplify your brand's visibility in the digital realm.
-
+                  Choose from our high-impact marketing services designed to
+                  fuel startup growth and amplify your brand&#x27;s visibility
+                  in the digital realm.
                 </div>
               </div>
             </div>
@@ -71,98 +71,92 @@ export default function OurPackeges() {
             data-aos="fade-up"
             data-aos-duration="700"
           >
-           
-              <Slider {...settings}>
-                <div>
-                  <div className="ServiceItem">
-                    <div className="StIcons">
-                      <div className="StIcon kk">&nbsp;</div>
-                    </div>
-                    <div className="StName">Baby Shark </div>
-                    <div className="StDesc">
-                      Level-up with more power and enhanced features
-                    </div>
-                    <div className="PriceBox">2500 AED</div>
-                    <a className="StLink12" href="#zero">
-                      Contact Us
-                    </a>
-                    <div className="FtDescBox">
-                      <div className="FtDescBoxItem">Google or Meta Ads</div>
+            <Slider {...settings}>
+              <div>
+                <div className="ServiceItem">
+                  <div className="StIcons">
+                    <div className="StIcon kk">&nbsp;</div>
+                  </div>
+                  <div className="StName">Baby Shark </div>
+                  <div className="StDesc">
+                    Level-up with more power and enhanced features
+                  </div>
+                  <div className="PriceBox">2500 AED</div>
+                  <a className="StLink12" href="#zero">
+                    Contact Us
+                  </a>
+                  <div className="FtDescBox">
+                    <div className="FtDescBoxItem">Google or Meta Ads</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="ServiceItem">
+                  <div className="StIcons">
+                    <div className="StIcon kk">&nbsp;</div>
+                  </div>
+                  <div className="StName">Dynamic Dolphin </div>
+                  <div className="StDesc">
+                    Level-up with more power and enhanced features
+                  </div>
+                  <div className="PriceBox">5000 AED</div>
+                  <a className="StLink12" href="#zero">
+                    Contact Us
+                  </a>
+                  <div className="FtDescBox">
+                    <div className="FtDescBoxItem">Search Engine Marketing</div>
+                    <div className="FtDescBoxItem">
+                      Google & Meta Ads Marketing
                     </div>
                   </div>
                 </div>
-                <div>
-                  <div className="ServiceItem">
-                    <div className="StIcons">
-                      <div className="StIcon kk">&nbsp;</div>
-                    </div>
-                    <div className="StName">Dynamic Dolphin </div>
-                    <div className="StDesc">
-                      Level-up with more power and enhanced features
-                    </div>
-                    <div className="PriceBox">5000 AED</div>
-                    <a className="StLink12" href="#zero">
-                      Contact Us
-                    </a>
-                    <div className="FtDescBox">
-                      {/* <div className="FtDescBoxItem">
-                        Search Engine Marketing
-                      </div> */}
-                      <div className="FtDescBoxItem">
-                        Google & Meta Ads Marketing
-                      </div>
+              </div>
+              <div>
+                <div className="ServiceItem">
+                  <div className="StIcons">
+                    <div className="StIcon kk">&nbsp;</div>
+                  </div>
+                  <div className="StName">Power Penguin</div>
+                  <div className="StDesc">
+                    Level-up with more power and enhanced features
+                  </div>
+                  <div className="PriceBox">7500 AED</div>
+                  <a className="StLink12" href="#zero">
+                    Contact Us
+                  </a>
+                  <div className="FtDescBox">
+                    <div className="FtDescBoxItem">Search Engine Marketing</div>
+                    <div className="FtDescBoxItem">
+                      Google & Meta Ads Marketing
                     </div>
                   </div>
                 </div>
-                <div>
-                  <div className="ServiceItem">
-                    <div className="StIcons">
-                      <div className="StIcon kk">&nbsp;</div>
+              </div>
+              <div>
+                <div className="ServiceItem">
+                  <div className="StIcons">
+                    <div className="StIcon kk">&nbsp;</div>
+                  </div>
+                  <div className="StName">Big Blue Whale</div>
+                  <div className="StDesc">
+                    Full-Scale Performance Marketing Dominance
+                  </div>
+                  <div className="PriceBox">10000 AED</div>
+                  <a className="StLink12" href="#zero">
+                    Contact Us
+                  </a>
+                  <div className="FtDescBox">
+                    <div className="FtDescBoxItem">
+                      Search Engine Marketing,
                     </div>
-                    <div className="StName">Power Penguin</div>
-                    <div className="StDesc">
-                      Level-up with more power and enhanced features
+                    <div className="FtDescBoxItem">
+                      Google & Meta Ads Marketing
                     </div>
-                    <div className="PriceBox">7500 AED</div>
-                    <a className="StLink12" href="#zero">
-                      Contact Us
-                    </a>
-                    <div className="FtDescBox">
-                      {/* <div className="FtDescBoxItem">
-                        Search Engine Marketing
-                      </div> */}
-                      <div className="FtDescBoxItem">
-                        Google & Meta Ads Marketing
-                      </div>
-                    </div>
+                    <div className="FtDescBoxItem"> Email Marketing</div>
                   </div>
                 </div>
-                <div>
-                  <div className="ServiceItem">
-                    <div className="StIcons">
-                      <div className="StIcon kk">&nbsp;</div>
-                    </div>
-                    <div className="StName">Big Blue Whale</div>
-                    <div className="StDesc">
-                      Full-Scale Performance Marketing Dominance
-                    </div>
-                    <div className="PriceBox">10000 AED</div>
-                    <a className="StLink12" href="#zero">
-                      Contact Us
-                    </a>
-                    <div className="FtDescBox">
-                      <div className="FtDescBoxItem">
-                        Search Engine Marketing,
-                      </div>
-                      <div className="FtDescBoxItem">
-                        Google & Meta Ads Marketing
-                      </div>
-                      <div className="FtDescBoxItem"> Email Marketing</div>
-                    </div>
-                  </div>
-                </div>
-              </Slider>
-            
+              </div>
+            </Slider>
           </div>
         </div>
       </div>
