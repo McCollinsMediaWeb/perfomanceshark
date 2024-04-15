@@ -104,7 +104,7 @@ export default function OurPackeges() {
                     Contact Us
                   </a>
                   <div className="FtDescBox">
-                    <div className="FtDescBoxItem">Search Engine Marketing</div>
+                    {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
                     <div className="FtDescBoxItem">
                       Google & Meta Ads Marketing
                     </div>
@@ -125,7 +125,7 @@ export default function OurPackeges() {
                     Contact Us
                   </a>
                   <div className="FtDescBox">
-                    <div className="FtDescBoxItem">Search Engine Marketing</div>
+                    {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
                     <div className="FtDescBoxItem">
                       Google & Meta Ads Marketing
                     </div>
