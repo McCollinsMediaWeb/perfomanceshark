@@ -129,6 +129,9 @@ export default function OurPackeges() {
                     <div className="FtDescBoxItem">
                       Google & Meta Ads Marketing
                     </div>
+                    <div className="FtDescBoxItem">
+                      Search Engine Marketing,
+                    </div>
                   </div>
                 </div>
               </div>
