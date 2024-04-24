@@ -39,8 +39,8 @@ that Drives Revenue</div>
               </div>
               <div className="col-md-4">
                 <div className="BannerForm"  data-aos="fade-up" data-aos-duration="700">
-                  <div className="Bt3">Build trust with your audience by writing content that
-actually answers their questions and solves their problems.</div>
+                  {/* <div className="Bt3">Build trust with your audience by writing content that
+actually answers their questions and solves their problems.</div> */}
                   <div className="BannerFormItem">
                     <input type="text" placeholder="Your Name*"/>
                     <input type="text" placeholder="Email Address*"/>
