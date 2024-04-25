@@ -9,7 +9,13 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       host: "smtpout.secureserver.net",
       port: 465,
-      secure: true, // true for 465, false for other ports
+      secure: true,
+      secureConnection: false,
+      debug: true,
+      tls: {
+        ciphers: "SSLv3",
+      },
+      requireTLS: true,
       auth: {
         user: "accounts@performancesharks.com",
         pass: "G$i]A4JYCjjqSG3",
