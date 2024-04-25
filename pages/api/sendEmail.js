@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
-    const { name, email, message } = req.body;
+    const { name, email, contact, message } = req.body;
 
     // Configure Nodemailer transport
     const transporter = nodemailer.createTransport({
@@ -26,7 +26,7 @@ export default async function handler(req, res) {
       from: "info@performancesharks.com",
       to: "salman@mccollinsmedia.com",
       subject: "New Lead from Website",
-      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+      text: `Name: ${name}\nEmail: ${email}\nContact: ${contact}\nMessage: ${message}`,
     };
 
     // Email options for the thank you message
