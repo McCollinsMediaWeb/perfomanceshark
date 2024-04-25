@@ -1655,3 +1655,9 @@ text-align: center;
   height: 11px;
 }
 }
+
+
+.cninput input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
