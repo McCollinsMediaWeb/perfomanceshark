@@ -17,13 +17,13 @@ export default async function handler(req, res) {
       },
       requireTLS: true,
       auth: {
-        user: "accounts@performancesharks.com",
+        user: "hello@performancesharks.com",
         pass: "G$i]A4JYCjjqSG3",
       },
     });
 
     const leadEmailOptions = {
-      from: "accounts@performancesharek.com",
+      from: "hello@performancesharek.com",
       to: "salman@mccollinsmedia.com",
       subject: "New Lead from Website",
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
@@ -31,7 +31,7 @@ export default async function handler(req, res) {
 
     // Email options for the thank you message
     const thankYouEmailOptions = {
-      from: "accounts@performancesharek.com",
+      from: "hello@performancesharek.com",
       to: email,
       subject: "Thank You for Your Inquiry",
       text: "Thank you for your inquiry. We will get back to you shortly.",
