@@ -34,7 +34,8 @@ export default async function handler(req, res) {
       from: "info@performancesharks.com",
       to: email,
       subject: "Performance Sharks - Thank you for connecting with us !",
-      html: htmlContent,
+      //   html: htmlContent,
+      text: "Thank you for contacting us",
     };
 
     const htmlContent = `<!DOCTYPE html
