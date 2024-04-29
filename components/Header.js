@@ -41,7 +41,7 @@ export default function Header() {
       });
 
       if (response.ok) {
-        window.location.replace("/Thankyou");
+        console.log("Done");
       } else {
         alert("Error sending email");
       }
@@ -49,6 +49,8 @@ export default function Header() {
       console.error("Error:", error);
       alert("Error sending email");
     }
+
+    window.location.replace("/Thankyou");
   };
 
   return (

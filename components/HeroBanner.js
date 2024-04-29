@@ -32,7 +32,7 @@ export default function HeroBanner() {
       });
 
       if (response.ok) {
-        window.location.replace("/Thankyou");
+        console.log("Done");
       } else {
         alert("Error sending email");
       }
@@ -40,6 +40,8 @@ export default function HeroBanner() {
       console.error("Error:", error);
       alert("Error sending email");
     }
+
+    window.location.replace("/Thankyou");
   };
 
   return (
