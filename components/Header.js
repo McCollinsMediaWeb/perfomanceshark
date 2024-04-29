@@ -27,7 +27,7 @@ export default function Header() {
           <div className="HeaderRow">
             <div className="HeaderRowLeft">
               <div className="HeaderImage">
-                <Link href="#zero" scroll={true}>
+                <Link  href={"/"} scroll={true}>
                   <Image
                     src="/lnew.png"
                     layout="responsive"

@@ -6,7 +6,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function HeroBanner() {
+export default function Thankyou() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
   useEffect(() => {
     AOS.init();
@@ -32,7 +32,7 @@ export default function HeroBanner() {
       });
 
       if (response.ok) {
-        window.location.replace("/Thankyou");
+        alert("Email sent successfully");
       } else {
         alert("Error sending email");
       }
@@ -67,44 +67,17 @@ export default function HeroBanner() {
                     data-aos="fade-up"
                     data-aos-duration="700"
                   >
-                    Performance Marketing that Drives Revenue
+                    Thank you for contacting us  !
                   </div>
                   <div
                     className="Bt2"
                     data-aos="fade-up"
                     data-aos-duration="700"
                   >
-                    Amplify your business with our data-centric,
-                    performance-driven digital marketing solutions
+                    We will get back to you as soon as we can
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div
-                    className="BannerForm"
-                    data-aos="fade-up"
-                    data-aos-duration="700"
-                  >
-                    {/* <div className="Bt3">Build trust with your audience by writing content that
-actually answers their questions and solves their problems.</div> */}
-                    <form onSubmit={handleSubmit}>
-                      <div className="BannerFormItem cninput">
-                        <input type="text" placeholder="Your Name*" required />
-                        <input
-                          type="email"
-                          placeholder="Email Address*"
-                          required
-                        />
-                        <input
-                          type="number"
-                          placeholder="Contact Number*"
-                          required
-                        />
-                        <input type="text" placeholder="Website URL" required />
-                        <button type="submit">Submit Inquiry</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
