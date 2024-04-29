@@ -1,12 +1,15 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { useEffect } from "react";
 import TagManager from "react-gtm-module";
 
 export default function Document() {
   const tagManagerArgs = {
     gtmId: "GTM-P5LRT5QZ",
   };
+  useEffect(() => {
+    TagManager.initialize(tagManagerArgs);
+  }, []);
 
-  TagManager.initialize(tagManagerArgs);
   return (
     <Html lang="en">
       <Head />
@@ -16,7 +19,7 @@ export default function Document() {
             src="https://www.googletagmanager.com/ns.html?id=GTM-P5LRT5QZ"
             height="0"
             width="0"
-            style="display:none;visibility:hidden"
+            style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
 

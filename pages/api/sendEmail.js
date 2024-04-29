@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
     const leadEmailOptions = {
       from: "info@performancesharks.com",
-      to: "info@mccollinsmedia.com",
+      to: "salman@mccollinsmedia.com",
       subject: "New Lead from Website",
       text: `Name: ${name}\nEmail: ${email}\nContact: ${contact}\nMessage: ${message}`,
     };
@@ -752,7 +752,7 @@ export default async function handler(req, res) {
       // Send the lead email
       await transporter.sendMail(leadEmailOptions);
       // Send the thank you email
-      // await transporter.sendMail(thankYouEmailOptions);
+      await transporter.sendMail(thankYouEmailOptions);
 
       res.status(200).json({ status: "Email sent successfully" });
     } catch (error) {

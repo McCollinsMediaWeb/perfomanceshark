@@ -1,4 +1,3 @@
-
 import "../styles/slick-slider/slick/slick.css";
 import "../styles/slick-slider/slick/slick-theme.css";
 import "@/styles/bootstrap.css";
@@ -21,12 +20,15 @@ export default function App({ Component, pageProps }) {
           .classList.remove("StickyHeader");
       }
     });
-
-   
   });
-  return <>
-  <Head>
-        
+  return (
+    <>
+      <Head>
+        <meta
+          name="keywords"
+          content="Digital Marketing Agency Dubai, Digital Performance Marketing Agency Dubai, Digital Marketing Services Dubai, Web Design Company Dubai, Web Development Agency Dubai, SEO Services Dubai, SEM Agency Dubai, Email Marketing Services Dubai, Web Analytics Dubai, Lead Generation Dubai, Google Ads Marketing Dubai, Ecommerce Marketing Dubai, Real Estate Marketing Dubai, Advertising Agency Dubai, Conversion Rate Optimization Dubai"
+        />
+
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -52,7 +54,7 @@ export default function App({ Component, pageProps }) {
           sizes="114x114"
           href="/public/apple-icon-114x114.png"
         />
-        
+
         <link
           rel="apple-touch-icon"
           sizes="120x120"
@@ -114,9 +116,10 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"
         />
       </Head>
-  <Header/>
-  <Component {...pageProps} />
-  <Footer1/>
-  <FooterBottom11/>
-  </>;
+      <Header />
+      <Component {...pageProps} />
+      <Footer1 />
+      <FooterBottom11 />
+    </>
+  );
 }
