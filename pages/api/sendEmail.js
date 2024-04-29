@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
     const leadEmailOptions = {
       from: "info@performancesharks.com",
-      to: "salman@mccollinsmedia.com",
+      to: "info@performancesharks.com",
       subject: "New Lead from Website",
       text: `Name: ${name}\nEmail: ${email}\nContact: ${contact}\nMessage: ${message}`,
     };
