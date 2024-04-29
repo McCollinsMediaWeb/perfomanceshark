@@ -7,19 +7,19 @@ export default async function handler(req, res) {
 
     // Configure Nodemailer transport
     const transporter = nodemailer.createTransport({
-      host: "smtpout.secureserver.net",
-      port: 465,
-      secure: true,
-      secureConnection: false,
-      debug: true,
+      host: "smtp.office365.com",
+      secure: false,
+      port: "587",
       tls: {
         ciphers: "SSLv3",
+        rejectUnauthorized: false,
       },
-      requireTLS: true,
       auth: {
         user: "info@performancesharks.com",
         pass: "G$i]A4JYCjjqSG4",
       },
+      debug: true,
+      logger: true,
     });
 
     const leadEmailOptions = {
@@ -752,7 +752,7 @@ export default async function handler(req, res) {
       // Send the lead email
       await transporter.sendMail(leadEmailOptions);
       // Send the thank you email
-      await transporter.sendMail(thankYouEmailOptions);
+      // await transporter.sendMail(thankYouEmailOptions);
 
       res.status(200).json({ status: "Email sent successfully" });
     } catch (error) {
