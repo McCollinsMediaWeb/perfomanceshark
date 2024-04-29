@@ -24,19 +24,19 @@ export default async function handler(req, res) {
 
     const leadEmailOptions = {
       from: "info@performancesharks.com",
-      to: "salman@mccollinsmedia.com",
+      to: "info@mccollinsmedia.com",
       subject: "New Lead from Website",
       text: `Name: ${name}\nEmail: ${email}\nContact: ${contact}\nMessage: ${message}`,
     };
 
     // Email options for the thank you message
-    const thankYouEmailOptions = {
-      from: "info@performancesharks.com",
-      to: email,
-      subject: "Performance Sharks - Thank you for connecting with us !",
-      //   html: htmlContent,
-      text: "Thank you for contacting us",
-    };
+    // const thankYouEmailOptions = {
+    //   from: "info@performancesharks.com",
+    //   to: email,
+    //   subject: "Performance Sharks - Thank you for connecting with us !",
+    //   //   html: htmlContent,
+    //   text: "Thank you for contacting us",
+    // };
 
     const htmlContent = `<!DOCTYPE html
   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -752,7 +752,7 @@ export default async function handler(req, res) {
       // Send the lead email
       await transporter.sendMail(leadEmailOptions);
       // Send the thank you email
-      await transporter.sendMail(thankYouEmailOptions);
+      // await transporter.sendMail(thankYouEmailOptions);
 
       res.status(200).json({ status: "Email sent successfully" });
     } catch (error) {

@@ -95,7 +95,7 @@ actually answers their questions and solves their problems.</div> */}
                           required
                         />
                         <input
-                          type="number"
+                          type="text"
                           placeholder="Contact Number*"
                           required
                         />

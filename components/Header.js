@@ -20,6 +20,37 @@ export default function Header() {
       document.body.classList.remove("PanelActivated1");
     }
   }, [open1]);
+
+  // Inside your HeroBanner component or a separate form handling component
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const name = event.target.elements[0].value;
+    const email = event.target.elements[1].value;
+    const contact = event.target.elements[2].value;
+    const message = event.target.elements[3].value;
+
+    try {
+      console.log(name, email, contact, message);
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, contact, message }),
+      });
+
+      if (response.ok) {
+        window.location.replace("/Thankyou");
+      } else {
+        alert("Error sending email");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Error sending email");
+    }
+  };
+
   return (
     <>
       <div className="HeaderWrap">
@@ -27,7 +58,7 @@ export default function Header() {
           <div className="HeaderRow">
             <div className="HeaderRowLeft">
               <div className="HeaderImage">
-                <Link  href={"/"} scroll={true}>
+                <Link href={"/"} scroll={true}>
                   <Image
                     src="/lnew.png"
                     layout="responsive"
@@ -55,7 +86,12 @@ export default function Header() {
               <Link href="#six" scroll={true} className="m-d-none">
                 Our Packages
               </Link>
-              <a href="javascript:void(0);" scroll={true} className="FreeAudiBtn" onClick={() => setOpen1(true)}>
+              <a
+                href="javascript:void(0);"
+                scroll={true}
+                className="FreeAudiBtn"
+                onClick={() => setOpen1(true)}
+              >
                 Free Audit
               </a>
               <a
@@ -175,21 +211,43 @@ export default function Header() {
               <div className="col-md-12">
                 <div className="MegamenuForm">
                   <div className="BannerFormItem">
-                    <div className="row">
-                      <div className="col-md-6"><input type="text" placeholder="Your Name*"/></div>
-                      <div className="col-md-6"> <input type="text" placeholder="Email Address*"/></div>
-                      <div className="col-md-6"><input type="text" placeholder="Contact Number*"/></div>
-                      <div className="col-md-6"><input type="text" placeholder="Website URL*"/></div>
-                      <div className="col-md-12"><button>Submit Inquiry</button></div>
-                    </div>
-                    
-                   
-                    
-                    
-                    
+                    <form onSubmit={handleSubmit}>
+                      <div className="row">
+                        <div className="col-md-6">
+                          <input
+                            type="text"
+                            placeholder="Your Name*"
+                            required
+                          />
+                        </div>
+                        <div className="col-md-6">
+                          <input
+                            type="email"
+                            placeholder="Email Address*"
+                            required
+                          />
+                        </div>
+                        <div className="col-md-6">
+                          <input
+                            type="text"
+                            placeholder="Contact Number*"
+                            required
+                          />
+                        </div>
+                        <div className="col-md-6">
+                          <input
+                            type="text"
+                            placeholder="Website URL*"
+                            required
+                          />
+                        </div>
+                        <div className="col-md-12">
+                          <button type="submit">Submit Inquiry</button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
