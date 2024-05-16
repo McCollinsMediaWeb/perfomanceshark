@@ -825,7 +825,9 @@ body {
   position: relative;
   z-index: 4;
 }
-
+.PanelActivated .FooterMediaIcons{
+z-index: 0 !important;
+}
 .AdsHeader {
   padding: 20px;
 }
