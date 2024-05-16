@@ -1664,3 +1664,167 @@ text-align: center;
   -webkit-appearance: none;
   margin: 0; 
 }
+
+.bg-fff{
+  background-color: #fff;
+  color: #000;
+}
+.Sec1T1{
+  font-size: 35px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.mrgB25{
+  margin-bottom: 25px;
+}
+.Sec1T2{
+  font-size: 17px;
+  line-height: 1.5;
+}
+.Sec1T3{
+  font-size: 25px;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 300;
+}
+.CompanyDetails{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 350px;
+}
+.CompanyDetails::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.CompanyDetails.maison{
+  background-image: url(../public/c4.jpg);
+}
+.DetBox1{
+  position: relative;
+  z-index: 2;
+}
+.Sec1T4{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.Sec1T5{
+  font-size: 20px;
+  line-height: 1.5;
+}
+.Sec1T7{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.Results{
+  display: flex;
+  align-items: center;
+}
+.ResultsLeft{
+  flex: 0 0 100px;
+  max-width: 100px;
+}
+.ResultsRight{
+  flex: auto;
+}
+.ReBoxWr{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #35B0FB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resultIcon{
+  width: 50px;
+  height: 50px;
+  background-size: 100% 100%;
+}
+.resultIcon.Icon1{
+  background-image: url(../public/i1.png);
+}
+.resultIcon.Icon2{
+  background-image: url(../public/i2.png);
+}
+.resultIcon.Icon3{
+  background-image: url(../public/i3.png);
+}
+.resultIcon.Icon4{
+  background-image: url(../public/i4.png);
+}
+.ResultsRightT1{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.ResultsRightT2{
+  font-size: 21px;
+  font-weight: 300;
+}
+.ResultBox{
+  margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  
+  .Section1 {
+    background-color: #000;
+    color: #fff;
+    padding-top: 90px;
+  }
+  .Sec1T1 {
+    font-size: 25px;
+  }
+  .Section1 .row{
+    flex-direction: column-reverse;
+  }
+  .Section1 .col-md-7{
+    margin-top: 15px;
+  }
+  .Sec1T4 {
+    font-size: 23px;
+  }
+  .Sec1T5 {
+    font-size: 18px;
+  }
+  .mrgB25 {
+    margin-bottom: 15px;
+  }
+  .Sec1T7{
+    font-size: 23px;
+  }
+  .resultIcon {
+    width: 30px;
+    height: 30px;
+  }
+  .ReBoxWr {
+    width: 50px;
+    height: 50px;
+  }
+  .ResultsLeft {
+    flex: 0 0 70px;
+    max-width: 70px;
+  }
+  .ResultsRightT1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .ResultsRightT2 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .ResultBox {
+    margin-bottom: 15px;
+  }
+}
