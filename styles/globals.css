@@ -1678,7 +1678,7 @@ text-align: center;
   margin-bottom: 25px;
 }
 .Sec1T2{
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.5;
 }
 .Sec1T3{
@@ -1721,6 +1721,7 @@ text-align: center;
 .Sec1T5{
   font-size: 20px;
   line-height: 1.5;
+  font-weight: 300;
 }
 .Sec1T7{
   font-size: 35px;
