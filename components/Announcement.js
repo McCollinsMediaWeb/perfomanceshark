@@ -49,7 +49,7 @@ export default function Announcement() {
                 <br />
                 Give Us A Ring
               </div>
-              <a href="#" className="AnIconT4" >Contact Us</a>
+              <a href="tel:+971559564135" className="AnIconT4" >Call us now</a>
             </div>
           </div>
         </div>

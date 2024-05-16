@@ -117,7 +117,7 @@ export default function ProofInNumber() {
                   <div className="AdsHdT2">Leads Generated So Far…</div>
                 </div>
                 <div className="AdsFooter">
-                  <div className="AdsHdT3">Contact Us</div>
+                  <a className="AdsHdT3" href="tel:+971559564135">Contact Us</a>
                 </div>
               </div>
             </div>
