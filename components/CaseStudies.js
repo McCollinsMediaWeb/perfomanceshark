@@ -53,7 +53,7 @@ export default function CaseStudies() {
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
-                    src="/c1.jpg"
+                    src="/c4.jpg"
                     layout="responsive"
                     width={"394"}
                     height={"446"}
@@ -61,13 +61,13 @@ export default function CaseStudies() {
                     className="MainBanner"
                   />
                     </div>
-                    <div className="CaseStudyItemHeader">HOMME</div>
+                    <div className="CaseStudyItemHeader">MAISON-B-MORE</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+35%</div>
-                        <div className="CsTt2">Engagement Rate</div>
+                        <div className="CsTt1">+105%</div>
+                        <div className="CsTt2">Sales Increased</div>
                         <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
+                            <div className="TagBoxItem">Dynamic Search Ads</div>
+                            <div className="TagBoxItem">Campaigns</div>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ export default function CaseStudies() {
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
-                    src="/c2.jpg"
+                    src="/c5.jpg"
                     layout="responsive"
                     width={"394"}
                     height={"446"}
@@ -84,10 +84,10 @@ export default function CaseStudies() {
                     className="MainBanner"
                   />
                     </div>
-                    <div className="CaseStudyItemHeader">HOMME</div>
+                    <div className="CaseStudyItemHeader">Heveya</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+35%</div>
-                        <div className="CsTt2">Engagement Rate</div>
+                        <div className="CsTt1">+108%</div>
+                        <div className="CsTt2">Increased in AOV</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Paid SEO</div>
                             <div className="TagBoxItem">Paid Social</div>
@@ -101,7 +101,7 @@ export default function CaseStudies() {
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
-                    src="/c3.jpg"
+                    src="/c6.jpg"
                     layout="responsive"
                     width={"394"}
                     height={"446"}
@@ -109,10 +109,10 @@ export default function CaseStudies() {
                     className="MainBanner"
                   />
                     </div>
-                    <div className="CaseStudyItemHeader">HOMME</div>
+                    <div className="CaseStudyItemHeader">Master Baker Studio</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+35%</div>
-                        <div className="CsTt2">Engagement Rate</div>
+                        <div className="CsTt1">+38%</div>
+                        <div className="CsTt2">Increased in purchase</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Organic Social Media</div>
                             <div className="TagBoxItem">Paid Social</div>
@@ -124,7 +124,7 @@ export default function CaseStudies() {
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
-                    src="/c1.jpg"
+                    src="/c8.jpg"
                     layout="responsive"
                     width={"394"}
                     height={"446"}
@@ -132,33 +132,10 @@ export default function CaseStudies() {
                     className="MainBanner"
                   />
                     </div>
-                    <div className="CaseStudyItemHeader">HOMME</div>
+                    <div className="CaseStudyItemHeader">MODERN OMAN BAKERY</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+35%</div>
-                        <div className="CsTt2">Engagement Rate</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c2.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">HOMME</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+35%</div>
-                        <div className="CsTt2">Engagement Rate</div>
+                        <div className="CsTt1">+222.37%</div>
+                        <div className="CsTt2">Increased in click</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Paid SEO</div>
                             <div className="TagBoxItem">Paid Social</div>
@@ -172,7 +149,7 @@ export default function CaseStudies() {
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
-                    src="/c3.jpg"
+                    src="/c7.jpg"
                     layout="responsive"
                     width={"394"}
                     height={"446"}
@@ -180,10 +157,10 @@ export default function CaseStudies() {
                     className="MainBanner"
                   />
                     </div>
-                    <div className="CaseStudyItemHeader">HOMME</div>
+                    <div className="CaseStudyItemHeader">MAPEI</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+35%</div>
-                        <div className="CsTt2">Engagement Rate</div>
+                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Organic Social Media</div>
                             <div className="TagBoxItem">Paid Social</div>
@@ -191,6 +168,8 @@ export default function CaseStudies() {
                     </div>
                 </div>
               </div>
+              
+             
             </Slider>
           </div>
         </div>
