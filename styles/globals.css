@@ -1787,6 +1787,9 @@ text-align: center;
   .Sec1T1 {
     font-size: 25px;
   }
+  .Sec1T2 {
+    font-size: 18px;
+  }
   .Section1 .row{
     flex-direction: column-reverse;
   }
