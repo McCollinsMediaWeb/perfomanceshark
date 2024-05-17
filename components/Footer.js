@@ -24,31 +24,31 @@ export default function Footer1() {
           <div className="FooterQuickLinks">
             <div className="row">
               <div className="col-md-4">
-                <a href="#zero">Search Engine Optimization</a>
+                <a href="/#zero">Search Engine Optimization</a>
               </div>
               <div className="col-md-4">
-                <a href="#zero">Search Engine Marketing</a>
+                <a href="/#zero">Search Engine Marketing</a>
               </div>
               <div className="col-md-4">
-                <a href="#zero">Meta Performance Marketing</a>
+                <a href="/#zero">Meta Performance Marketing</a>
               </div>
               <div className="col-md-4">
-                <a href="#zero">Lead And Traffic Generation</a>
+                <a href="/#zero">Lead And Traffic Generation</a>
               </div>
               <div className="col-md-4">
-                <a href="#zero">Email Campaign Marketing</a>
+                <a href="/#zero">Email Campaign Marketing</a>
               </div>
               <div className="col-md-4">
-                <a href="#zero">Meta Performance Marketing</a>
+                <a href="/#zero">Meta Performance Marketing</a>
               </div>
               <div className="col-md-4">
-                <a href="#zero">Web Analytics & Optimization</a>
+                <a href="/#zero">Web Analytics & Optimization</a>
               </div>
               <div className="col-md-4">
-                <a href="#zero">Marketing Strategy</a>
+                <a href="/#zero">Marketing Strategy</a>
               </div>
               <div className="col-md-4">
-                <a href="#zero">Conversion Rate Optimization</a>
+                <a href="/#zero">Conversion Rate Optimization</a>
               </div>
             </div>
           </div>
