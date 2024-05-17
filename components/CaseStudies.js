@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
-
+import Link from "next/link";
 import React,{useEffect} from "react";
 
 import AOS from 'aos';
@@ -50,6 +50,7 @@ export default function CaseStudies() {
           <div className="BrndBoxes slider1"  data-aos="fade-up" data-aos-duration="700">
             <Slider {...settings}>
               <div>
+              <Link href={"/maison-b-more-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -71,8 +72,10 @@ export default function CaseStudies() {
                         </div>
                     </div>
                 </div>
+                </Link>
               </div>
               <div>
+              <Link href={"/heveya-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -96,8 +99,10 @@ export default function CaseStudies() {
                         </div>
                     </div>
                 </div>
+                </Link>
               </div>
               <div>
+              <Link href={"/master-baker-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -119,8 +124,10 @@ export default function CaseStudies() {
                         </div>
                     </div>
                 </div>
+                </Link>
               </div>
               <div>
+              <Link href={"/mob-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -144,8 +151,110 @@ export default function CaseStudies() {
                         </div>
                     </div>
                 </div>
+                </Link>
               </div>
               <div>
+              <Link href={"/richemont-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c9.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">Richemont Master Baker</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+56%</div>
+                        <div className="CsTt2">Increased in click</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/mint-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c10.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">Mint Event Rentals</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+496%</div>
+                        <div className="CsTt2">Increase in conversion</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/prowork-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c11.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">Prowork</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+496%</div>
+                        <div className="CsTt2">Increase in conversion</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/css-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c12.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">Cleaning Superstore</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+60%</div>
+                        <div className="CsTt2">Increase in sales</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Dynamic Search Ads</div>
+                            <div className="TagBoxItem">Campaigns</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/mapei-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -167,6 +276,7 @@ export default function CaseStudies() {
                         </div>
                     </div>
                 </div>
+                </Link>
               </div>
               
              

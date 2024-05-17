@@ -1694,9 +1694,10 @@ text-align: center;
   padding: 30px;
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  min-height: 350px;
+  min-height: 380px;
 }
 .CompanyDetails::after{
   content: "";
@@ -1709,6 +1710,33 @@ text-align: center;
 }
 .CompanyDetails.maison{
   background-image: url(../public/c4.jpg);
+}
+.CompanyDetails.heveya{
+  background-image: url(../public/c5.jpg);
+}
+.CompanyDetails.master{
+  background-image: url(../public/c6.jpg);
+}
+.CompanyDetails.mapei{
+  background-image: url(../public/c7.jpg);
+}
+.CompanyDetails.mob{
+  background-image: url(../public/c8.jpg);
+}
+.CompanyDetails.riche{
+  background-image: url(../public/c9.jpg);
+}
+.CompanyDetails.mint{
+  background-image: url(../public/c10.jpg);
+}
+.CompanyDetails.prowork{
+  background-image: url(../public/c11.jpg);
+}
+.CompanyDetails.css{
+  background-image: url(../public/c12.jpg);
+}
+.CaseStudyItemHeader{
+  text-transform: uppercase;
 }
 .DetBox1{
   position: relative;

@@ -74,19 +74,19 @@ export default function Header() {
               </div>
             </div>
             <div className="HeaderRowRight">
-              <Link href="#three" scroll={true} className="m-d-none">
+              <Link href="/#three" scroll={true} className="m-d-none">
                 What We Do
               </Link>
-              <Link href="#one" scroll={true} className="m-d-none">
+              <Link href="/#one" scroll={true} className="m-d-none">
                 Our Brands
               </Link>
-              <Link href="#two" scroll={true} className="m-d-none">
+              <Link href="/#two" scroll={true} className="m-d-none">
                 Case Studies
               </Link>
-              <Link href="#five" scroll={true} className="m-d-none">
+              <Link href="/#five" scroll={true} className="m-d-none">
                 Our Partners
               </Link>
-              <Link href="#six" scroll={true} className="m-d-none">
+              <Link href="/#six" scroll={true} className="m-d-none">
                 Our Packages
               </Link>
               <a
@@ -139,32 +139,32 @@ export default function Header() {
               <div className="col-md-12">
                 <div className="row MegaLinks">
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <Link href="#three" scroll={true}>
+                    <Link href="/#three" scroll={true}>
                       What We Do
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <Link href="#one" scroll={true}>
+                    <Link href="/#one" scroll={true}>
                       Our Brands
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <Link href="#two" scroll={true}>
+                    <Link href="/#two" scroll={true}>
                       Case Studies
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <Link href="#five" scroll={true}>
+                    <Link href="/#five" scroll={true}>
                       Our Partners
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <Link href="#six" scroll={true}>
+                    <Link href="/#six" scroll={true}>
                       Our Packages
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <Link href="#zero" scroll={true} className="FreeAudiBtn">
+                    <Link href="/#zero" scroll={true} className="FreeAudiBtn">
                       Free Audit
                     </Link>
                   </div>
