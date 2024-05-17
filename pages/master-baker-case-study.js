@@ -8,11 +8,14 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              Masterbaker Studio aimed to boost website traffic and sales by targeting passionate bakers with premium ingredients like flour, chocolate, butters, and creams.
+                Masterbaker Studio aimed to boost website traffic and sales by
+                targeting passionate bakers with premium ingredients like flour,
+                chocolate, butters, and creams.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              They are struggling to scale their brand online & increase the sales MoM consistently
+                They are struggling to scale their brand online & increase the
+                sales MoM consistently
               </div>
             </div>
             <div className="col-md-5">
@@ -39,8 +42,17 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-          To effectively display Masterbaker's extensive inventory, we utilized Dynamic Search Ads and Performance Max campaigns with Feed-only on Google Ads. Additionally, on Meta Ads, we employed Dynamic prospecting ads and catalog ads targeting lookalike and retargeting audiences.<br/>
-To prevent ad fatigue, we regularly refreshed the first card creatives when frequency exceeded the standard benchmark threshold. Furthermore, implementing negative keywords and placements at the account level helped optimize spending and achieve lower cost per acquisition.
+            To effectively display Masterbaker&apos;s extensive inventory, we
+            utilized Dynamic Search Ads and Performance Max campaigns with
+            Feed-only on Google Ads. Additionally, on Meta Ads, we employed
+            Dynamic prospecting ads and catalog ads targeting lookalike and
+            retargeting audiences.
+            <br />
+            To prevent ad fatigue, we regularly refreshed the first card
+            creatives when frequency exceeded the standard benchmark threshold.
+            Furthermore, implementing negative keywords and placements at the
+            account level helped optimize spending and achieve lower cost per
+            acquisition.
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -56,7 +68,9 @@ To prevent ad fatigue, we regularly refreshed the first card creatives when freq
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">32%</div>
-                        <div className="ResultsRightT2">Increased in conversion/purchase</div>
+                        <div className="ResultsRightT2">
+                          Increased in conversion/purchase
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -71,7 +85,9 @@ To prevent ad fatigue, we regularly refreshed the first card creatives when freq
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">14%</div>
-                        <div className="ResultsRightT2">Conversion rates, with a 3.25 ROAS</div>
+                        <div className="ResultsRightT2">
+                          Conversion rates, with a 3.25 ROAS
+                        </div>
                       </div>
                     </div>
                   </div>

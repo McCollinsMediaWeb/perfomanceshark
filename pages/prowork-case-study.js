@@ -8,11 +8,13 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              The company aimed to increase sales and market share in Dubai's competitive furniture industry.
+                The company aimed to increase sales and market share in
+                Dubai&apos;s competitive furniture industry.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              They are struggling to scale their brand online & increase the sales MoM consistently
+                They are struggling to scale their brand online & increase the
+                sales MoM consistently
               </div>
             </div>
             <div className="col-md-5">
@@ -39,9 +41,14 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-          Utilized Google Ads for targeting office furniture seekers in Dubai with focused keyword research for high-intent terms.<br/>
-Created ad extensions for additional product details and used bid adjustments to boost ad visibility.<br/>
-Utilized Facebook's ad targeting to reach decision-makers & created engaging ad creatives featuring ProWork's products..
+            Utilized Google Ads for targeting office furniture seekers in Dubai
+            with focused keyword research for high-intent terms.
+            <br />
+            Created ad extensions for additional product details and used bid
+            adjustments to boost ad visibility.
+            <br />
+            Utilized Facebook&apos;s ad targeting to reach decision-makers &
+            created engaging ad creatives featuring ProWork&apos;s products..
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -57,7 +64,9 @@ Utilized Facebook's ad targeting to reach decision-makers & created engaging ad 
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">317.41%</div>
-                        <div className="ResultsRightT2">Increase in conversions</div>
+                        <div className="ResultsRightT2">
+                          Increase in conversions
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -72,7 +81,9 @@ Utilized Facebook's ad targeting to reach decision-makers & created engaging ad 
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">24.53%</div>
-                        <div className="ResultsRightT2">Decreased In Cost Per Conversions</div>
+                        <div className="ResultsRightT2">
+                          Decreased In Cost Per Conversions
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -87,7 +98,9 @@ Utilized Facebook's ad targeting to reach decision-makers & created engaging ad 
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">130.71%</div>
-                        <div className="ResultsRightT2">Increased in Clicks</div>
+                        <div className="ResultsRightT2">
+                          Increased in Clicks
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -102,7 +115,9 @@ Utilized Facebook's ad targeting to reach decision-makers & created engaging ad 
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">193.38%</div>
-                        <div className="ResultsRightT2">Increased in Impressions</div>
+                        <div className="ResultsRightT2">
+                          Increased in Impressions
+                        </div>
                       </div>
                     </div>
                   </div>
