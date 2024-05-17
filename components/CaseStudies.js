@@ -49,6 +49,7 @@ export default function CaseStudies() {
           </div>
           <div className="BrndBoxes slider1"  data-aos="fade-up" data-aos-duration="700">
             <Slider {...settings}>
+              
               <div>
               <Link href={"/maison-b-more-case-study"}>
                 <div className="CaseStudyItem">
