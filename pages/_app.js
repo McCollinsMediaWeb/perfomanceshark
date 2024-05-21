@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta
           name="keywords"
-          content="Digital Marketing Agency Dubai, Digital Performance Marketing Agency Dubai, Digital Marketing Services Dubai, Web Design Company Dubai, Web Development Agency Dubai, SEO Services Dubai, SEM Agency Dubai, Email Marketing Services Dubai, Web Analytics Dubai, Lead Generation Dubai, Google Ads Marketing Dubai, Ecommerce Marketing Dubai, Real Estate Marketing Dubai, Advertising Agency Dubai, Conversion Rate Optimization Dubai"
+          content="Digital Marketing Agency Dubai, Digital Performance Marketing, SEO Services, Social Media Marketing, PPC Advertising, Content Creation, Email Marketing, Web Design, Ecommerce Solutions, Local SEO, Mobile App Development"
         />
 
         <link
