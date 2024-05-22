@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer1() {
   return (
@@ -24,31 +25,49 @@ export default function Footer1() {
           <div className="FooterQuickLinks">
             <div className="row">
               <div className="col-md-4">
-                <a href="/#zero">Search Engine Optimization</a>
+                <Link href="/#zero">
+                  <a>Search Engine Optimization</a>
+                </Link>
               </div>
               <div className="col-md-4">
-                <a href="/#zero">Search Engine Marketing</a>
+                <Link href="/#zero">
+                  <a>Search Engine Marketing</a>
+                </Link>
               </div>
               <div className="col-md-4">
-                <a href="/#zero">Meta Performance Marketing</a>
+                <Link href="/#zero">
+                  <a>Meta Performance Marketing</a>
+                </Link>
               </div>
               <div className="col-md-4">
-                <a href="/#zero">Lead And Traffic Generation</a>
+                <Link href="/#zero">
+                  <a>Lead And Traffic Generation</a>
+                </Link>
               </div>
               <div className="col-md-4">
-                <a href="/#zero">Email Campaign Marketing</a>
+                <Link href="/#zero">
+                  <a>Email Campaign Marketing</a>
+                </Link>
               </div>
               <div className="col-md-4">
-                <a href="/#zero">Meta Performance Marketing</a>
+                <Link href="/#zero">
+                  <a>Meta Performance Marketing</a>
+                </Link>
               </div>
               <div className="col-md-4">
-                <a href="/#zero">Web Analytics & Optimization</a>
+                <Link href="/#zero">
+                  <a>Web Analytics & Optimization</a>
+                </Link>
               </div>
               <div className="col-md-4">
-                <a href="/#zero">Marketing Strategy</a>
+                <Link href="/#zero">
+                  <a>Marketing Strategy</a>
+                </Link>
               </div>
               <div className="col-md-4">
-                <a href="/#zero">Conversion Rate Optimization</a>
+                <Link href="/#zero">
+                  <a>Conversion Rate Optimization</a>
+                </Link>
               </div>
             </div>
           </div>
