@@ -24,6 +24,8 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+      <title>Web Development Company in Dubai | Web Design Company Dubai- perfomanceshark</title>
+      <meta name="description" content="Are you looking for a web development company to build your website and brand in Dubai? perfomanceshark is the leading web development and design agency providing web solutions cost-effectively. Reach out to us for responsive custom web development services."/>
         <meta
           name="keywords"
           content="Digital Marketing Agency Dubai, Digital Performance Marketing, SEO Services, Social Media Marketing, PPC Advertising, Content Creation, Email Marketing, Web Design, Ecommerce Solutions, Local SEO, Mobile App Development"
