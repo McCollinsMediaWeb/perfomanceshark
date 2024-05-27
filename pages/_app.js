@@ -7,7 +7,6 @@ import Header from "@/components/Header";
 import Footer1 from "@/components/Footer";
 import FooterBottom11 from "@/components/FooterBottom";
 import Head from "next/head";
-import { initializeGTM } from "@/components/gtm";
 import TagManager from "react-gtm-module";
 
 export default function App({ Component, pageProps }) {
@@ -36,10 +35,6 @@ export default function App({ Component, pageProps }) {
     TagManager.initialize(tagManagerArgs2);
 
     TagManager.initialize(tagManagerArgs);
-  }, []);
-
-  useEffect(() => {
-    initializeGTM();
   }, []);
 
   return (
