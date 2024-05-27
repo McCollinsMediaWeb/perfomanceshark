@@ -32,18 +32,17 @@ export default function HeroBanner() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, email, contact, message, company }),
+        body: JSON.stringify({ name, email, contact, message }),
       });
+
+      window.location.replace("/Thankyou");
+      handleConversionEvent();
 
       if (response.ok) {
         console.log("Done");
-
-        window.location.replace("/Thankyou");
-
-        handleConversionEvent();
         setLoading(false);
       } else {
-        alert("Error sending email");
+        console.log("Error sending email");
       }
     } catch (error) {
       console.error("Error:", error);
@@ -109,11 +108,6 @@ actually answers their questions and solves their problems.</div> */}
                           required
                         />
                         <input type="text" placeholder="Website URL" required />
-                        <input
-                          type="text"
-                          placeholder="Company Name *"
-                          required
-                        />
                         <div style={{ display: "flex" }}>
                           <button type="submit" style={{ margin: 0 }}>
                             Submit Inquiry
