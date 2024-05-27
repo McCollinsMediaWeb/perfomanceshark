@@ -29,6 +29,8 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+      <title>Web Development Company in Dubai | Web Design Company Dubai- perfomanceshark</title>
+      <meta name="description" content="Are you looking for a web development company to build your website and brand in Dubai? perfomanceshark is the leading web development and design agency providing web solutions cost-effectively. Reach out to us for responsive custom web development services."/>
         <meta
           name="keywords"
           content="Digital Marketing Agency Dubai, Digital Performance Marketing, SEO Services, Social Media Marketing, PPC Advertising, Content Creation, Email Marketing, Web Design, Ecommerce Solutions, Local SEO, Mobile App Development"
@@ -37,72 +39,72 @@ export default function App({ Component, pageProps }) {
         <link
           rel="apple-touch-icon"
           sizes="57x57"
-          href="/public/apple-icon-57x57.png"
+          href="/apple-icon-57x57.png"
         />
         <link
           rel="apple-touch-icon"
           sizes="60x60"
-          href="/public/apple-icon-60x60.png"
+          href="/apple-icon-60x60.png"
         />
         <link
           rel="apple-touch-icon"
           sizes="72x72"
-          href="/public/apple-icon-72x72.png"
+          href="/apple-icon-72x72.png"
         />
         <link
           rel="apple-touch-icon"
           sizes="76x76"
-          href="/public/apple-icon-76x76.png"
+          href="/apple-icon-76x76.png"
         />
         <link
           rel="apple-touch-icon"
           sizes="114x114"
-          href="/public/apple-icon-114x114.png"
+          href="/apple-icon-114x114.png"
         />
 
         <link
           rel="apple-touch-icon"
           sizes="120x120"
-          href="/public/apple-icon-120x120.png"
+          href="/apple-icon-120x120.png"
         />
         <link
           rel="apple-touch-icon"
           sizes="144x144"
-          href="/public/apple-icon-144x144.png"
+          href="/apple-icon-144x144.png"
         />
         <link
           rel="apple-touch-icon"
           sizes="152x152"
-          href="/public/apple-icon-152x152.png"
+          href="/apple-icon-152x152.png"
         />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/public/apple-icon-180x180.png"
+          href="/apple-icon-180x180.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="192x192"
-          href="/public/android-icon-192x192.png"
+          href="/android-icon-192x192.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/public/favicon-32x32.png"
+          href="/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="96x96"
-          href="/public/favicon-96x96.png"
+          href="/favicon-96x96.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/public/favicon-16x16.png"
+          href="/favicon-16x16.png"
         />
         <meta name="msapplication-TileColor" content="#403C4D" />
         <meta
@@ -120,6 +122,10 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"
         />
+          <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"/>
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+          <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"/>
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
       </Head>
       <Header />
       <Component {...pageProps} />
