@@ -1,15 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { useEffect } from "react";
-import TagManager from "react-gtm-module";
 
 export default function Document() {
-  const tagManagerArgs = {
-    gtmId: "GTM-P5LRT5QZ",
-  };
-  useEffect(() => {
-    TagManager.initialize(tagManagerArgs);
-  }, []);
-
   return (
     <Html lang="en">
       <Head />

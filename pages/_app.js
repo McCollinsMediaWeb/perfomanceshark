@@ -8,6 +8,7 @@ import Footer1 from "@/components/Footer";
 import FooterBottom11 from "@/components/FooterBottom";
 import Head from "next/head";
 import { initializeGTM } from "@/components/gtm";
+import TagManager from "react-gtm-module";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -22,6 +23,14 @@ export default function App({ Component, pageProps }) {
       }
     });
   });
+
+  useEffect(() => {
+    const tagManagerArgs = {
+      gtmId: "GTM-P5LRT5QZ",
+    };
+    TagManager.initialize(tagManagerArgs);
+  }, []);
+
   useEffect(() => {
     initializeGTM();
   }, []);
@@ -29,8 +38,14 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-      <title>Web Development Company in Dubai | Web Design Company Dubai- perfomanceshark</title>
-      <meta name="description" content="Are you looking for a web development company to build your website and brand in Dubai? perfomanceshark is the leading web development and design agency providing web solutions cost-effectively. Reach out to us for responsive custom web development services."/>
+        <title>
+          Web Development Company in Dubai | Web Design Company Dubai-
+          perfomanceshark
+        </title>
+        <meta
+          name="description"
+          content="Are you looking for a web development company to build your website and brand in Dubai? perfomanceshark is the leading web development and design agency providing web solutions cost-effectively. Reach out to us for responsive custom web development services."
+        />
         <meta
           name="keywords"
           content="Digital Marketing Agency Dubai, Digital Performance Marketing, SEO Services, Social Media Marketing, PPC Advertising, Content Creation, Email Marketing, Web Design, Ecommerce Solutions, Local SEO, Mobile App Development"
@@ -122,10 +137,30 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"
         />
-          <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"/>
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-          <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"/>
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/android-icon-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="/favicon-96x96.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
       </Head>
       <Header />
       <Component {...pageProps} />
