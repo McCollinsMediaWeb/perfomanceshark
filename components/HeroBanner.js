@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { handleConversionEvent } from "./conversion";
 
 export default function HeroBanner() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
@@ -21,6 +22,7 @@ export default function HeroBanner() {
     const email = event.target.elements[1].value;
     const contact = event.target.elements[2].value;
     const message = event.target.elements[3].value;
+    const company = event.target.elements[4].value;
 
     try {
       setLoading(true);
@@ -30,12 +32,13 @@ export default function HeroBanner() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, email, contact, message }),
+        body: JSON.stringify({ name, email, contact, message, company }),
       });
 
       if (response.ok) {
         console.log("Done");
 
+        handleConversionEvent();
         window.location.replace("/Thankyou");
         setLoading(false);
       } else {
@@ -105,6 +108,7 @@ actually answers their questions and solves their problems.</div> */}
                           required
                         />
                         <input type="text" placeholder="Website URL" required />
+                        <input type="text" placeholder="Company*" required />
                         <div style={{ display: "flex" }}>
                           <button type="submit" style={{ margin: 0 }}>
                             Submit Inquiry
