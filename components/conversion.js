@@ -4,4 +4,5 @@ export const handleConversionEvent = () => {
     value: 1.0,
     currency: "USD",
   });
+  return true;
 };

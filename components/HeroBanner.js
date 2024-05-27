@@ -38,8 +38,9 @@ export default function HeroBanner() {
       if (response.ok) {
         console.log("Done");
 
-        handleConversionEvent();
         window.location.replace("/Thankyou");
+
+        handleConversionEvent();
         setLoading(false);
       } else {
         alert("Error sending email");
@@ -108,7 +109,11 @@ actually answers their questions and solves their problems.</div> */}
                           required
                         />
                         <input type="text" placeholder="Website URL" required />
-                        <input type="text" placeholder="Company Name *" required />
+                        <input
+                          type="text"
+                          placeholder="Company Name *"
+                          required
+                        />
                         <div style={{ display: "flex" }}>
                           <button type="submit" style={{ margin: 0 }}>
                             Submit Inquiry
