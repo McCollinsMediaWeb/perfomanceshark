@@ -96,19 +96,19 @@ export default function HeroBanner() {
 actually answers their questions and solves their problems.</div> */}
                     <form onSubmit={handleSubmit}>
                       <div className="BannerFormItem cninput">
-                        <input type="text" placeholder="Your Name*" required />
+                        <input type="text" placeholder="Your Name *" required />
                         <input
                           type="email"
-                          placeholder="Email Address*"
+                          placeholder="Email Address *"
                           required
                         />
                         <input
                           type="text"
-                          placeholder="Contact Number*"
+                          placeholder="Contact Number *"
                           required
                         />
                         <input type="text" placeholder="Website URL" required />
-                        <input type="text" placeholder="Company*" required />
+                        <input type="text" placeholder="Company Name *" required />
                         <div style={{ display: "flex" }}>
                           <button type="submit" style={{ margin: 0 }}>
                             Submit Inquiry
