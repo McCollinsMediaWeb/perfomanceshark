@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       },
       auth: {
         user: "info@performancesharks.com",
-        pass: "G$i]A4JYCjjqSG4",
+        pass: "Mccollins2024",
       },
       debug: true,
       logger: true,

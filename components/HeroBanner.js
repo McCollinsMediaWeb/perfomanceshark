@@ -32,14 +32,15 @@ export default function HeroBanner() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, email, contact, message }),
+        body: JSON.stringify({ name, email, contact, message, company }),
       });
 
       window.location.replace("/Thankyou");
-      handleConversionEvent();
 
       if (response.ok) {
         console.log("Done");
+
+        handleConversionEvent();
         setLoading(false);
       } else {
         console.log("Error sending email");
@@ -108,6 +109,11 @@ actually answers their questions and solves their problems.</div> */}
                           required
                         />
                         <input type="text" placeholder="Website URL" required />
+                        <input
+                          type="text"
+                          placeholder="Company Name *"
+                          required
+                        />
                         <div style={{ display: "flex" }}>
                           <button type="submit" style={{ margin: 0 }}>
                             Submit Inquiry

@@ -30,6 +30,7 @@ export default function Header() {
     const email = event.target.elements[1].value;
     const contact = event.target.elements[2].value;
     const message = event.target.elements[3].value;
+    const company = event.target.elements[4].value;
 
     try {
       setLoading(true);
@@ -39,14 +40,15 @@ export default function Header() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, email, contact, message }),
+        body: JSON.stringify({ name, email, contact, message, company }),
       });
 
+      window.location.replace("/Thankyou");
+
       if (response.ok) {
-        window.location.replace("/Thankyou");
         setLoading(false);
       } else {
-        alert("Error sending email");
+        console.log("Error sending email");
       }
     } catch (error) {
       console.error("Error:", error);
@@ -243,6 +245,9 @@ export default function Header() {
                             placeholder="Website URL*"
                             required
                           />
+                        </div>
+                        <div className="col-md-6">
+                          <input type="text" placeholder="Company*" required />
                         </div>
                         <div
                           className="col-md-12"
