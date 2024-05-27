@@ -47,7 +47,6 @@ export default function HeroBanner() {
       }
     } catch (error) {
       console.error("Error:", error);
-      alert("Error sending email");
     }
   };
 
