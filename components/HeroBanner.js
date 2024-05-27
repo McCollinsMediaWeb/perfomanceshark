@@ -108,7 +108,7 @@ actually answers their questions and solves their problems.</div> */}
                           required
                         />
                         <input type="text" placeholder="Website URL" required />
-                        <input type="text" placeholder="Company*" required />
+                        <input type="text" placeholder="Company Name*" required />
                         <div style={{ display: "flex" }}>
                           <button type="submit" style={{ margin: 0 }}>
                             Submit Inquiry
