@@ -28,6 +28,13 @@ export default function App({ Component, pageProps }) {
     const tagManagerArgs = {
       gtmId: "GTM-P5LRT5QZ",
     };
+
+    const tagManagerArgs2 = {
+      gtmId: "AW-16544595887",
+    };
+
+    TagManager.initialize(tagManagerArgs2);
+
     TagManager.initialize(tagManagerArgs);
   }, []);
 
