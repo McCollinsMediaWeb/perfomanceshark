@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FooterBottom11() {
   return (
@@ -7,16 +8,16 @@ export default function FooterBottom11() {
       <div class="FooterMediaIcons">
         <div>
           <div class="mediaFlex">
-            <a href="#zero" class="mediaFlex1">
+            <Link href="#zero" class="mediaFlex1">
               Get a quote
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://api.whatsapp.com/send?phone=971559564135&amp;text=I%20would%20like%20to%20know%20more%20about%20McCollins%20Media"
               class="mediaFlex2"
               target="_blank"
             >
               WhatsApp us
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -37,22 +38,22 @@ export default function FooterBottom11() {
                 </div>
               </div>
               <div className="FtBtmLinkColumn">
-                <a href="#three">What We Do</a>
+                <Link href="#three">What We Do</Link>
               </div>
               <div className="FtBtmLinkColumn">
-                <a href="#one">Our Brands</a>
+                <Link href="#one">Our Brands</Link>
               </div>
               <div className="FtBtmLinkColumn">
-                <a href="#two">Case Studies</a>
+                <Link href="#two">Case Studies</Link>
               </div>
               <div className="FtBtmLinkColumn">
-                <a href="#five">  Our Partners</a>
+                <Link href="#five"> Our Partners</Link>
               </div>
               <div className="FtBtmLinkColumn">
-                <a href="#six"> Our Services</a>
+                <Link href="#six"> Our Services</Link>
               </div>
               <div className="FtBtmLinkColumn">
-                <a href="#zero"> Contact Us</a>
+                <Link href="#zero"> Contact Us</Link>
               </div>
             </div>
           </div>
@@ -65,25 +66,25 @@ export default function FooterBottom11() {
               </div>
               <div className="col-md-4">
                 <div className="FtBtm2">
-                  <a href="#">Terms & Conditions </a>
-                  <a href="#">Privacy Policy</a>
+                  <Link href="#">Terms & Conditions </Link>
+                  <Link href="#">Privacy Policy</Link>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="FtBtm3">
                   <div className="SocialMediaIcons">
-                    <a target="_blank" href="#">
+                    <Link target="_blank" href="#">
                       <div className="socialicon ticktock">&nbsp;</div>
-                    </a>
-                    <a target="_blank" href="#">
+                    </Link>
+                    <Link target="_blank" href="#">
                       <div className="socialicon facebook">&nbsp;</div>
-                    </a>
-                    <a target="_blank" href="#">
+                    </Link>
+                    <Link target="_blank" href="#">
                       <div className="socialicon instagram">&nbsp;</div>
-                    </a>
-                    <a target="_blank" href="#">
+                    </Link>
+                    <Link target="_blank" href="#">
                       <div className="socialicon linkedin m-0">&nbsp;</div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

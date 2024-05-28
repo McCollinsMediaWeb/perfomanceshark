@@ -6,6 +6,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 export default function OurPackeges() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
@@ -82,9 +83,9 @@ export default function OurPackeges() {
                     Level-up with more power and enhanced features
                   </div>
                   <div className="PriceBox">2500 AED</div>
-                  <a className="StLink12" href="#zero">
+                  <Link className="StLink12" href="#zero">
                     Contact Us
-                  </a>
+                  </Link>
                   <div className="FtDescBox">
                     <div className="FtDescBoxItem">Google or Meta Ads</div>
                   </div>
@@ -100,9 +101,9 @@ export default function OurPackeges() {
                     Level-up with more power and enhanced features
                   </div>
                   <div className="PriceBox">5000 AED</div>
-                  <a className="StLink12" href="#zero">
+                  <Link className="StLink12" href="#zero">
                     Contact Us
-                  </a>
+                  </Link>
                   <div className="FtDescBox">
                     {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
                     <div className="FtDescBoxItem">
@@ -121,9 +122,9 @@ export default function OurPackeges() {
                     Level-up with more power and enhanced features
                   </div>
                   <div className="PriceBox">7500 AED</div>
-                  <a className="StLink12" href="#zero">
+                  <Link className="StLink12" href="#zero">
                     Contact Us
-                  </a>
+                  </Link>
                   <div className="FtDescBox">
                     {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
                     <div className="FtDescBoxItem">
@@ -145,9 +146,9 @@ export default function OurPackeges() {
                     Full-Scale Performance Marketing Dominance
                   </div>
                   <div className="PriceBox">10000 AED</div>
-                  <a className="StLink12" href="#zero">
+                  <Link className="StLink12" href="#zero">
                     Contact Us
-                  </a>
+                  </Link>
                   <div className="FtDescBox">
                     <div className="FtDescBoxItem">
                       Search Engine Marketing,

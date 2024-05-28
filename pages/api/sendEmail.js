@@ -159,7 +159,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -194,7 +194,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -245,7 +245,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -296,7 +296,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -347,7 +347,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -382,7 +382,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -417,7 +417,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -452,7 +452,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="border-collapse:collapse;line-height:0;font-size:0;border:0">
@@ -465,28 +465,28 @@ export default async function handler(req, res) {
                                         <td align="center" valign="top" style="padding:0;Margin:0;">
                                           <a title="Google" target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                               <img title="Google" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/d1.jpg" height="66" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="139" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                          </a>
+                                          </Link>
                                           
                                       </td>
                                         <td align="center" valign="top" style="padding:0;Margin:0;">
                                             <a title="Meta" target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                                 <img title="Meta" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/d2.jpg" height="66" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="134" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                            </a>
+                                            </Link>
                                         </td>
                                         <td align="center" valign="top" style="padding:0;Margin:0;">
                                           <a title="Snap Chat" target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                               <img title="Snap Chat" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/d3.jpg" height="66" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="133" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                          </a>
+                                          </Link>
                                       </td>
                                         <td align="center" valign="top" style="padding:0;Margin:0;">
                                             <a title="Tick Tok" target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                                 <img title="Tick Tok" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/d4.jpg" height="66" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="135" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                            </a>
+                                            </Link>
                                         </td>
                                         <td align="center" valign="top" style="padding:0;Margin:0;">
                                           <a title="we Chat" target="_blank" href="#" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                               <img title="we Chat" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/d5.jpg" height="66" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="139" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                          </a>
+                                          </Link>
                                       </td>
                                     </tr> 
                               </tbody>
@@ -525,7 +525,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -560,7 +560,7 @@ export default async function handler(req, res) {
                                   font-size: 0;
                                   border: 0;
                                 " />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                       <tr style="
@@ -595,7 +595,7 @@ export default async function handler(req, res) {
                             font-size: 0;
                             border: 0;
                           " />
-                    </a>
+                    </Link>
                   </td>
                 </tr>
                 <tr style="border-collapse:collapse;line-height:0;font-size:0;border:0">
@@ -608,18 +608,18 @@ export default async function handler(req, res) {
                                   <td align="center" valign="top" style="padding:0;Margin:0;">
                                     <a title="2024&nbsp;Trend&nbsp;for&nbsp;Food&nbsp;and&nbsp;Beverage&nbsp;Marketing" target="_blank" href="https://www.mccollinsmedia.com/blog/2024-trends-for-food-and-beverage-marketing" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                         <img title="2024&nbsp;Trend&nbsp;for&nbsp;Food&nbsp;and&nbsp;Beverage&nbsp;Marketing" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/b1.jpg" height="195" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="231" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                    </a>
+                                    </Link>
                                     
                                 </td>
                                   <td align="center" valign="top" style="padding:0;Margin:0;">
                                       <a title="2024&nbsp;Trends&nbsp;fo&nbsp;SEO" target="_blank" href="https://www.mccollinsmedia.com/blog/2024-trends-for-seo" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                           <img title="2024&nbsp;Trends&nbsp;fo&nbsp;SEO" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/b2.jpg" height="195" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="224" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                      </a>
+                                      </Link>
                                   </td>
                                   <td align="center" valign="top" style="padding:0;Margin:0;">
                                     <a title="2024&nbsp;Trends&nbsp;for&nbsp;Video&nbsp;Production" target="_blank" href="https://www.mccollinsmedia.com/blog/2024-trends-for-video-production" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                         <img title="2024&nbsp;Trends&nbsp;for&nbsp;Video&nbsp;Production" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/b3.jpg" height="195" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="225" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                    </a>
+                                    </Link>
                                 </td>
                                 </td>
                               </tr> 
@@ -660,7 +660,7 @@ export default async function handler(req, res) {
                             font-size: 0;
                             border: 0;
                           " />
-                    </a>
+                    </Link>
                   </td>
                 </tr>
                 <tr style="border-collapse:collapse;line-height:0;font-size:0;border:0">
@@ -673,13 +673,13 @@ export default async function handler(req, res) {
                                   <td align="center" valign="top" style="padding:0;Margin:0;">
                                     <a title="Call&nbsp;us" target="_blank" href="tel:+971559564135" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                         <img title="Call&nbsp;Us" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/c1.jpg" height="38" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="290" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                    </a>
+                                    </Link>
                                     
                                 </td>
                                   <td align="center" valign="top" style="padding:0;Margin:0;">
                                       <a title="Follow&nbsp;us&nbsp;on&nbsp;Linkedin" target="_blank" href="mailto:info@mccollinsmedia.com" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">
                                           <img title="Email&nbsp;Us" src="https://mccollinsmediaweb.github.io/emailer/thankyou/Images/c2.jpg" height="38" alt="Web Development Company in Dubai | Web Design Company Dubai-Mccollins" width="390" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic">
-                                      </a>
+                                      </Link>
                                   </td>
                                 </td>
                               </tr> 
@@ -720,7 +720,7 @@ export default async function handler(req, res) {
                             font-size: 0;
                             border: 0;
                           " />
-                    </a>
+                    </Link>
                   </td>
                 </tr>
                     </tbody>

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
 import React, { useEffect } from "react";
+import Link from "next/link";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -35,12 +36,10 @@ export default function ProofInNumber() {
         <div className="container">
           <div className="row">
             <div className="col-md-9">
-              <div className="AdsT1">
-                The Proof Is In The Numbers
-              </div>
+              <div className="AdsT1">The Proof Is In The Numbers</div>
               <div className="row ProofBx1Row">
                 <div className="col-md-4 ProofBx1">
-                  <div >
+                  <div>
                     <div className="prrofBox">
                       <div className="prrofBoxLyr1">
                         <div className="prrofBoxLyr2">
@@ -63,7 +62,7 @@ export default function ProofInNumber() {
                   </div>
                 </div>
                 <div className="col-md-4 ProofBx1">
-                  <div >
+                  <div>
                     <div className="prrofBox">
                       <div className="prrofBoxLyr1">
                         <div className="prrofBoxLyr2">
@@ -86,7 +85,7 @@ export default function ProofInNumber() {
                   </div>
                 </div>
                 <div className="col-md-4 ProofBx1">
-                  <div >
+                  <div>
                     <div className="prrofBox">
                       <div className="prrofBoxLyr1">
                         <div className="prrofBoxLyr2">
@@ -117,7 +116,9 @@ export default function ProofInNumber() {
                   <div className="AdsHdT2">Leads Generated So Far…</div>
                 </div>
                 <div className="AdsFooter">
-                  <a className="AdsHdT3" href="tel:+971559564135">Contact Us</a>
+                  <Link className="AdsHdT3" href="tel:+971559564135">
+                    Contact Us
+                  </Link>
                 </div>
               </div>
             </div>

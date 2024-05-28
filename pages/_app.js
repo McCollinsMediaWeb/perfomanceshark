@@ -24,15 +24,32 @@ export default function App({ Component, pageProps }) {
   });
 
   useEffect(() => {
+    // Load Google Tag Manager
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=AW-16544595887";
+    document.head.appendChild(script);
+
+    // Function to handle data layer push
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    // Configure Google Tag Manager
+    gtag("config", "AW-16544595887");
+
+    // Cleanup function to remove the script element when the component unmounts
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  useEffect(() => {
     const tagManagerArgs = {
       gtmId: "GTM-P5LRT5QZ",
     };
-
-    const tagManagerArgs2 = {
-      gtmId: "AW-16544595887",
-    };
-
-    TagManager.initialize(tagManagerArgs2);
 
     TagManager.initialize(tagManagerArgs);
   }, []);

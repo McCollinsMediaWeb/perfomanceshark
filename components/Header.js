@@ -90,15 +90,15 @@ export default function Header() {
               <Link href="/#six" scroll={true} className="m-d-none">
                 Our Packages
               </Link>
-              <a
+              <Link
                 href="javascript:void(0);"
                 scroll={true}
                 className="FreeAudiBtn"
                 onClick={() => setOpen1(true)}
               >
                 Free Audit
-              </a>
-              <a
+              </Link>
+              <Link
                 className="MenuIcon"
                 href="javascript:void(0);"
                 onClick={() => setOpen(true)}
@@ -108,7 +108,7 @@ export default function Header() {
                   <div>&nbsp;</div>
                   <div>&nbsp;</div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -171,18 +171,18 @@ export default function Header() {
                   </div>
                 </div>
                 <div className="SocialMediaIcons MegamenuSocial">
-                  <a target="_blank" href="#">
+                  <Link target="_blank" href="#">
                     <div className="socialicon ticktock">&nbsp;</div>
-                  </a>
-                  <a target="_blank" href="#">
+                  </Link>
+                  <Link target="_blank" href="#">
                     <div className="socialicon facebook">&nbsp;</div>
-                  </a>
-                  <a target="_blank" href="#">
+                  </Link>
+                  <Link target="_blank" href="#">
                     <div className="socialicon instagram">&nbsp;</div>
-                  </a>
-                  <a target="_blank" href="#">
+                  </Link>
+                  <Link target="_blank" href="#">
                     <div className="socialicon linkedin m-0">&nbsp;</div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
