@@ -28,8 +28,10 @@ export default async function handler(req, res) {
       secure: false,
       port: "587",
       tls: {
-        ciphers: "SSLv3",
-        rejectUnauthorized: false,
+        // ciphers: "SSLv3",
+        // rejectUnauthorized: false,
+        ciphers: "TLSv1.2_method", // or "TLSv1.3_method" if supported
+        rejectUnauthorized: true,
       },
       auth: {
         // user: "hello@performancesharks.com",
