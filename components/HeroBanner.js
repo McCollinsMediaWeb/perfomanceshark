@@ -6,10 +6,15 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { handleConversionEvent } from "./conversion";
+import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
+import "react-phone-number-input/style.css";
 
 export default function HeroBanner() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
   const [loading, setLoading] = useState(false);
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [company, setCompany] = useState("");
   useEffect(() => {
     AOS.init();
   }, []);
@@ -20,33 +25,47 @@ export default function HeroBanner() {
 
     const name = event.target.elements[0].value;
     const email = event.target.elements[1].value;
-    const contact = event.target.elements[2].value;
-    const message = event.target.elements[3].value;
-    const company = event.target.elements[4].value;
+    // const contact = event.target.elements[2].value;
+    // const message = event.target.elements[3].value;
+    // const company = event.target.elements[4].value;
 
     try {
       setLoading(true);
-      console.log(name, email, contact, message);
-      const response = await fetch("/api/sendEmail", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ name, email, contact, message, company }),
-      });
+      console.log(name, email, phone.toString(), message, company);
+      // console.log(isValidPhoneNumber(phone), "phn");
+      if (isValidPhoneNumber(phone) === true) {
+        const response = await fetch("/api/sendEmail", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            contact: phone.toString(),
+            message,
+            company,
+          }),
+        });
 
-      window.location.replace("/Thankyou");
+        window.location.replace("/Thankyou");
 
-      if (response.ok) {
-        console.log("Done");
+        if (response.ok) {
+          console.log("Done");
 
-        handleConversionEvent();
-        setLoading(false);
+          handleConversionEvent();
+          setLoading(false);
+        } else {
+          console.log("Error sending email");
+          setLoading(false);
+        }
       } else {
-        console.log("Error sending email");
+        alert("Phone validation failed");
+        setLoading(false);
       }
     } catch (error) {
       console.error("Error:", error);
+      setLoading(false);
     }
   };
 
@@ -102,15 +121,27 @@ actually answers their questions and solves their problems.</div> */}
                           placeholder="Email Address *"
                           required
                         />
-                        <input
-                          type="text"
-                          placeholder="Contact Number *"
-                          required
+                        <PhoneInput
+                          placeholder="Enter phone number"
+                          value={phone}
+                          onChange={setPhone}
+                          defaultCountry="AE"
+                          disabled={false} // Set this to true if you want to disable editing
                         />
-                        <input type="text" placeholder="Website URL" required />
                         <input
                           type="text"
-                          placeholder="Company Name *"
+                          placeholder="Website URL*"
+                          required
+                          onChange={(e) => {
+                            setMessage(e.target.value);
+                          }}
+                        />
+                        <input
+                          type="text"
+                          placeholder="Company*"
+                          onChange={(e) => {
+                            setCompany(e.target.value);
+                          }}
                           required
                         />
                         <div style={{ display: "flex" }}>

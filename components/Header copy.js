@@ -2,15 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
-import "react-phone-number-input/style.css";
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
-  const [company, setCompany] = useState("");
-
   useEffect(() => {
     if (open) {
       document.body.classList.add("PanelActivated");
@@ -34,42 +28,30 @@ export default function Header() {
 
     const name = event.target.elements[0].value;
     const email = event.target.elements[1].value;
-    // const contact = event.target.elements[2].value;
-    // const company = event.target.elements[3].value;
+    const contact = event.target.elements[2].value;
+    const message = event.target.elements[3].value;
+    const company = event.target.elements[4].value;
 
     try {
       setLoading(true);
-      console.log(name, email, phone, message, company);
-      // console.log(isValidPhoneNumber(phone), "phn");
-      if (isValidPhoneNumber(phone) === true) {
-        const response = await fetch("/api/sendEmail", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            name,
-            email,
-            contact: phone,
-            message,
-            company,
-          }),
-        });
+      console.log(name, email, contact, message);
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, contact, message, company }),
+      });
 
-        window.location.replace("/Thankyou");
+      window.location.replace("/Thankyou");
 
-        if (response.ok) {
-          setLoading(false);
-        } else {
-          console.log("Error sending email");
-        }
-      } else {
-        alert("Phone validation failed");
+      if (response.ok) {
         setLoading(false);
+      } else {
+        console.log("Error sending email");
       }
     } catch (error) {
       console.error("Error:", error);
-      setLoading(false);
     }
   };
 
@@ -250,12 +232,10 @@ export default function Header() {
                           />
                         </div>
                         <div className="col-md-6">
-                          <PhoneInput
-                            placeholder="Enter phone number"
-                            value={phone}
-                            onChange={setPhone}
-                            defaultCountry="AE"
-                            disabled={false} // Set this to true if you want to disable editing
+                          <input
+                            type="text"
+                            placeholder="Contact Number*"
+                            required
                           />
                         </div>
                         <div className="col-md-6">
@@ -263,20 +243,10 @@ export default function Header() {
                             type="text"
                             placeholder="Website URL*"
                             required
-                            onChange={(e) => {
-                              setMessage(e.target.value);
-                            }}
                           />
                         </div>
                         <div className="col-md-6">
-                          <input
-                            type="text"
-                            placeholder="Company*"
-                            onChange={(e) => {
-                              setCompany(e.target.value);
-                            }}
-                            required
-                          />
+                          <input type="text" placeholder="Company*" required />
                         </div>
                         <div
                           className="col-md-12"
