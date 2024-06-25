@@ -25,13 +25,15 @@ export default async function handler(req, res) {
     //info@per to mcc
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbzFtZ_6hq7TaRKmxRWxHYJ1HYClROF3J4f1h68nvb_AbwqanMvwSBXgCQoif8mHmtmu/exec",
+      "https://script.google.com/macros/s/AKfycbyc1yi9SRiwKUocR30GcilqBE3z8_Kdzumj-7ijaFAdducnrfmXL2OFsKTXvvkGjXOP/exec",
       {
         method: "POST",
         body: formData,
       }
     )
-      .then((response) => response.json())
+      .then((response) =>
+        response.status(200).json({ status: "Email sent successfully" })
+      )
       .catch((error) => console.error(error));
 
     // // Configure Nodemailer transport
