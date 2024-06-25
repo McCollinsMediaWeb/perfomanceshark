@@ -12,20 +12,20 @@ export default async function handler(req, res) {
     formData.append("Company", company);
     formData.append("Message", message);
 
-    fetch(
-      "https://script.google.com/macros/s/AKfycbwMwXQH-bXKmfT1WHgi3_Vix8Xh0XmO-qkT2fJm4q6NAfHKXNj9b0md2gkF4pyxVx7z/exec",
-      {
-        method: "POST",
-        body: formData,
-      }
-    )
-      .then((response) => response.json())
-      .catch((error) => console.error(error));
+    // fetch(
+    //   "https://script.google.com/macros/s/AKfycbwMwXQH-bXKmfT1WHgi3_Vix8Xh0XmO-qkT2fJm4q6NAfHKXNj9b0md2gkF4pyxVx7z/exec",
+    //   {
+    //     method: "POST",
+    //     body: formData,
+    //   }
+    // )
+    //   .then((response) => response.json())
+    //   .catch((error) => console.error(error));
 
     //info@per to mcc
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbysFkFLfGZVeHDSLHleZc5PFxDp1It70LsQIhEacRDD11jlFmE9j9oaPe2wOz0CYs7r/exec",
+      "https://script.google.com/macros/s/AKfycbzFtZ_6hq7TaRKmxRWxHYJ1HYClROF3J4f1h68nvb_AbwqanMvwSBXgCQoif8mHmtmu/exec",
       {
         method: "POST",
         body: formData,
