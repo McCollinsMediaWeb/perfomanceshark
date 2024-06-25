@@ -25,7 +25,7 @@ export default async function handler(req, res) {
     //info@per to mcc
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbxozix-oCXSniseymHFcI1rRp9GcAlYKwRuVAizWDjrP7A9GGkL8XXITwnrzvJpLeTh/exec",
+      "https://script.google.com/macros/s/AKfycbysFkFLfGZVeHDSLHleZc5PFxDp1It70LsQIhEacRDD11jlFmE9j9oaPe2wOz0CYs7r/exec",
       {
         method: "POST",
         body: formData,
