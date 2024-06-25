@@ -22,31 +22,43 @@ export default async function handler(req, res) {
       .then((response) => response.json())
       .catch((error) => console.error(error));
 
-    // Configure Nodemailer transport
-    const transporter = nodemailer.createTransport({
-      host: "smtp.office365.com",
-      secure: false,
-      port: "587",
-      tls: {
-        ciphers: "SSLv3",
-        rejectUnauthorized: false,
-      },
-      auth: {
-        // user: "hello@performancesharks.com",
-        // pass: "Mccollins2024",
-        user: "info@performancesharks.com",
-        pass: "G$i]A4JYCjjqSG4",
-      },
-      debug: true,
-      logger: true,
-    });
+    //info@per to mcc
 
-    const leadEmailOptions = {
-      from: "info@performancesharks.com",
-      to: "info@performancesharks.com",
-      subject: "New Lead from Website",
-      text: `Name: ${name}\nEmail: ${email}\nContact: ${contact}\nCompany ${company}\nMessage: ${message}`,
-    };
+    fetch(
+      "https://script.google.com/macros/s/AKfycbxozix-oCXSniseymHFcI1rRp9GcAlYKwRuVAizWDjrP7A9GGkL8XXITwnrzvJpLeTh/exec",
+      {
+        method: "POST",
+        body: formData,
+      }
+    )
+      .then((response) => response.json())
+      .catch((error) => console.error(error));
+
+    // // Configure Nodemailer transport
+    // const transporter = nodemailer.createTransport({
+    //   host: "smtp.office365.com",
+    //   secure: false,
+    //   port: "587",
+    //   tls: {
+    //     ciphers: "SSLv3",
+    //     rejectUnauthorized: false,
+    //   },
+    //   auth: {
+    //     // user: "hello@performancesharks.com",
+    //     // pass: "Mccollins2024",
+    //     user: "info@performancesharks.com",
+    //     pass: "G$i]A4JYCjjqSG4",
+    //   },
+    //   debug: true,
+    //   logger: true,
+    // });
+
+    // const leadEmailOptions = {
+    //   from: "info@performancesharks.com",
+    //   to: "info@performancesharks.com",
+    //   subject: "New Lead from Website",
+    //   text: `Name: ${name}\nEmail: ${email}\nContact: ${contact}\nCompany ${company}\nMessage: ${message}`,
+    // };
 
     // Email options for the thank you message
     // const thankYouEmailOptions = {
@@ -764,17 +776,17 @@ export default async function handler(req, res) {
 
     // </html>`;
 
-    try {
-      // Send the lead email
-      await transporter.sendMail(leadEmailOptions);
-      // Send the thank you email
-      // await transporter.sendMail(thankYouEmailOptions);
+    // try {
+    //   // Send the lead email
+    //   await transporter.sendMail(leadEmailOptions);
+    //   // Send the thank you email
+    //   // await transporter.sendMail(thankYouEmailOptions);
 
-      res.status(200).json({ status: "Email sent successfully" });
-    } catch (error) {
-      console.error("Error sending email:", error);
-      res.status(500).json({ status: "Error sending email" });
-    }
+    //   res.status(200).json({ status: "Email sent successfully" });
+    // } catch (error) {
+    //   console.error("Error sending email:", error);
+    //   res.status(500).json({ status: "Error sending email" });
+    // }
   } else {
     res.status(405).json({ status: "Method not allowed" });
   }
