@@ -115,35 +115,45 @@ export default function HeroBanner() {
 actually answers their questions and solves their problems.</div> */}
                     <form onSubmit={handleSubmit}>
                       <div className="BannerFormItem cninput">
-                        <input type="text" placeholder="Your Name *" required />
-                        <input
-                          type="email"
-                          placeholder="Email Address *"
-                          required
-                        />
-                        <PhoneInput
-                          placeholder="Enter phone number"
-                          value={phone}
-                          onChange={setPhone}
-                          defaultCountry="AE"
-                          disabled={false} // Set this to true if you want to disable editing
-                        />
-                        <input
-                          type="text"
-                          placeholder="Website URL*"
-                          required
-                          onChange={(e) => {
-                            setMessage(e.target.value);
-                          }}
-                        />
-                        <input
-                          type="text"
-                          placeholder="Company*"
-                          onChange={(e) => {
-                            setCompany(e.target.value);
-                          }}
-                          required
-                        />
+                        <div className="BorderBox">
+                          <input type="text" placeholder="Your Name *" required />
+                        </div>
+                        <div className="BorderBox">
+                          <input
+                            type="email"
+                            placeholder="Email Address *"
+                            required
+                          />
+                        </div>
+                        <div className="BorderBox">
+                          <PhoneInput
+                            placeholder="Enter phone number"
+                            value={phone}
+                            onChange={setPhone}
+                            defaultCountry="AE"
+                            disabled={false} // Set this to true if you want to disable editing
+                          />
+                        </div>
+                        <div className="BorderBox">
+                          <input
+                            type="text"
+                            placeholder="Website URL*"
+                            required
+                            onChange={(e) => {
+                              setMessage(e.target.value);
+                            }}
+                          />
+                        </div>
+                        <div className="BorderBox">
+                          <input
+                            type="text"
+                            placeholder="Company*"
+                            onChange={(e) => {
+                              setCompany(e.target.value);
+                            }}
+                            required
+                          />
+                        </div>
                         <div style={{ display: "flex" }}>
                           <button type="submit" style={{ margin: 0 }}>
                             Submit Inquiry
