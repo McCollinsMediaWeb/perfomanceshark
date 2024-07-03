@@ -280,7 +280,7 @@ export default function BestBrands() {
                   </div>
                 </div>
               </div>
-              {/* <div className="PortfolioItem">
+              <div className="PortfolioItem">
                 <div className="BoxStA1">
                   <div className="imgWrap">
                     <Image
@@ -305,7 +305,7 @@ export default function BestBrands() {
                     />
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
