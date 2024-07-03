@@ -241,20 +241,25 @@ export default function Header() {
                     <form onSubmit={handleSubmit}>
                       <div className="row">
                         <div className="col-md-6">
+                          <div className="BorderBox">
                           <input
                             type="text"
                             placeholder="Your Name*"
                             required
                           />
+                          </div>
                         </div>
                         <div className="col-md-6">
+                        <div className="BorderBox">
                           <input
                             type="email"
                             placeholder="Email Address*"
                             required
                           />
+                          </div>
                         </div>
                         <div className="col-md-6">
+                        <div className="BorderBox">
                           <PhoneInput
                             placeholder="Enter phone number"
                             value={phone}
@@ -262,8 +267,10 @@ export default function Header() {
                             defaultCountry="AE"
                             disabled={false} // Set this to true if you want to disable editing
                           />
+                          </div>
                         </div>
                         <div className="col-md-6">
+                        <div className="BorderBox">
                           <input
                             type="text"
                             placeholder="Website URL*"
@@ -272,8 +279,10 @@ export default function Header() {
                               setMessage(e.target.value);
                             }}
                           />
+                          </div>
                         </div>
                         <div className="col-md-6">
+                        <div className="BorderBox">
                           <input
                             type="text"
                             placeholder="Company*"
@@ -282,9 +291,10 @@ export default function Header() {
                             }}
                             required
                           />
+                          </div>
                         </div>
                         <div
-                          className="col-md-12"
+                          className="col-md-6"
                           style={{ textAlign: "center" }}
                         >
                           <button type="submit">Submit Inquiry</button>

@@ -1261,6 +1261,7 @@ z-index: 0 !important;
 .Portfolios{
   padding-bottom: 20px;
 }
+
 @media only screen and (max-width: 1000px) {
   .Portfolios {
     margin: 0 -5px;
