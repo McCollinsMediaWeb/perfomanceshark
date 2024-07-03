@@ -144,143 +144,168 @@ export default function BestBrands() {
               </div>
             </Slider>
           </div> */}
-          <div className="PortFolioWrp BrndBoxes slider1"  data-aos="fade-up"
-            data-aos-duration="700">
+          <div
+            className="PortFolioWrp BrndBoxes slider1"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
             <div className="Portfolios">
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/1.png"
-                    width={"168"}
-                    height={"94"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/1.png"
+                      width={"168"}
+                      height={"94"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/2.png"
-                    width={"118"}
-                    height={"118"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/2.png"
+                      width={"118"}
+                      height={"118"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/3.png"
-                    width={"185"}
-                    height={"31"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/3.png"
+                      width={"185"}
+                      height={"31"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/4.png"
-                    width={"199"}
-                    height={"31"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/4.png"
+                      width={"199"}
+                      height={"31"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/5.png"
-                    width={"199"}
-                    height={"31"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/5.png"
+                      width={"199"}
+                      height={"31"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/6.png"
-                    width={"198"}
-                    height={"30"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/6.png"
+                      width={"198"}
+                      height={"30"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/7.png"
-                    width={"148"}
-                    height={"110"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/7.png"
+                      width={"148"}
+                      height={"110"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/8.png"
-                    width={"141"}
-                    height={"66"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/8.png"
+                      width={"141"}
+                      height={"66"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/9.png"
-                    width={"231"}
-                    height={"62"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/9.png"
+                      width={"231"}
+                      height={"62"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/10.png"
-                    width={"140"}
-                    height={"206"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/10.png"
+                      width={"140"}
+                      height={"206"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/11.png"
-                    width={"131"}
-                    height={"102"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/11.png"
+                      width={"131"}
+                      height={"102"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="PortfolioItem">
-                <div className="imgWrap">
-                  <Image
-                    alt="McCollins Media"
-                    src="/clients/12.png"
-                    width={"204"}
-                    height={"25"}
-                    layout="responsive"
-                  />
+                <div className="BoxStA1">
+                  <div className="imgWrap">
+                    <Image
+                      alt="McCollins Media"
+                      src="/clients/12.png"
+                      width={"204"}
+                      height={"25"}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
