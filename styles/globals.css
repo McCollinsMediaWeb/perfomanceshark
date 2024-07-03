@@ -1245,17 +1245,17 @@ z-index: 0 !important;
   flex-wrap: wrap;
 }
 .PortfolioItem {
-  flex: 0 0 16.6666%;
-  max-width: 16.6666%;
+  flex: 0 0 20%;
+  max-width: 20%;
   padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .PortfolioItem .imgWrap {
-  max-width: 220px;
+  max-width:100%;
   padding: 10px;
-  width: auto;
+  width: 100%;
   margin: 0 auto;
 }
 .Portfolios{
