@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
+import { handleConversionEvent } from "./conversion";
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -61,6 +62,8 @@ export default function Header() {
           const data = await response.json();
           console.log("Success:", data);
 
+          window.location.replace("/Thankyou");
+          handleConversionEvent();
           setLoading(false);
           // Handle success - e.g., display a success message to the user
         } else {

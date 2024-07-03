@@ -52,6 +52,7 @@ export default function HeroBanner() {
         if (response.ok) {
           const data = await response.json();
           console.log("Success:", data);
+          window.location.replace("/Thankyou");
 
           handleConversionEvent();
           setLoading(false);
@@ -118,7 +119,11 @@ actually answers their questions and solves their problems.</div> */}
                     <form onSubmit={handleSubmit}>
                       <div className="BannerFormItem cninput">
                         <div className="BorderBox">
-                          <input type="text" placeholder="Your Name *" required />
+                          <input
+                            type="text"
+                            placeholder="Your Name *"
+                            required
+                          />
                         </div>
                         <div className="BorderBox">
                           <input
