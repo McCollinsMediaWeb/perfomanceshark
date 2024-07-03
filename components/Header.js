@@ -42,27 +42,32 @@ export default function Header() {
       console.log(name, email, phone, message, company);
       // console.log(isValidPhoneNumber(phone), "phn");
       if (isValidPhoneNumber(phone) === true) {
-        const response = await fetch("/api/sendEmail", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            name,
-            email,
-            contact: phone,
-            message,
-            company,
-          }),
-        });
+        let formData = new FormData();
+        formData.append("name", name);
+        formData.append("Email", email);
+        formData.append("Phone", phone.toString());
+        formData.append("Company", company);
+        formData.append("Message", message);
 
-        window.location.replace("/Thankyou");
+        const response = await fetch(
+          "https://script.google.com/macros/s/AKfycby8l6vy2_tZs57IJmXIek1X6sr2QipFs4TL_O25-53Ofn_aveUDV_nv61OownuLDcvf/exec",
+          {
+            method: "POST",
+            body: formData,
+          }
+        );
 
         if (response.ok) {
+          const data = await response.json();
+          console.log("Success:", data);
+
           setLoading(false);
+          // Handle success - e.g., display a success message to the user
         } else {
-          console.log("Error sending email");
+          console.log(response);
+          // Handle error - e.g., display an error message to the user
         }
+        window.location.replace("/Thankyou");
       } else {
         alert("Phone validation failed");
         setLoading(false);
