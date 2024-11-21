@@ -1741,6 +1741,24 @@ text-align: center;
 .CompanyDetails.css{
   background-image: url(../public/c12.jpg);
 }
+.CompanyDetails.toshiba{
+  background-image: url(../public/c20.jpg);
+}
+.CompanyDetails.pioneer{
+  background-image: url(../public/c21.jpg);
+}
+.CompanyDetails.oakberry{
+  background-image: url(../public/c22.jpg);
+}
+.CompanyDetails.fujifilm{
+  background-image: url(../public/c23.jpg);
+}
+.CompanyDetails.costa{
+  background-image: url(../public/c24.jpg);
+}
+.CompanyDetails.dfc{
+  background-image: url(../public/c25.jpg);
+}
 .CaseStudyItemHeader{
   text-transform: uppercase;
 }

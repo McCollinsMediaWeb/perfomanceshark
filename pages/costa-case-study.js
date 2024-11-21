@@ -18,11 +18,11 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-5">
-              <div className="CompanyDetails prowork">
+              <div className="CompanyDetails costa">
                 <div>
                   <div className="DetBox1">
                     <Image
-                      src="/pro.png"
+                      src="/clients/2.png"
                       layout="responsive"
                       width={"293"}
                       height={"79"}
