@@ -87,7 +87,10 @@ export default function OurPackeges() {
                     Contact Us
                   </Link>
                   <div className="FtDescBox">
+                    <div className="FtDescBoxItem">Google or Meta Ads</div>
+                    <div className="FtDescBoxItem1">Campaign Strategy</div>
                     <div className="FtDescBoxItem">Ad Creation & Set Up</div>
+                    <div className="FtDescBoxItem">4 creatives/month</div>
                     <div className="FtDescBoxItem">Platform Management</div>
                     <div className="FtDescBoxItem">Keyword Research</div>
                     <div className="FtDescBoxItem">Conversion Tracking</div>
@@ -110,7 +113,13 @@ export default function OurPackeges() {
                     Contact Us
                   </Link>
                   <div className="FtDescBox">
+                    {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
+                    <div className="FtDescBoxItem">
+                      Google & Meta Ads Marketing
+                    </div>
+                    <div className="FtDescBoxItem1">Campaign Strategy</div>
                     <div className="FtDescBoxItem">Ad Creation & Set Up</div>
+                    <div className="FtDescBoxItem">8 creatives/month</div>
                     <div className="FtDescBoxItem">Platform Management</div>
                     <div className="FtDescBoxItem">Keyword Research</div>
                     <div className="FtDescBoxItem">Conversion Tracking</div>
@@ -133,7 +142,16 @@ export default function OurPackeges() {
                     Contact Us
                   </Link>
                   <div className="FtDescBox">
+                    {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
+                    <div className="FtDescBoxItem">
+                      Google & Meta Ads Marketing
+                    </div>
+                    <div className="FtDescBoxItem">
+                      Search Engine Marketing,
+                    </div>
+                    <div className="FtDescBoxItem1">Campaign Strategy</div>
                     <div className="FtDescBoxItem">Ad Creation & Set Up</div>
+                    <div className="FtDescBoxItem">8 creatives/month</div>
                     <div className="FtDescBoxItem">Platform Management</div>
                     <div className="FtDescBoxItem">Keyword Research</div>
                     <div className="FtDescBoxItem">Conversion Tracking</div>
@@ -156,7 +174,16 @@ export default function OurPackeges() {
                     Contact Us
                   </Link>
                   <div className="FtDescBox">
+                    <div className="FtDescBoxItem">
+                      Search Engine Marketing,
+                    </div>
+                    <div className="FtDescBoxItem">
+                      Google & Meta Ads Marketing
+                    </div>
+                    <div className="FtDescBoxItem"> Email Marketing</div>
+                    <div className="FtDescBoxItem1">Campaign Strategy</div>
                     <div className="FtDescBoxItem">Ad Creation & Set Up</div>
+                    <div className="FtDescBoxItem">12 creatives/month</div>
                     <div className="FtDescBoxItem">Platform Management</div>
                     <div className="FtDescBoxItem">Keyword Research</div>
                     <div className="FtDescBoxItem">Conversion Tracking</div>

@@ -49,13 +49,12 @@ export default function CaseStudies() {
           </div>
           <div className="BrndBoxes slider1"  data-aos="fade-up" data-aos-duration="700">
             <Slider {...settings}>
-              
-              <div>
-              <Link href={"/maison-b-more-case-study"}>
+            <div>
+              <Link href={"/mapei-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
-                    src="/c4.jpg"
+                    src="/c7.jpg"
                     layout="responsive"
                     width={"394"}
                     height={"446"}
@@ -63,13 +62,13 @@ export default function CaseStudies() {
                     className="MainBanner"
                   />
                     </div>
-                    <div className="CaseStudyItemHeader">MAISON-B-MORE</div>
+                    <div className="CaseStudyItemHeader">MAPEI</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+105%</div>
-                        <div className="CsTt2">Sales Increased</div>
+                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
                         <div className="TagBox">
-                            <div className="TagBoxItem">Dynamic Search Ads</div>
-                            <div className="TagBoxItem">Campaigns</div>
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
                         </div>
                     </div>
                 </div>
@@ -102,6 +101,32 @@ export default function CaseStudies() {
                 </div>
                 </Link>
               </div>
+              <div>
+              <Link href={"/maison-b-more-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c4.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">MAISON-B-MORE</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+105%</div>
+                        <div className="CsTt2">Sales Increased</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Dynamic Search Ads</div>
+                            <div className="TagBoxItem">Campaigns</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              
               <div>
               <Link href={"/master-baker-case-study"}>
                 <div className="CaseStudyItem">
@@ -254,31 +279,7 @@ export default function CaseStudies() {
                 </div>
                 </Link>
               </div>
-              <div>
-              <Link href={"/mapei-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c7.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">MAPEI</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+45%</div>
-                        <div className="CsTt2">Effective Strategy Increased</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
+              
               
              
             </Slider>

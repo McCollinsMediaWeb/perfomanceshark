@@ -765,6 +765,7 @@ body {
   background-color: #000000;
   margin: 0 10px;
   margin-bottom: 25px;
+  min-height: 650px;
 }
 
 .PtY1 {
@@ -1421,6 +1422,7 @@ z-index: 0 !important;
   background-color: #000000;
   margin: 0 5px;
   margin-bottom: 0;
+  min-height: auto;
 }
 .ServicesBoxWrp {
   margin-top: 0;
@@ -1808,7 +1810,12 @@ text-align: center;
   margin-bottom: 30px;
 }
 
-
+.FtDescBoxItem1{
+  margin: 15px 0px;
+  font-weight: 600;
+  color: #35B0FB;
+  font-size: 13px;
+}
 @media only screen and (max-width: 1000px) {
   
   .Section1 {
