@@ -82,12 +82,17 @@ export default function OurPackeges() {
                   <div className="StDesc">
                     Level-up with more power and enhanced features
                   </div>
-                  <div className="PriceBox">2500 AED</div>
+                  <div className="PriceBox">680 USD</div>
                   <Link className="StLink12" href="#zero">
                     Contact Us
                   </Link>
                   <div className="FtDescBox">
-                    <div className="FtDescBoxItem">Google or Meta Ads</div>
+                    <div className="FtDescBoxItem">Ad Creation & Set Up</div>
+                    <div className="FtDescBoxItem">Platform Management</div>
+                    <div className="FtDescBoxItem">Keyword Research</div>
+                    <div className="FtDescBoxItem">Conversion Tracking</div>
+                    <div className="FtDescBoxItem">Reporting</div>
+                    <div className="FtDescBoxItem">Meeting & Review</div>
                   </div>
                 </div>
               </div>
@@ -100,15 +105,17 @@ export default function OurPackeges() {
                   <div className="StDesc">
                     Level-up with more power and enhanced features
                   </div>
-                  <div className="PriceBox">5000 AED</div>
+                  <div className="PriceBox">1370 USD</div>
                   <Link className="StLink12" href="#zero">
                     Contact Us
                   </Link>
                   <div className="FtDescBox">
-                    {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
-                    <div className="FtDescBoxItem">
-                      Google & Meta Ads Marketing
-                    </div>
+                    <div className="FtDescBoxItem">Ad Creation & Set Up</div>
+                    <div className="FtDescBoxItem">Platform Management</div>
+                    <div className="FtDescBoxItem">Keyword Research</div>
+                    <div className="FtDescBoxItem">Conversion Tracking</div>
+                    <div className="FtDescBoxItem">Reporting</div>
+                    <div className="FtDescBoxItem">Meeting & Review</div>
                   </div>
                 </div>
               </div>
@@ -121,18 +128,17 @@ export default function OurPackeges() {
                   <div className="StDesc">
                     Level-up with more power and enhanced features
                   </div>
-                  <div className="PriceBox">7500 AED</div>
+                  <div className="PriceBox">2040 USD</div>
                   <Link className="StLink12" href="#zero">
                     Contact Us
                   </Link>
                   <div className="FtDescBox">
-                    {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
-                    <div className="FtDescBoxItem">
-                      Google & Meta Ads Marketing
-                    </div>
-                    <div className="FtDescBoxItem">
-                      Search Engine Marketing,
-                    </div>
+                    <div className="FtDescBoxItem">Ad Creation & Set Up</div>
+                    <div className="FtDescBoxItem">Platform Management</div>
+                    <div className="FtDescBoxItem">Keyword Research</div>
+                    <div className="FtDescBoxItem">Conversion Tracking</div>
+                    <div className="FtDescBoxItem">Reporting</div>
+                    <div className="FtDescBoxItem">Meeting & Review</div>
                   </div>
                 </div>
               </div>
@@ -145,18 +151,17 @@ export default function OurPackeges() {
                   <div className="StDesc">
                     Full-Scale Performance Marketing Dominance
                   </div>
-                  <div className="PriceBox">10000 AED</div>
+                  <div className="PriceBox">2750 USD</div>
                   <Link className="StLink12" href="#zero">
                     Contact Us
                   </Link>
                   <div className="FtDescBox">
-                    <div className="FtDescBoxItem">
-                      Search Engine Marketing,
-                    </div>
-                    <div className="FtDescBoxItem">
-                      Google & Meta Ads Marketing
-                    </div>
-                    <div className="FtDescBoxItem"> Email Marketing</div>
+                    <div className="FtDescBoxItem">Ad Creation & Set Up</div>
+                    <div className="FtDescBoxItem">Platform Management</div>
+                    <div className="FtDescBoxItem">Keyword Research</div>
+                    <div className="FtDescBoxItem">Conversion Tracking</div>
+                    <div className="FtDescBoxItem">Reporting</div>
+                    <div className="FtDescBoxItem">Meeting & Review</div>
                   </div>
                 </div>
               </div>
