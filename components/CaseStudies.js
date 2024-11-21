@@ -123,7 +123,7 @@ export default function CaseStudies() {
                     </div>
                 </div>
                 </Link>
-              </div>
+              </div> 
               <div>
               <Link href={"/oakberry-case-study"}>
                 <div className="CaseStudyItem">
@@ -149,6 +149,10 @@ export default function CaseStudies() {
                 </div>
                 </Link>
               </div>
+
+
+
+              
               {/* <div>
               <Link href={"/fujifilm-case-study"}>
                 <div className="CaseStudyItem">
