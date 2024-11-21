@@ -8,6 +8,7 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
+                
               Pioneer Corporation aimed to establish a strong digital presence and drive consistent traffic to its website while enabling distributors to easily access product information and engage with content.
 
               </div>
