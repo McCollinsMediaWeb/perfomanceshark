@@ -8,7 +8,7 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              To create awareness and establish strong brand recall for Toshiba's Home Appliances vertical in the competitive Middle East market.
+              To create awareness and establish strong brand recall for Toshiba&apos;s Home Appliances vertical in the competitive Middle East market.
 
               </div>
               <div className="Sec1T1">CHALLENGE</div>
@@ -49,7 +49,7 @@ Performance Marketing
 
 
             <br />
-            Promoted limited-time tactical offers to attract budget-conscious consumers while maintaining Toshiba's premium positioning.
+            Promoted limited-time tactical offers to attract budget-conscious consumers while maintaining Toshiba&apos;s premium positioning.
 Localized Content Development
 <br/>
 Developed and executed market-specific monthly content calendars to connect with GCC audiences.

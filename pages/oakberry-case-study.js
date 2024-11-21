@@ -52,7 +52,7 @@ export default function Home() {
 Innovative Product Positioning
 
 <br/>
-Highlighted OAKBERRY’s Acai products' health benefits to appeal to the region's growing health-conscious audience.
+Highlighted OAKBERRY’s Acai products&apos; health benefits to appeal to the region&apos;s growing health-conscious audience.
 <br/>
 Promoted new product launches like the Acai Bucket, Nut Butters, and Acai Popsicles to maintain interest and engagement during the pandemic.
 <br/>

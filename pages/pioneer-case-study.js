@@ -8,7 +8,7 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-                
+
               Pioneer Corporation aimed to establish a strong digital presence and drive consistent traffic to its website while enabling distributors to easily access product information and engage with content.
 
               </div>
@@ -43,13 +43,13 @@ export default function Home() {
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
           Website Development & Optimization<br/>
-Designed and launched a user-friendly, intuitive website tailored to Pioneer's distributors, showcasing detailed product information and content designed to engage a professional audience.
+Designed and launched a user-friendly, intuitive website tailored to Pioneer&apos;s distributors, showcasing detailed product information and content designed to engage a professional audience.
 
             <br />
             Performance Marketing Approach
 
             <br />
-            Executed a comprehensive Search Engine Optimization (SEO) strategy focusing on key markets within Pioneer's vast global footprint.
+            Executed a comprehensive Search Engine Optimization (SEO) strategy focusing on key markets within Pioneer&apos;s vast global footprint.
 <br/>
 Implemented on-page and off-page SEO techniques to improve keyword rankings for high-intent search terms.
 <br/>
@@ -59,7 +59,7 @@ Focused on local SEO to target specific regions, ensuring relevant traffic and m
 Targeted Campaigns
 
 <br/>
-Developed performance-driven digital campaigns to align with the company's goal of increasing engagement and awareness within different geographical regions.
+Developed performance-driven digital campaigns to align with the company&apos;s goal of increasing engagement and awareness within different geographical regions.
 
           </div>
           <div className="row">
