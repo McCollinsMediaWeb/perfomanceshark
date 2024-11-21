@@ -100,6 +100,31 @@ export default function CaseStudies() {
                 </Link>
               </div>
               <div>
+              <Link href={"/dfc-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c25.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">DUBAI FREE ZONE</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+78%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
               <Link href={"/oakberry-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
@@ -124,7 +149,7 @@ export default function CaseStudies() {
                 </div>
                 </Link>
               </div>
-              <div>
+              {/* <div>
               <Link href={"/fujifilm-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
@@ -173,32 +198,8 @@ export default function CaseStudies() {
                     </div>
                 </div>
                 </Link>
-              </div>
-              <div>
-              <Link href={"/dfc-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c25.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">DUBAI FREE ZONE</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+78%</div>
-                        <div className="CsTt2">Effective Strategy Increased</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
+              </div> */}
+           
 
             <div>
               <Link href={"/mapei-case-study"}>

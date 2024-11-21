@@ -8,13 +8,13 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-                The company aimed to increase sales and market share in
-                Dubai&apos;s competitive furniture industry.
+              To digitalize DAFZA’s operations by transitioning over 350 manual services into an integrated online portal and creating a seamless digital ecosystem through a website and mobile applications for stakeholders.
+
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-                They are struggling to scale their brand online & increase the
-                sales MoM consistently
+              The challenge was to replace outdated manual processes with an efficient digital solution while meeting the highest standards of quality, given DAFZA’s reputation as a government entity and its diverse stakeholder base.
+
               </div>
             </div>
             <div className="col-md-5">
@@ -41,14 +41,24 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-            Utilized Google Ads for targeting office furniture seekers in Dubai
-            with focused keyword research for high-intent terms.
+          Requirements Gathering & User Journey Design
+
             <br />
-            Created ad extensions for additional product details and used bid
-            adjustments to boost ad visibility.
+            Collaborated closely with DAFZA to map out over 350 services, streamlining workflows into an intuitive user journey.
+Designed a comprehensive site map ensuring seamless navigation for diverse stakeholders, from business owners to logistics teams.
+
             <br />
-            Utilized Facebook&apos;s ad targeting to reach decision-makers &
-            created engaging ad creatives featuring ProWork&apos;s products..
+            Website & Mobile App Development
+<br/>
+Built state-of-the-art platforms compatible across Apple, Android, Windows, and Blackberry.
+<br/>
+
+Focused on UI/UX design for optimal usability and stakeholder satisfaction.
+
+<br/>
+Integrated automated processes for various services, including document submissions, approvals, and payment gateways.
+On-Site Development
+
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -63,9 +73,10 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">317.41%</div>
+                        <div className="ResultsRightT1">350</div>
                         <div className="ResultsRightT2">
-                          Increase in conversions
+                        services successfully digitized, reducing manual errors and processing times by 60%.
+
                         </div>
                       </div>
                     </div>
@@ -80,9 +91,10 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">24.53%</div>
+                        <div className="ResultsRightT1">40%</div>
                         <div className="ResultsRightT2">
-                          Decreased In Cost Per Conversions
+                         40% improvement in service delivery speed.
+
                         </div>
                       </div>
                     </div>
@@ -100,23 +112,6 @@ export default function Home() {
                         <div className="ResultsRightT1">130.71%</div>
                         <div className="ResultsRightT2">
                           Increased in Clicks
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="ResultBox">
-                  <div className="Results">
-                    <div className="ResultsLeft">
-                      <div className="ReBoxWr">
-                        <div className="resultIcon Icon4">&nbsp;</div>
-                      </div>
-                    </div>
-                    <div className="ResultsRight">
-                      <div>
-                        <div className="ResultsRightT1">193.38%</div>
-                        <div className="ResultsRightT2">
-                          Increased in Impressions
                         </div>
                       </div>
                     </div>
