@@ -114,7 +114,7 @@ export default function CaseStudies() {
                     </div>
                     <div className="CaseStudyItemHeader">OAKBERRY</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt1">+55%</div>
                         <div className="CsTt2">Effective Strategy Increased</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Organic Social Media</div>
@@ -139,7 +139,7 @@ export default function CaseStudies() {
                     </div>
                     <div className="CaseStudyItemHeader">FUJIFILM</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt1">+89%</div>
                         <div className="CsTt2">Effective Strategy Increased</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Organic Social Media</div>
@@ -164,7 +164,7 @@ export default function CaseStudies() {
                     </div>
                     <div className="CaseStudyItemHeader">COSTA</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt1">+73%</div>
                         <div className="CsTt2">Effective Strategy Increased</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Organic Social Media</div>
@@ -189,7 +189,7 @@ export default function CaseStudies() {
                     </div>
                     <div className="CaseStudyItemHeader">DUBAI FREE ZONE</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt1">+78%</div>
                         <div className="CsTt2">Effective Strategy Increased</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Organic Social Media</div>

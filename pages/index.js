@@ -38,7 +38,7 @@ export default function Home() {
       </div>
      
       
-      <ProofInNumber/>
+      {/* <ProofInNumber/> */}
       <Testimonials/>
       <Announcement/>
 
