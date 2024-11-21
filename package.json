@@ -22,8 +22,11 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.4"
   },
-  "rules": {
-    "react/no-unescaped-entities": "off"
+  "eslintConfig": {
+    "extends": ["react-app"],
+    "rules": {
+      "react/no-unescaped-entities": "off"
+    }
   },
   "description": "dd",
   "main": "index.js",
