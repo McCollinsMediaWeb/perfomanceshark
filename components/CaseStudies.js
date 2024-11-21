@@ -50,7 +50,7 @@ export default function CaseStudies() {
           <div className="BrndBoxes slider1"  data-aos="fade-up" data-aos-duration="700">
             <Slider {...settings}>
             <div>
-              <Link href={"/mapei-case-study"}>
+              <Link href={"/toshiba-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -75,7 +75,7 @@ export default function CaseStudies() {
                 </Link>
               </div>
               <div>
-              <Link href={"/mapei-case-study"}>
+              <Link href={"/pioneer-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -100,7 +100,7 @@ export default function CaseStudies() {
                 </Link>
               </div>
               <div>
-              <Link href={"/mapei-case-study"}>
+              <Link href={"/oakberry-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -125,7 +125,7 @@ export default function CaseStudies() {
                 </Link>
               </div>
               <div>
-              <Link href={"/mapei-case-study"}>
+              <Link href={"/fujifilm-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -150,7 +150,7 @@ export default function CaseStudies() {
                 </Link>
               </div>
               <div>
-              <Link href={"/mapei-case-study"}>
+              <Link href={"/costa-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
@@ -175,7 +175,7 @@ export default function CaseStudies() {
                 </Link>
               </div>
               <div>
-              <Link href={"/mapei-case-study"}>
+              <Link href={"/dfc-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
