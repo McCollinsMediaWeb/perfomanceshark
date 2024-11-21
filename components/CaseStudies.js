@@ -64,7 +64,7 @@ export default function CaseStudies() {
                     </div>
                     <div className="CaseStudyItemHeader">TOSHIBA</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt1">+75%</div>
                         <div className="CsTt2">Effective Strategy Increased</div>
                         <div className="TagBox">
                             <div className="TagBoxItem">Organic Social Media</div>
