@@ -54,6 +54,157 @@ export default function CaseStudies() {
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
+                    src="/c20.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">TOSHIBA</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/mapei-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c21.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">PIONEER</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/mapei-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c22.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">OAKBERRY</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/mapei-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c23.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">FUJIFILM</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/mapei-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c24.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">COSTA</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
+              <Link href={"/mapei-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/c25.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">DUBAI FREE ZONE</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+45%</div>
+                        <div className="CsTt2">Effective Strategy Increased</div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Organic Social Media</div>
+                            <div className="TagBoxItem">Paid Social</div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+
+            <div>
+              <Link href={"/mapei-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
                     src="/c7.jpg"
                     layout="responsive"
                     width={"394"}
