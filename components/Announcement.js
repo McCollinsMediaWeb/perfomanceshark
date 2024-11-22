@@ -49,8 +49,8 @@ export default function Announcement() {
                 <br />
                 Give Us A Ring
               </div>
-              <Link href="tel:+971559564135" className="AnIconT4">
-                Call us now
+              <Link href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="AnIconT4" target="_blank">
+                Book a meeting
               </Link>
             </div>
           </div>
