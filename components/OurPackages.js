@@ -84,7 +84,7 @@ export default function OurPackeges() {
                   </div>
                   <div className="PriceBox">680 USD</div>
                   <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="StLink12">
-Book a Meet
+Book a meeting
                   </a>
                   <div className="FtDescBox">
                     <div className="FtDescBoxItem">Google or Meta Ads</div>
@@ -110,7 +110,7 @@ Book a Meet
                   </div>
                   <div className="PriceBox">1370 USD</div>
                   <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="StLink12">
-Book a Meet
+Book a meeting
                   </a>
                   <div className="FtDescBox">
                     {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
@@ -139,7 +139,7 @@ Book a Meet
                   </div>
                   <div className="PriceBox">2040 USD</div>
                   <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="StLink12">
-Book a Meet
+Book a meeting
                   </a>
                   <div className="FtDescBox">
                     {/* <div className="FtDescBoxItem">Search Engine Marketing</div> */}
@@ -171,7 +171,7 @@ Book a Meet
                   </div>
                   <div className="PriceBox">2750 USD</div>
                   <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="StLink12">
-Book a Meet
+Book a meeting
                   </a>
                   <div className="FtDescBox">
                     <div className="FtDescBoxItem">

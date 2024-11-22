@@ -122,7 +122,7 @@ export default function Header() {
                 className="FreeAudiBtn"
                 target="_blank"
               >
-                Book a Meet
+                Book a meeting
               </a>
               <Link
                 className="MenuIcon"
@@ -192,7 +192,7 @@ export default function Header() {
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
                     <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" scroll={true} className="FreeAudiBtn">
-                      Book a Meet
+                      Book a meeting
                     </a>
                   </div>
                 </div>
