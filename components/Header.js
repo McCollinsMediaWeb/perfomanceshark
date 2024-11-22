@@ -116,14 +116,14 @@ export default function Header() {
               <Link href="/#six" scroll={true} className="m-d-none">
                 Our Packages
               </Link>
-              <Link
-                href="javascript:void(0);"
+              <a
+                href="https://calendar.app.google/UxFJLGCRvpbeqCYL9"
                 scroll={true}
                 className="FreeAudiBtn"
-                onClick={() => setOpen1(true)}
+                target="_blank"
               >
-                Free Audit
-              </Link>
+                Book a Meet
+              </a>
               <Link
                 className="MenuIcon"
                 href="javascript:void(0);"
@@ -191,9 +191,9 @@ export default function Header() {
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <Link href="/#zero" scroll={true} className="FreeAudiBtn">
-                      Free Audit
-                    </Link>
+                    <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" scroll={true} className="FreeAudiBtn">
+                      Book a Meet
+                    </a>
                   </div>
                 </div>
                 <div className="SocialMediaIcons MegamenuSocial">
