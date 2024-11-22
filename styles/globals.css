@@ -1254,7 +1254,7 @@ z-index: 0 !important;
   justify-content: center;
 }
 .PortfolioItem .imgWrap {
-  max-width: 220px;
+  max-width: 100%;
   padding: 10px;
   width: auto;
   margin: 0 auto;
@@ -1262,13 +1262,16 @@ z-index: 0 !important;
 .Portfolios{
   padding-bottom: 20px;
 }
-
+.BoxStA1{
+  width: 100%;
+  max-width: 250px;
+}
 @media only screen and (max-width: 1000px) {
   .Portfolios {
     margin: 0 -5px;
   }
   .PortfolioItem .imgWrap {
-    max-width: 220px;
+    max-width: 100%;
     width: auto;
     margin: 0 auto;
     padding: 10px;

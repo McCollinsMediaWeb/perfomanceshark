@@ -37,7 +37,7 @@ export default function VideoBox() {
         <div className="VideoBoxContent">
           <div>
             <div className="VidT1">Unleashing The Power Of SEO Tactics</div>
-            <div className="VidT2">Play Now</div>
+            {/* <div className="VidT2">Play Now</div> */}
           </div>
         </div>
       </div>
