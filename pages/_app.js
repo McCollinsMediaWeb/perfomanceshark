@@ -8,7 +8,7 @@ import Footer1 from "@/components/Footer";
 import FooterBottom11 from "@/components/FooterBottom";
 import Head from "next/head";
 import TagManager from "react-gtm-module";
-
+import MetaPixel from "../components/MetaPixel";
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -182,6 +182,7 @@ export default function App({ Component, pageProps }) {
           href="/favicon-16x16.png"
         />
       </Head>
+      <MetaPixel />
       <Header />
       <Component {...pageProps} />
       <Footer1 />
