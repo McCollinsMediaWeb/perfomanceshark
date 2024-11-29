@@ -8,8 +8,8 @@ export default function FooterBottom11() {
       <div class="FooterMediaIcons">
         <div>
           <div class="mediaFlex">
-            <Link href="#zero" class="mediaFlex1">
-              Get a quote
+            <Link href="https://calendar.app.google/jb64JdxiycDnPAZE6" class="mediaFlex1"  target="_blank">
+              Book A Meeting
             </Link>
             <Link
               href="https://api.whatsapp.com/send?phone=971559564135&amp;text=I%20would%20like%20to%20know%20more%20about%20McCollins%20Media"
