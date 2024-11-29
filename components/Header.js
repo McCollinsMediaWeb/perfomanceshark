@@ -117,7 +117,7 @@ export default function Header() {
                 Our Packages
               </Link>
               <a
-                href="https://calendar.app.google/UxFJLGCRvpbeqCYL9"
+                href="https://calendar.app.google/jb64JdxiycDnPAZE6"
                 scroll={true}
                 className="FreeAudiBtn"
                 target="_blank"
@@ -191,7 +191,7 @@ export default function Header() {
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" scroll={true} className="FreeAudiBtn">
+                    <a target="_blank" href="https://calendar.app.google/jb64JdxiycDnPAZE6" scroll={true} className="FreeAudiBtn">
                       Book a meeting
                     </a>
                   </div>

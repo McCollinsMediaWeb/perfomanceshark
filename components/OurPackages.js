@@ -83,7 +83,7 @@ export default function OurPackeges() {
                     Level-up with more power and enhanced features
                   </div>
                   <div className="PriceBox">680 USD</div>
-                  <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="StLink12">
+                  <a target="_blank" href="https://calendar.app.google/jb64JdxiycDnPAZE6" className="StLink12">
 Book a meeting
                   </a>
                   <div className="FtDescBox">
@@ -109,7 +109,7 @@ Book a meeting
                     Level-up with more power and enhanced features
                   </div>
                   <div className="PriceBox">1370 USD</div>
-                  <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="StLink12">
+                  <a target="_blank" href="https://calendar.app.google/jb64JdxiycDnPAZE6" className="StLink12">
 Book a meeting
                   </a>
                   <div className="FtDescBox">
@@ -138,7 +138,7 @@ Book a meeting
                     Level-up with more power and enhanced features
                   </div>
                   <div className="PriceBox">2040 USD</div>
-                  <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="StLink12">
+                  <a target="_blank" href="https://calendar.app.google/jb64JdxiycDnPAZE6" className="StLink12">
 Book a meeting
                   </a>
                   <div className="FtDescBox">
@@ -170,7 +170,7 @@ Book a meeting
                     Full-Scale Performance Marketing Dominance
                   </div>
                   <div className="PriceBox">2750 USD</div>
-                  <a target="_blank" href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="StLink12">
+                  <a target="_blank" href="https://calendar.app.google/jb64JdxiycDnPAZE6" className="StLink12">
 Book a meeting
                   </a>
                   <div className="FtDescBox">

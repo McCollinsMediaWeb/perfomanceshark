@@ -9,6 +9,7 @@ import FooterBottom11 from "@/components/FooterBottom";
 import Head from "next/head";
 import TagManager from "react-gtm-module";
 import MetaPixel from "../components/MetaPixel";
+
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -184,6 +185,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <MetaPixel />
       <Header />
+      
       <Component {...pageProps} />
       <Footer1 />
       <FooterBottom11 />

@@ -18,6 +18,7 @@ export default function Home() {
     <div id="zero">
       <HeroBanner/>
       </div>
+      
       <div id="one">
       <BestBrands/>
       </div>

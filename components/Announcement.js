@@ -49,7 +49,7 @@ export default function Announcement() {
                 <br />
                 Give Us A Ring
               </div>
-              <Link href="https://calendar.app.google/UxFJLGCRvpbeqCYL9" className="AnIconT4" target="_blank">
+              <Link href="https://calendar.app.google/jb64JdxiycDnPAZE6" className="AnIconT4" target="_blank">
                 Book a meeting
               </Link>
             </div>
