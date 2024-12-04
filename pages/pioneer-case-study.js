@@ -9,13 +9,12 @@ export default function Home() {
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
 
-              Pioneer Corporation aimed to establish a strong digital presence and drive consistent traffic to its website while enabling distributors to easily access product information and engage with content.
-
+              Pioneer Corporation aimed to establish a high-performing digital ecosystem to strengthen its online presence, enable seamless distributor access to product information, and attract a niche target audience across multiple markets.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              Despite its reputation as a global leader in electronics, Pioneer struggled with the lack of a robust digital ecosystem that could cater to distributors across various markets and drive significant online growth.
-
+              Despite its position as a global electronics leader, Pioneer faced difficulties in building a digital-first approach to 
+              effectively engage its distributors and lacked market-specific strategies to drive consistent online growth. 
               </div>
             </div>
             <div className="col-md-5">
@@ -42,25 +41,38 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-          Website Development & Optimization<br/>
-Designed and launched a user-friendly, intuitive website tailored to Pioneer&apos;s distributors, showcasing detailed product information and content designed to engage a professional audience.
-
-            <br />
-            Performance Marketing Approach
-
-            <br />
-            Executed a comprehensive Search Engine Optimization (SEO) strategy focusing on key markets within Pioneer&apos;s vast global footprint.
-<br/>
-Implemented on-page and off-page SEO techniques to improve keyword rankings for high-intent search terms.
-<br/>
-Focused on local SEO to target specific regions, ensuring relevant traffic and market-specific visibility.
-
-<br/>
-Targeted Campaigns
-
-<br/>
-Developed performance-driven digital campaigns to align with the company&apos;s goal of increasing engagement and awareness within different geographical regions.
-
+              <div className="ListUlLi">
+                <div className="ListBox">
+                  <div className="ListBoxHd">
+                    <span>1</span>
+                    <div>Website Development</div>
+                  </div>
+                  <div className="ListBoxContent">
+                    Designed a user-centric, intuitive website optimized for distributor engagement, featuring detailed product catalogs and professional-grade content. <br/>
+                    Deployed advanced SEO strategies, focusing on high-intent keywords and driving 
+                  </div>
+                </div>
+                <div className="ListBox">
+                  <div className="ListBoxHd">
+                    <span>2</span>
+                    <div>Search Engine Optimization - SEO </div>
+                  </div>
+                  <div className="ListBoxContent">
+                  organic search visibility across Pioneer's global footprint. <br/>
+                  Implemented local SEO to target geographically segmented audiences, ensuring relevance and increased market penetration. 
+                  </div>
+                </div>
+                <div className="ListBox">
+                  <div className="ListBoxHd">
+                    <span>3</span>
+                    <div>Performance-Driven Campaigns</div>
+                  </div>
+                  <div className="ListBoxContent">
+                  Launched targeted, data-backed marketing campaigns to drive brand awareness and boost engagement within key regions. <br/>
+                  Leveraged regional insights to optimize campaign performance and maximize ROI.
+                  </div>
+                </div>
+              </div>
           </div>
           <div className="row">
             <div className="col-md-5">

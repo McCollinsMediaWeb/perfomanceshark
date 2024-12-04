@@ -1266,6 +1266,34 @@ z-index: 0 !important;
   width: 100%;
   max-width: 250px;
 }
+.ListBox{
+  padding-left: 100px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.ListUlLi{
+  margin-bottom: 80px;
+}
+.ListBoxHd span{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  background: #35b0fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 600;
+}
+.ListBoxHd{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
 @media only screen and (max-width: 1000px) {
   .Portfolios {
     margin: 0 -5px;
@@ -1715,7 +1743,7 @@ text-align: center;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .CompanyDetails.maison{
   background-image: url(../public/c4.jpg);
@@ -1748,7 +1776,7 @@ text-align: center;
   background-image: url(../public/c20.jpg);
 }
 .CompanyDetails.pioneer{
-  background-image: url(../public/c21.jpg);
+  background-image: url(../public/nc1.jpg);
 }
 .CompanyDetails.oakberry{
   background-image: url(../public/c22.jpg);
@@ -1772,6 +1800,7 @@ text-align: center;
 .Sec1T4{
   font-size: 35px;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 .Sec1T5{
   font-size: 20px;
