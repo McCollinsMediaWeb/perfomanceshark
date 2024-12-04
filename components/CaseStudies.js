@@ -102,6 +102,32 @@ export default function CaseStudies() {
                 </Link>
               </div>
               <div>
+              <Link href={"/bombbar-case-study"}>
+                <div className="CaseStudyItem">
+                    <div className="CaseStudyItemImage">
+                    <Image
+                    src="/nc3.jpg"
+                    layout="responsive"
+                    width={"394"}
+                    height={"446"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                    </div>
+                    <div className="CaseStudyItemHeader">Bombbar</div>
+                    <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">+100%</div>
+                        <div className="CsTt2">Increased Organic Traffic </div>
+                        <div className="TagBox">
+                            <div className="TagBoxItem">Website Development</div>
+                            <div className="TagBoxItem">Keyword Research & On page Optimization</div>
+                            <div className="TagBoxItem">Content Creation </div>
+                        </div>
+                    </div>
+                </div>
+                </Link>
+              </div>
+              <div>
               <Link href={"/dfc-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">

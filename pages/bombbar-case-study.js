@@ -8,22 +8,24 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              To drive brand awareness and establish a strong brand recall for Toshiba&apos;s Home Appliances vertical in the competitive 
-and diverse Middle East market. 
+              The primary objective was to enhance the visibility of Bombbar.ae, a UAE-based nutritional supplement and health-focused brand, within search engine results pages (SERPs). This included driving targeted organic traffic, improving user engagement, and increasing online sales in a competitive niche. 
 
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              While Toshiba held a robust global reputation, the challenge lay in localizing its presence and effectively engaging 
-              diverse GCC audiences, ensuring measurable growth in brand engagement and conversions. 
+              1. Niche Competition: The health and nutrition supplement market in the UAE is highly competitive, with established brands and 
+marketplaces dominating SERPs. <br/>
+2. Local SEO Specifics: The UAE market is diverse, with a regional audience (Dubai, Abu Dhabi etc) and a strong focus on mobile-first 
+browsing, requiring optimized local content and responsiveness. <br/>
+3. Limited Initial Visibility: The website had limited authority and few backlinks, making it challenging to rank for high-volume keywords. 4. Technical SEO Issues: Challenges included slow site loading times, limited on-page optimization, and missing schema for products. 
               </div>
             </div>
             <div className="col-md-5">
-              <div className="CompanyDetails toshiba">
+              <div className="CompanyDetails bombbar">
                 <div>
                   <div className="DetBox1">
                     <Image
-                      src="/clients/4.png"
+                      src="/clients/13.png"
                       layout="responsive"
                       width={"293"}
                       height={"79"}
@@ -46,34 +48,20 @@ and diverse Middle East market.
                 <div className="ListBox">
                   <div className="ListBoxHd">
                     <span>1</span>
-                    <div>Performance Marketing </div>
+                    <div>Keyword Research & On page Optimization</div>
                   </div>
                   <div className="ListBoxContent">
-                  Launched hyper-targeted META ad campaigns to boost awareness and drive online and offline sales. 
-                  Highlighted limited-time tactical offers, balancing affordability and Toshiba&apos;s premium appeal. 
+                  Identified high-intent keywords relevant to health supplements in the UAE 
+Optimized product pages with meta descriptions, alt tags, and user-friendly headings to align with target keywords. 
                   </div>
                 </div>
                 <div className="ListBox">
                   <div className="ListBoxHd">
                     <span>2</span>
-                    <div>Localized Content Development </div>
+                    <div>Content Creation</div>
                   </div>
                   <div className="ListBoxContent">
-                  Curated market-specific content calendars tailored for GCC audiences, integrating 
-regional languages and cultural nuances. 
-Designed seasonal campaigns that aligned with major regional trends and festivals to 
-enhance relevance.
-
-                  </div>
-                </div>
-                <div className="ListBox">
-                  <div className="ListBoxHd">
-                    <span>3</span>
-                    <div>Collaborative Engagement </div>
-                  </div>
-                  <div className="ListBoxContent">
-                  Worked with strategic partners to amplify Toshiba&apos;s brand message and ensure a 
-wider audience reach. 
+                  Published educational and engaging blogs, Included general queries to attract a broader audience. 
 
                   </div>
                 </div>
@@ -92,10 +80,9 @@ wider audience reach.
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">230%</div>
+                        <div className="ResultsRightT1">100%</div>
                         <div className="ResultsRightT2">
-                        Growth in 
-engagement 
+                        Increased Organic Traffic 
 
                         </div>
                       </div>
@@ -111,9 +98,11 @@ engagement
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">230%</div>
+                        <div className="ResultsRightT1">90%</div>
                         <div className="ResultsRightT2">
-                        increase in engagement across META platforms.
+                        Keyword 
+Rankings 
+
 
                         </div>
                       </div>
@@ -129,9 +118,11 @@ engagement
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">18%</div>
+                        <div className="ResultsRightT1">40%</div>
                         <div className="ResultsRightT2">
-                        Increase in website traffic
+                        Improved Local 
+Engagement 
+
 
                         </div>
                       </div>
@@ -147,27 +138,11 @@ engagement
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">120%</div>
+                        <div className="ResultsRightT1">45%</div>
                         <div className="ResultsRightT2">
-                        Rise in direct inquiries 
+                        Better Technical 
+Performance 
 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="ResultBox">
-                  <div className="Results">
-                    <div className="ResultsLeft">
-                      <div className="ReBoxWr">
-                        <div className="resultIcon Icon4">&nbsp;</div>
-                      </div>
-                    </div>
-                    <div className="ResultsRight">
-                      <div>
-                        <div className="ResultsRightT1">35%</div>
-                        <div className="ResultsRightT2">
-                        Uplift in positive sentiment 
 
                         </div>
                       </div>

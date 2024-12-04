@@ -1775,6 +1775,9 @@ text-align: center;
 .CompanyDetails.toshiba{
   background-image: url(../public/nc2.jpg);
 }
+.CompanyDetails.bombbar{
+  background-image: url(../public/nc3.jpg);
+}
 .CompanyDetails.pioneer{
   background-image: url(../public/nc1.jpg);
 }
