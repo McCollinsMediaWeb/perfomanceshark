@@ -87,9 +87,9 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">317.41%</div>
+                        <div className="ResultsRightT1">150%</div>
                         <div className="ResultsRightT2">
-                          Increase in conversions
+                        website traffic
                         </div>
                       </div>
                     </div>
@@ -104,9 +104,9 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">150%</div>
+                        <div className="ResultsRightT1">40%</div>
                         <div className="ResultsRightT2">
-                        Increase in Website Traffic
+                        Uplift in lead generation & distributor inquiries increased
 
                         </div>
                       </div>

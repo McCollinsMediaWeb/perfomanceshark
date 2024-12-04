@@ -1924,4 +1924,23 @@ text-align: center;
     font-size: 22px;
     margin-top: 15px;
   }
+  .ListBoxHd span {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .ListBox {
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .ListBoxHd {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1.1;
+  }
+  .ListUlLi {
+    margin-bottom: 20px;
+  }
 }
