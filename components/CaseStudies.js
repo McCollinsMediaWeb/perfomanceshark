@@ -54,7 +54,7 @@ export default function CaseStudies() {
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
                     <Image
-                    src="/c20.jpg"
+                    src="/nc2.jpg"
                     layout="responsive"
                     width={"394"}
                     height={"446"}
@@ -64,11 +64,12 @@ export default function CaseStudies() {
                     </div>
                     <div className="CaseStudyItemHeader">TOSHIBA</div>
                     <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+75%</div>
-                        <div className="CsTt2">Effective Strategy Increased</div>
+                        <div className="CsTt1">+230%</div>
+                        <div className="CsTt2">Growth in engagement </div>
                         <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
+                            <div className="TagBoxItem">Performance Marketing</div>
+                            <div className="TagBoxItem">Localized Content Development </div>
+                            <div className="TagBoxItem">Collaborative Engagement</div>
                         </div>
                     </div>
                 </div>

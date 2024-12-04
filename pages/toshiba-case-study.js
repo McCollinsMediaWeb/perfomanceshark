@@ -8,13 +8,14 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              To create awareness and establish strong brand recall for Toshiba&apos;s Home Appliances vertical in the competitive Middle East market.
+              To drive brand awareness and establish a strong brand recall for Toshiba&apos;s Home Appliances vertical in the competitive 
+and diverse Middle East market. 
 
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              Despite Toshiba’s strong global reputation, the challenge was to localize its presence and engage diverse audiences across GCC markets while driving measurable growth in brand engagement and conversions.
-
+              While Toshiba held a robust global reputation, the challenge lay in localizing its presence and effectively engaging 
+              diverse GCC audiences, ensuring measurable growth in brand engagement and conversions. 
               </div>
             </div>
             <div className="col-md-5">
@@ -41,21 +42,42 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-            
-Performance Marketing
+          <div className="ListUlLi">
+                <div className="ListBox">
+                  <div className="ListBoxHd">
+                    <span>1</span>
+                    <div>Performance Marketing </div>
+                  </div>
+                  <div className="ListBoxContent">
+                  Launched hyper-targeted META ad campaigns to boost awareness and drive online and offline sales. 
+                  Highlighted limited-time tactical offers, balancing affordability and Toshiba&apos;s premium appeal. 
+                  </div>
+                </div>
+                <div className="ListBox">
+                  <div className="ListBoxHd">
+                    <span>2</span>
+                    <div>Localized Content Development </div>
+                  </div>
+                  <div className="ListBoxContent">
+                  Curated market-specific content calendars tailored for GCC audiences, integrating 
+regional languages and cultural nuances. 
+Designed seasonal campaigns that aligned with major regional trends and festivals to 
+enhance relevance.
 
-            <br />
-            Launched targeted META ad campaigns focused on raising awareness and driving online/offline sales.
+                  </div>
+                </div>
+                <div className="ListBox">
+                  <div className="ListBoxHd">
+                    <span>3</span>
+                    <div>Collaborative Engagement </div>
+                  </div>
+                  <div className="ListBoxContent">
+                  Worked with strategic partners to amplify Toshiba&apos;s brand message and ensure a 
+wider audience reach. 
 
-
-            <br />
-            Promoted limited-time tactical offers to attract budget-conscious consumers while maintaining Toshiba&apos;s premium positioning.
-Localized Content Development
-<br/>
-Developed and executed market-specific monthly content calendars to connect with GCC audiences.
-Designed seasonal campaigns aligning with regional trends and festivals, boosting relevance and resonance.
-Collaborative Engagement
-
+                  </div>
+                </div>
+              </div>
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -70,9 +92,11 @@ Collaborative Engagement
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">317.41%</div>
+                        <div className="ResultsRightT1">230%</div>
                         <div className="ResultsRightT2">
-                          Increase in conversions
+                        Growth in 
+engagement 
+
                         </div>
                       </div>
                     </div>
@@ -107,25 +131,7 @@ Collaborative Engagement
                       <div>
                         <div className="ResultsRightT1">18%</div>
                         <div className="ResultsRightT2">
-                        improvement in click-through rates (CTR) for performance marketing campaigns.
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="ResultBox">
-                  <div className="Results">
-                    <div className="ResultsLeft">
-                      <div className="ReBoxWr">
-                        <div className="resultIcon Icon4">&nbsp;</div>
-                      </div>
-                    </div>
-                    <div className="ResultsRight">
-                      <div>
-                        <div className="ResultsRightT1">43%</div>
-                        <div className="ResultsRightT2">
-                        increase in website traffic from GCC countries.
+                        Increase in website traffic
 
                         </div>
                       </div>
@@ -143,7 +149,25 @@ Collaborative Engagement
                       <div>
                         <div className="ResultsRightT1">120%</div>
                         <div className="ResultsRightT2">
-                        growth in direct inquiries for Toshiba Home Appliances during seasonal promotions.
+                        Rise in direct inquiries 
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ResultBox">
+                  <div className="Results">
+                    <div className="ResultsLeft">
+                      <div className="ReBoxWr">
+                        <div className="resultIcon Icon4">&nbsp;</div>
+                      </div>
+                    </div>
+                    <div className="ResultsRight">
+                      <div>
+                        <div className="ResultsRightT1">35%</div>
+                        <div className="ResultsRightT2">
+                        Uplift in positive sentiment 
 
 
                         </div>
