@@ -58,7 +58,7 @@ export default function Home() {
                     <div>Search Engine Optimization - SEO </div>
                   </div>
                   <div className="ListBoxContent">
-                  organic search visibility across Pioneer's global footprint. <br/>
+                  organic search visibility across Pioneer&apos;s global footprint. <br/>
                   Implemented local SEO to target geographically segmented audiences, ensuring relevance and increased market penetration. 
                   </div>
                 </div>
