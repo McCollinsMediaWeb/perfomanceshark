@@ -42,7 +42,7 @@ export default function HeroBanner() {
         formData.append("Message", message);
 
         const response = await fetch(
-          "https://script.google.com/macros/s/AKfycby8l6vy2_tZs57IJmXIek1X6sr2QipFs4TL_O25-53Ofn_aveUDV_nv61OownuLDcvf/exec",
+          "https://script.google.com/macros/s/AKfycbyB21hu9ScGJqUBQPOO3cHhg7Tdx3tPe6tGLsj-tauqzm7PXadZFS8Dg4_AC8Bjj0dK/exec",
           {
             method: "POST",
             body: formData,
