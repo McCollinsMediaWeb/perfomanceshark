@@ -72,7 +72,7 @@ export default function Home() {
                   <div>Creative Optimization</div>
                 </div>
                 <div className="ListBoxContent">
-                  Designed compelling ad creatives emphasizing the app's unique
+                  Designed compelling ad creatives emphasizing the app&apos;s unique
                   features, user testimonials, and success stories to drive
                   installs.
                 </div>

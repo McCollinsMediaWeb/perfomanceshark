@@ -8,7 +8,7 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-                To boost sales and market share in Dubai's competitive furniture
+                To boost sales and market share in Dubai&apos;s competitive furniture
                 market by leveraging digital strategies for measurable growth.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
@@ -61,7 +61,7 @@ export default function Home() {
                 </div>
                 <div className="ListBoxContent">
                   Focused on reaching decision-makers with engaging and tailored
-                  ad creatives that highlighted ProWork's premium offerings.
+                  ad creatives that highlighted ProWork&apos;s premium offerings.
                 </div>
               </div>
             </div>

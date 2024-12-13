@@ -65,7 +65,7 @@ export default function Home() {
                 <div className="ListBoxContent">
                   Deployed advanced SEO strategies, focusing on high-intent
                   keywords and driving organic search visibility across
-                  Pioneer's global footprint. <br />
+                  Pioneer&apos;s global footprint. <br />
                   Implemented local SEO to target geographically segmented
                   audiences, ensuring relevance and increased market
                   penetration.

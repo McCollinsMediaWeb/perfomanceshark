@@ -17,7 +17,7 @@ export default function Home() {
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
                 1. Low Online Presence: Despite offering high-quality products,
-                Anvi Baby's website had minimal organic traffic due to low
+                Anvi Baby&apos;s website had minimal organic traffic due to low
                 domain authority and a lack of keyword optimization. . <br />
                 2. Competitive Market:The sustainable baby product niche is
                 highly competitive, dominated by larger, more established

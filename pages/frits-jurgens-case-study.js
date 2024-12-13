@@ -69,7 +69,7 @@ export default function Home() {
                   <br /> Diversified campaigns, combining lead generation and
                   website conversion ads for immediate and long-term engagement.
                   <br /> Customized creatives to address pain points and
-                  highlight FritsJurgen's premium features.
+                  highlight FritsJurgen&apos;s premium features.
                 </div>
               </div>
               <div className="ListBox">
