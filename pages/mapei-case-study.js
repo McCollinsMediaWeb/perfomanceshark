@@ -61,8 +61,8 @@ export default function Home() {
                   <div>Keyword Optimization</div>
                 </div>
                 <div className="ListBoxContent">
-                  Targeted high-value, localized keywords like “tile adhesives
-                  UAE" and "waterproofing solutions Dubai".
+                  Targeted high-value, localized keywords like &quot;tile adhesives
+                  UAE&quot; and &quot;waterproofing solutions Dubai&quot;.
                 </div>
               </div>
               <div className="ListBox">

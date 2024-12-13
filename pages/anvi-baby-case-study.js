@@ -11,8 +11,8 @@ export default function Home() {
                 Anvi Baby, an e-commerce brand specializing in sustainable baby
                 products, aimed to increase organic traffic and boost sales by
                 improving their online visibility. Their goal was to rank on the
-                first page of Google for high-intent keywords like "organic baby
-                clothes" and "eco-friendly baby products" within six months.
+                first page of Google for high-intent keywords like &quot;organic baby
+                clothes&quot; and &quot;eco-friendly baby products&quot; within six months.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
