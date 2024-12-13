@@ -27,7 +27,7 @@ export default function CaseStudies() {
     },
     {
       href: "/pioneer-case-study",
-      imageSrc: "/clients/pioneerCover.jpg",
+      imageSrc: "/clients/PioneerCover.jpg",
       header: "PIONEER",
       stats: "+150%",
       subStats: "Growth in Website traffic",
@@ -39,7 +39,7 @@ export default function CaseStudies() {
     },
     {
       href: "/bombbar-case-study",
-      imageSrc: "/clients/bombBarCover.jpg",
+      imageSrc: "/clients/BombBarCover.jpg",
       header: "Bombbar",
       stats: "+10%",
       subStats: "Increased Organic Traffic",
