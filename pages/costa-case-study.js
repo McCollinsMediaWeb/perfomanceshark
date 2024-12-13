@@ -13,7 +13,7 @@ export default function Home() {
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-                They are struggling to scale their brand online & increase the
+                They are struggling to scale their brand online &amp; increase the
                 sales MoM consistently
               </div>
             </div>
