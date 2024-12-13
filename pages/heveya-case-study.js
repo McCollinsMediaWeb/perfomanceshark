@@ -15,7 +15,7 @@ export default function Home() {
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
                 Heveya faced the challenge of entering a fresh market with
-                limited insights into their audience's preferences regarding
+                limited insights into their audience&apos;s preferences regarding
                 sustainability and product quality.
               </div>
             </div>

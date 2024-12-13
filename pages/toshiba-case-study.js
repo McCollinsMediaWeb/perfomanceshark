@@ -80,7 +80,7 @@ export default function Home() {
                   message and ensure a wider audience reach.
                   <br />
                   Leveraged tactical promotions to build connections with
-                  budget-conscious consumers while preserving the brand's
+                  budget-conscious consumers while preserving the brand&apos;s
                   premium image.
                 </div>
               </div>
