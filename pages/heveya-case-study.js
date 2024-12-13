@@ -8,14 +8,15 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-                Heveya aimed to enter the UAE market, targeting eco-conscious
-                consumers.
+                To successfully enter the UAE market and connect with
+                eco-conscious consumers by promoting sustainable and
+                premium-quality products.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-                Exploring a fresh market, they lacked understanding of their
-                audience&apos;s preferences regarding product sustainability and
-                quality
+                Heveya faced the challenge of entering a fresh market with
+                limited insights into their audience's preferences regarding
+                sustainability and product quality.
               </div>
             </div>
             <div className="col-md-5">
@@ -42,16 +43,40 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-            We achieved an 84% performance boost for this brand in Q4&apos;23 &
-            Q1&apos;24 with targeted keywords organized into themed ad groups.
-            <br />
-            Using both Search and Performance Max campaigns, we balanced cost
-            per purchase with Search, while maximizing conversions with
-            Performance Max.
-            <br />
-            We also analyzed past data to identify top-selling products and
-            categories, launching a new Performance Max campaign with increased
-            budget and feed enablement.
+            <div className="ListUlLi">
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>1</span>
+                  <div>Targeted Search Campaigns</div>
+                </div>
+                <div className="ListBoxContent">
+                  Organized high-performing keywords into themed ad groups to
+                  improve relevance and efficiency.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>2</span>
+                  <div>Performance Max Campaigns</div>
+                </div>
+                <div className="ListBoxContent">
+                  Balanced cost-per-purchase through Search campaigns while
+                  leveraging Performance Max for maximum conversion volume.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>3</span>
+                  <div>Data-Driven Approach</div>
+                </div>
+                <div className="ListBoxContent">
+                  Analyzed past data to identify top-performing products and
+                  categories.
+                  <br /> Allocated increased budgets for these products using
+                  feed-enabled campaigns for better targeting.
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -68,7 +93,7 @@ export default function Home() {
                       <div>
                         <div className="ResultsRightT1">17%</div>
                         <div className="ResultsRightT2">
-                          Increase repeat purchase rate
+                          Increase in repeat purchase rate
                         </div>
                       </div>
                     </div>
@@ -78,13 +103,15 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon2">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">108%</div>
-                        <div className="ResultsRightT2">Increased in AOV</div>
+                        <div className="ResultsRightT2">
+                          Growth in Average Order Value
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -93,14 +120,14 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon3">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">28%</div>
+                        <div className="ResultsRightT1">28+</div>
                         <div className="ResultsRightT2">
-                          Increase in conversions
+                          Increase in overall conversions
                         </div>
                       </div>
                     </div>

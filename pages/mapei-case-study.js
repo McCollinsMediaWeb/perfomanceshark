@@ -8,11 +8,26 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              Masterbaker Studio aimed to boost website traffic and sales by targeting passionate bakers with premium ingredients like flour, chocolate, butters, and creams.
+                To improve organic visibility and drive targeted traffic to
+                Mapei.ae by positioning the brand as an authority in the UAE
+                construction and building materials sector.
               </div>
+              {/* Check */}
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              Despite that the Middle East provides the best ROI on spending, however, they struggled to find out the demand generation & the right target audience as a B2B2C business.
+                1. Niche Competition: The health and nutrition supplement market
+                in the UAE is highly competitive, with established brands and
+                marketplaces dominating SERPs. <br />
+                2. Local SEO Specifics: The UAE market is diverse, with a
+                regional audience (Dubai, Abu Dhabi etc) and a strong focus on
+                mobile-first browsing, requiring optimized local content and
+                responsiveness. <br />
+                3. Limited Initial Visibility: The website had limited authority
+                and few backlinks, making it challenging to rank for high-volume
+                keywords. <br />
+                4. Technical SEO Issues: Challenges included slow site loading
+                times, limited on-page optimization, and missing schema for
+                products.
               </div>
             </div>
             <div className="col-md-5">
@@ -38,9 +53,60 @@ export default function Home() {
       <div className="Section2 pd-common pb-0">
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
-          <div className="Sec1T5 mrgB25">Implemented targeted search campaigns for construction adhesives, sealants, and chemicals, refining keywords daily for lower CPC & CPL, yielding quality leads with low CPA. 
-Utilized Meta Ads & LinkedIn Ads for top-of-funnel awareness & Developed a diverse creative asset for A/B testing and optimized CTR & conversion rate. 
-Used Geographic targeting across the Middle East, UAE, Bahrain, Oman, Kuwait, KSA, Kenya, and Egypt to build awareness and drive demand.</div>
+          <div className="Sec1T5 mrgB25">
+            <div className="ListUlLi">
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>1</span>
+                  <div>Keyword Optimization</div>
+                </div>
+                <div className="ListBoxContent">
+                  Targeted high-value, localized keywords like “tile adhesives
+                  UAE" and "waterproofing solutions Dubai".
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>2</span>
+                  <div>On-Page SEO</div>
+                </div>
+                <div className="ListBoxContent">
+                  Enhanced meta tags, product descriptions, and internal linking
+                  to boost relevance.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>3</span>
+                  <div>Content Marketing</div>
+                </div>
+                <div className="ListBoxContent">
+                  Published blogs, case studies, and a downloadable guide to
+                  establish authority.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>4</span>
+                  <div>Local SEO</div>
+                </div>
+                <div className="ListBoxContent">
+                  Improved Google Business Profile and built citations for
+                  better local visibility.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>5</span>
+                  <div>Link Building</div>
+                </div>
+                <div className="ListBoxContent">
+                  Secured backlinks from UAE-based industry directories and
+                  publications.
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-md-5">
               <div className="Sec1T7 text-uppercase">Results</div>
@@ -54,8 +120,10 @@ Used Geographic targeting across the Middle East, UAE, Bahrain, Oman, Kuwait, KS
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">48%</div>
-                        <div className="ResultsRightT2">Effective strategy increased</div>
+                        <div className="ResultsRightT1">72%</div>
+                        <div className="ResultsRightT2">
+                          Increased Organic Traffic
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -64,13 +132,15 @@ Used Geographic targeting across the Middle East, UAE, Bahrain, Oman, Kuwait, KS
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon2">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">130%</div>
-                        <div className="ResultsRightT2">Engagement</div>
+                        <div className="ResultsRightT1">Top 3</div>
+                        <div className="ResultsRightT2">
+                          Improved Keyword Rankings
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -79,22 +149,22 @@ Used Geographic targeting across the Middle East, UAE, Bahrain, Oman, Kuwait, KS
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon3">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">122%</div>
-                        <div className="ResultsRightT2">Raised brand Awareness</div>
+                        <div className="ResultsRightT1">35%</div>
+                        <div className="ResultsRightT2">Lead Generation</div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="ResultBox">
+                {/* <div className="ResultBox">
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon4">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
@@ -104,7 +174,7 @@ Used Geographic targeting across the Middle East, UAE, Bahrain, Oman, Kuwait, KS
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-md-7">

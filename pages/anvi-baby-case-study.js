@@ -8,21 +8,32 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-                The company aimed to increase sales and market share in
-                Dubai&apos;s competitive furniture industry.
+                Anvi Baby, an e-commerce brand specializing in sustainable baby
+                products, aimed to increase organic traffic and boost sales by
+                improving their online visibility. Their goal was to rank on the
+                first page of Google for high-intent keywords like "organic baby
+                clothes" and "eco-friendly baby products" within six months.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-                They are struggling to scale their brand online & increase the
-                sales MoM consistently
+                1. Low Online Presence: Despite offering high-quality products,
+                Anvi Baby's website had minimal organic traffic due to low
+                domain authority and a lack of keyword optimization. . <br />
+                2. Competitive Market:The sustainable baby product niche is
+                highly competitive, dominated by larger, more established
+                brands.
+                <br />
+                3.Limited Content: Their blog and product descriptions lacked
+                depth, reducing opportunities to rank for informational and
+                transactional keywords.
               </div>
             </div>
             <div className="col-md-5">
-              <div className="CompanyDetails costa">
+              <div className="CompanyDetails anvibaby">
                 <div>
                   <div className="DetBox1">
                     <Image
-                      src="/clients/2.png"
+                      src="/clients/10.png"
                       layout="responsive"
                       width={"293"}
                       height={"79"}
@@ -41,14 +52,48 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-            Utilized Google Ads for targeting office furniture seekers in Dubai
-            with focused keyword research for high-intent terms.
-            <br />
-            Created ad extensions for additional product details and used bid
-            adjustments to boost ad visibility.
-            <br />
-            Utilized Facebook&apos;s ad targeting to reach decision-makers &
-            created engaging ad creatives featuring ProWork&apos;s products..
+            <div className="ListUlLi">
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>1</span>
+                  <div>Technical SEO</div>
+                </div>
+                <div className="ListBoxContent">
+                  Improved site speed, mobile responsiveness, and fixed
+                  technical issues for better crawlability.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>2</span>
+                  <div>Keyword Optimization</div>
+                </div>
+                <div className="ListBoxContent">
+                  Targeted high-intent and long-tail keywords in product
+                  descriptions and metadata.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>3</span>
+                  <div>Content Marketing</div>
+                </div>
+                <div className="ListBoxContent">
+                  Published SEO-focused blog posts on parenting and eco-friendly
+                  living to attract organic traffic.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>4</span>
+                  <div>Backlink Building</div>
+                </div>
+                <div className="ListBoxContent">
+                  Partnered with parenting blogs, influencers, and media outlets
+                  for authoritative backlinks.
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -63,10 +108,8 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">317.41%</div>
-                        <div className="ResultsRightT2">
-                          Increase in conversions
-                        </div>
+                        <div className="ResultsRightT1">70%</div>
+                        <div className="ResultsRightT2">Traffic Growth</div>
                       </div>
                     </div>
                   </div>
@@ -80,10 +123,8 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">24.53%</div>
-                        <div className="ResultsRightT2">
-                          Decreased In Cost Per Conversions
-                        </div>
+                        <div className="ResultsRightT1">5 Rankings</div>
+                        <div className="ResultsRightT2">Keyword Rankings</div>
                       </div>
                     </div>
                   </div>
@@ -97,27 +138,8 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">130.71%</div>
-                        <div className="ResultsRightT2">
-                          Increased in Clicks
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="ResultBox">
-                  <div className="Results">
-                    <div className="ResultsLeft">
-                      <div className="ReBoxWr">
-                        <div className="resultIcon Icon1">&nbsp;</div>
-                      </div>
-                    </div>
-                    <div className="ResultsRight">
-                      <div>
-                        <div className="ResultsRightT1">193.38%</div>
-                        <div className="ResultsRightT2">
-                          Increased in Impressions
-                        </div>
+                        <div className="ResultsRightT1">65%</div>
+                        <div className="ResultsRightT2">Sales Impact</div>
                       </div>
                     </div>
                   </div>

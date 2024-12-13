@@ -8,14 +8,13 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-                Maison Bmore aimed to elevate its online presence and drive
-                sales through targeted advertising, focusing on high-value
-                products
+                To elevate its online presence and drive sales by focusing on
+                high-value products through strategic, targeted advertising.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-                Inconsistent results and sales due to a lack of effective
-                marketing strategy.
+                Inconsistent sales and performance due to the absence of an
+                effective marketing strategy.
               </div>
             </div>
             <div className="col-md-5">
@@ -42,14 +41,40 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-            Utilized Dynamic Search Ads and performance max campaigns across
-            various ad units for efficient conversions.
-            <br />
-            Strategy & Implementation Utilized Dynamic Search Ads and
-            performance max campaigns across various ad units for efficient
-            conversions. Segmented ads by gender categories and employed diverse
-            ad types for optimized campaign efficiency. Leveraged email
-            marketing for strong retention and cross-selling to existing users.
+            <div className="ListUlLi">
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>1</span>
+                  <div>Dynamic Search & Performance Max Campaigns</div>
+                </div>
+                <div className="ListBoxContent">
+                  Launched campaigns across various ad units to drive efficient
+                  conversions.
+                  <br /> Segmented ads by gender categories for precise
+                  targeting and tailored messaging.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>2</span>
+                  <div>Ad Diversity</div>
+                </div>
+                <div className="ListBoxContent">
+                  Employed multiple ad formats to enhance campaign engagement
+                  and effectiveness.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>3</span>
+                  <div>Retention & Cross-Selling</div>
+                </div>
+                <div className="ListBoxContent">
+                  Leveraged email marketing to boost customer retention and
+                  encourage cross-selling among existing users.
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -65,7 +90,9 @@ export default function Home() {
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">105%</div>
-                        <div className="ResultsRightT2">Maison Bmore’s sales increased</div>
+                        <div className="ResultsRightT2">
+                          Increase in overall sales
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -74,13 +101,13 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon2">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">14%</div>
-                        <div className="ResultsRightT2">Conversion rates, with a 3.25 ROAS</div>
+                        <div className="ResultsRightT2">Conversion rates</div>
                       </div>
                     </div>
                   </div>
@@ -89,13 +116,15 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon3">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">378%</div>
-                        <div className="ResultsRightT2">Notable lift in engagement rates</div>
+                        <div className="ResultsRightT2">
+                          Boost in engagement rates
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -104,13 +133,15 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon4">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">80%</div>
-                        <div className="ResultsRightT2">An expansion in its customer base</div>
+                        <div className="ResultsRightT2">
+                          Expansion in the customer base
+                        </div>
                       </div>
                     </div>
                   </div>

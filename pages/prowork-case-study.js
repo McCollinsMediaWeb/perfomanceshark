@@ -8,13 +8,14 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-                The company aimed to increase sales and market share in
-                Dubai&apos;s competitive furniture industry.
+                To boost sales and market share in Dubai's competitive furniture
+                market by leveraging digital strategies for measurable growth.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-                They are struggling to scale their brand online & increase the
-                sales MoM consistently
+                ProWork faced difficulties scaling online operations and
+                achieving consistent month-on-month sales growth amidst stiff
+                competition.
               </div>
             </div>
             <div className="col-md-5">
@@ -41,14 +42,29 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-            Utilized Google Ads for targeting office furniture seekers in Dubai
-            with focused keyword research for high-intent terms.
-            <br />
-            Created ad extensions for additional product details and used bid
-            adjustments to boost ad visibility.
-            <br />
-            Utilized Facebook&apos;s ad targeting to reach decision-makers &
-            created engaging ad creatives featuring ProWork&apos;s products..
+            <div className="ListUlLi">
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>1</span>
+                  <div>Google Ads Optimization</div>
+                </div>
+                <div className="ListBoxContent">
+                  Targeted office furniture seekers with in-depth keyword
+                  research for high-intent terms and optimized visibility with
+                  ad extensions and bid adjustments.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>2</span>
+                  <div>Meta Ad Campaigns</div>
+                </div>
+                <div className="ListBoxContent">
+                  Focused on reaching decision-makers with engaging and tailored
+                  ad creatives that highlighted ProWork's premium offerings.
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -65,7 +81,7 @@ export default function Home() {
                       <div>
                         <div className="ResultsRightT1">317.41%</div>
                         <div className="ResultsRightT2">
-                          Increase in conversions
+                          Increase in conversions in 2024
                         </div>
                       </div>
                     </div>
@@ -75,14 +91,14 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon2">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">24.53%</div>
                         <div className="ResultsRightT2">
-                          Decreased In Cost Per Conversions
+                          Reduction in cost per conversions
                         </div>
                       </div>
                     </div>
@@ -92,15 +108,13 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon3">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">130.71%</div>
-                        <div className="ResultsRightT2">
-                          Increased in Clicks
-                        </div>
+                        <div className="ResultsRightT2">Rise in Clicks</div>
                       </div>
                     </div>
                   </div>
@@ -109,14 +123,14 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon4">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">193.38%</div>
                         <div className="ResultsRightT2">
-                          Increased in Impressions
+                          Growth in Impressions
                         </div>
                       </div>
                     </div>

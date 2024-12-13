@@ -8,16 +8,28 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              The primary objective was to enhance the visibility of Bombbar.ae, a UAE-based nutritional supplement and health-focused brand, within search engine results pages (SERPs). This included driving targeted organic traffic, improving user engagement, and increasing online sales in a competitive niche. 
-
+                The primary objective was to enhance the visibility of
+                Bombbar.ae, a UAE-based nutritional supplement and
+                health-focused brand, within search engine results pages
+                (SERPs). This included driving targeted organic traffic,
+                improving user engagement, and increasing online sales in a
+                competitive niche.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              1. Niche Competition: The health and nutrition supplement market in the UAE is highly competitive, with established brands and 
-marketplaces dominating SERPs. <br/>
-2. Local SEO Specifics: The UAE market is diverse, with a regional audience (Dubai, Abu Dhabi etc) and a strong focus on mobile-first 
-browsing, requiring optimized local content and responsiveness. <br/>
-3. Limited Initial Visibility: The website had limited authority and few backlinks, making it challenging to rank for high-volume keywords. 4. Technical SEO Issues: Challenges included slow site loading times, limited on-page optimization, and missing schema for products. 
+                1. Niche Competition: The health and nutrition supplement market
+                in the UAE is highly competitive, with established brands and
+                marketplaces dominating SERPs. <br />
+                2. Local SEO Specifics: The UAE market is diverse, with a
+                regional audience (Dubai, Abu Dhabi etc) and a strong focus on
+                mobile-first browsing, requiring optimized local content and
+                responsiveness. <br />
+                3. Limited Initial Visibility: The website had limited authority
+                and few backlinks, making it challenging to rank for high-volume
+                keywords. <br />
+                4. Technical SEO Issues: Challenges included slow site loading
+                times, limited on-page optimization, and missing schema for
+                products.
               </div>
             </div>
             <div className="col-md-5">
@@ -44,28 +56,58 @@ browsing, requiring optimized local content and responsiveness. <br/>
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-          <div className="ListUlLi">
-                <div className="ListBox">
-                  <div className="ListBoxHd">
-                    <span>1</span>
-                    <div>Keyword Research & On page Optimization</div>
-                  </div>
-                  <div className="ListBoxContent">
-                  Identified high-intent keywords relevant to health supplements in the UAE 
-Optimized product pages with meta descriptions, alt tags, and user-friendly headings to align with target keywords. 
-                  </div>
+            <div className="Sec1T4SubHd">
+              To address these challenges, the following strategic steps were
+              implemented:
+            </div>
+            <div className="ListUlLi">
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>1</span>
+                  <div>Keyword Research & On page Optimization</div>
                 </div>
-                <div className="ListBox">
-                  <div className="ListBoxHd">
-                    <span>2</span>
-                    <div>Content Creation</div>
-                  </div>
-                  <div className="ListBoxContent">
-                  Published educational and engaging blogs, Included general queries to attract a broader audience. 
-
-                  </div>
+                <div className="ListBoxContent">
+                  Identified high-intent keywords relevant to health supplements
+                  in the UAE.
+                  <br /> Optimized product pages with meta descriptions, alt
+                  tags, and user-friendly headings to align with target
+                  keywords.
                 </div>
               </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>2</span>
+                  <div>Content Creation</div>
+                </div>
+                <div className="ListBoxContent">
+                  Published educational and engaging blogs, Included general
+                  queries to attract a broader audience.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>3</span>
+                  <div>Technical SEO Fixes</div>
+                </div>
+                <div className="ListBoxContent">
+                  Improved website speed by compressing images and enabling
+                  caching and mobile-first responsiveness.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>4</span>
+                  <div>Link Building & Outreach</div>
+                </div>
+                <div className="ListBoxContent">
+                  Built high-quality backlinks by partnering with health and
+                  fitness bloggers in the UAE.
+                  <br />
+                  Secured mentions in UAE-based news outlets and directories to
+                  enhance domain authority.
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -80,10 +122,9 @@ Optimized product pages with meta descriptions, alt tags, and user-friendly head
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">100%</div>
+                        <div className="ResultsRightT1">10%</div>
                         <div className="ResultsRightT2">
-                        Increased Organic Traffic 
-
+                          Increased Organic Traffic
                         </div>
                       </div>
                     </div>
@@ -93,18 +134,13 @@ Optimized product pages with meta descriptions, alt tags, and user-friendly head
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon2">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">90%</div>
-                        <div className="ResultsRightT2">
-                        Keyword 
-Rankings 
-
-
-                        </div>
+                        <div className="ResultsRightT2">Keyword Rankings</div>
                       </div>
                     </div>
                   </div>
@@ -113,17 +149,14 @@ Rankings
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon3">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">40%</div>
                         <div className="ResultsRightT2">
-                        Improved Local 
-Engagement 
-
-
+                          Improved Local Engagement
                         </div>
                       </div>
                     </div>
@@ -133,17 +166,14 @@ Engagement
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon4">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">45%</div>
                         <div className="ResultsRightT2">
-                        Better Technical 
-Performance 
-
-
+                          Better Technical Performance
                         </div>
                       </div>
                     </div>

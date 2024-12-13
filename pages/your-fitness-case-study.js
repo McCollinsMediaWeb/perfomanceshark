@@ -6,23 +6,26 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-7">
-              <div className="Sec1T1">OBJECTIVE</div>
+              {/* <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-                The company aimed to increase sales and market share in
-                Dubai&apos;s competitive furniture industry.
-              </div>
+                To establish Betterlife as a leading home appliance retailer by
+                leveraging performance-driven strategies to increase sales,
+                improve ROI, and reduce cost per acquisition.
+              </div> */}
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-                They are struggling to scale their brand online & increase the
-                sales MoM consistently
+                In a highly competitive fitness app market, YourFitness.Coach
+                struggled to drive significant app downloads and improve user
+                engagement. Low app visibility and limited user acquisition were
+                key barriers to growth.
               </div>
             </div>
             <div className="col-md-5">
-              <div className="CompanyDetails costa">
+              <div className="CompanyDetails yourfitness">
                 <div>
                   <div className="DetBox1">
                     <Image
-                      src="/clients/2.png"
+                      src="/clients/10.png"
                       layout="responsive"
                       width={"293"}
                       height={"79"}
@@ -41,14 +44,63 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-            Utilized Google Ads for targeting office furniture seekers in Dubai
-            with focused keyword research for high-intent terms.
-            <br />
-            Created ad extensions for additional product details and used bid
-            adjustments to boost ad visibility.
-            <br />
-            Utilized Facebook&apos;s ad targeting to reach decision-makers &
-            created engaging ad creatives featuring ProWork&apos;s products..
+            <div className="ListUlLi">
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>1</span>
+                  <div>App Installation Campaigns</div>
+                </div>
+                <div className="ListBoxContent">
+                  Launched performance-focused campaigns on Meta and Google Ads
+                  to target high-intent fitness users.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>2</span>
+                  <div>Audience Segmentation</div>
+                </div>
+                <div className="ListBoxContent">
+                  Leveraged advanced segmentation to target audiences based on
+                  fitness interests, behaviors, and location, ensuring maximum
+                  relevance.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>3</span>
+                  <div>Creative Optimization</div>
+                </div>
+                <div className="ListBoxContent">
+                  Designed compelling ad creatives emphasizing the app's unique
+                  features, user testimonials, and success stories to drive
+                  installs.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>4</span>
+                  <div>Cross-Platform Promotion</div>
+                </div>
+                <div className="ListBoxContent">
+                  Ran integrated campaigns on Meta and Google using Advantage+
+                  and Performance Max for personalized targeting across
+                  touchpoints.
+                </div>
+              </div>
+
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>5</span>
+                  <div>App Store Optimization (ASO) </div>
+                </div>
+                <div className="ListBoxContent">
+                  Enhanced app visibility by optimizing the listing with
+                  relevant keywords, visuals, and user reviews to boost organic
+                  discovery.
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -63,9 +115,9 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">317.41%</div>
+                        <div className="ResultsRightT1">46%</div>
                         <div className="ResultsRightT2">
-                          Increase in conversions
+                          Increase in App downloads
                         </div>
                       </div>
                     </div>
@@ -80,9 +132,9 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">24.53%</div>
+                        <div className="ResultsRightT1">18%</div>
                         <div className="ResultsRightT2">
-                          Decreased In Cost Per Conversions
+                          Decrease in cost per install
                         </div>
                       </div>
                     </div>
@@ -97,26 +149,8 @@ export default function Home() {
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">130.71%</div>
                         <div className="ResultsRightT2">
-                          Increased in Clicks
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="ResultBox">
-                  <div className="Results">
-                    <div className="ResultsLeft">
-                      <div className="ReBoxWr">
-                        <div className="resultIcon Icon1">&nbsp;</div>
-                      </div>
-                    </div>
-                    <div className="ResultsRight">
-                      <div>
-                        <div className="ResultsRightT1">193.38%</div>
-                        <div className="ResultsRightT2">
-                          Increased in Impressions
+                          Significant rise in user engagement and retention
                         </div>
                       </div>
                     </div>
