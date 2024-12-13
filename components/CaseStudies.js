@@ -2,15 +2,158 @@ import Head from "next/head";
 import Image from "next/image";
 import Slider from "react-slick";
 import Link from "next/link";
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function CaseStudies() {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const caseStudies = [
+    {
+      href: "/toshiba-case-study",
+      imageSrc: "/clients/ToshibaCover.jpg",
+      header: "TOSHIBA",
+      stats: "+230%",
+      subStats: "Growth in engagement",
+      tags: [
+        "Performance Marketing",
+        "Localized Content Development",
+        "Collaborative Engagement",
+      ],
+    },
+    {
+      href: "/pioneer-case-study",
+      imageSrc: "/clients/pioneerCover.jpg",
+      header: "PIONEER",
+      stats: "+150%",
+      subStats: "Growth in Website traffic",
+      tags: [
+        "Website Development",
+        "Search Engine Optimization",
+        "Performance-Driven Campaigns",
+      ],
+    },
+    {
+      href: "/bombbar-case-study",
+      imageSrc: "/clients/bombBarCover.jpg",
+      header: "Bombbar",
+      stats: "+10%",
+      subStats: "Increased Organic Traffic",
+      tags: [
+        "Keyword Research & On page Optimization",
+        "Content Creation",
+        "Technical SEO Fixes",
+        "Link Building & Outreach",
+      ],
+    },
+    {
+      href: "/dfc-case-study",
+      imageSrc: "/clients/DafCover.jpg",
+      header: "DUBAI FREE ZONE",
+      stats: "+78%",
+      subStats: "Effective Strategy Increased",
+      tags: ["Organic Social Media", "Paid Social"],
+    },
+    {
+      href: "/oakberry-case-study",
+      imageSrc: "/clients/OakBerryCover.jpg",
+      header: "OAKBERRY",
+      stats: "+240%",
+      subStats: "Increase in Conversions",
+      tags: ["Targeted Paid Ads", "Optimized E-Commerce", "Product Promotions"],
+    },
+    {
+      href: "/mapei-case-study",
+      imageSrc: "/clients/MapeiCover.jpg",
+      header: "MAPEI",
+      stats: "+72%",
+      subStats: "Increased Organic Traffic",
+      tags: [
+        "Keyword Optimization",
+        "On Page SEO",
+        "Content Marketing",
+        "Local SEO",
+        "Link Building",
+      ],
+    },
+    {
+      href: "/heveya-case-study",
+      imageSrc: "/clients/Heveya.jpg",
+      header: "Heveya",
+      stats: "+108%",
+      subStats: "Growth in AOV",
+      tags: [
+        "Targeted Search Campaigns",
+        "Performance Max Campaigns",
+        "Data Driven approch",
+      ],
+    },
+    {
+      href: "/maison-b-more-case-study",
+      imageSrc: "/clients/MbmCover.jpg",
+      header: "MAISON-B-MORE",
+      stats: "+105%",
+      subStats: "Increase in Overall Sales",
+      tags: [
+        "Dynamic Search & Performance Campaign",
+        "Ad Diversity",
+        "Retention & Cross-Selling",
+      ],
+    },
+    {
+      href: "/master-baker-case-study",
+      imageSrc: "/clients/MasterBakerCover.jpg",
+      header: "Master Baker Studio",
+      stats: "+38%",
+      subStats: "Increased in purchase",
+      tags: ["Organic Social Media", "Paid Social"],
+    },
+    {
+      href: "/mob-case-study",
+      imageSrc: "/clients/MobCover.jpg",
+      header: "MODERN OMAN BAKERY",
+      stats: "+222.37%",
+      subStats: "Increased in click",
+      tags: ["Paid SEO", "Paid Social", "Paid Search"],
+    },
+    {
+      href: "/richemont-case-study",
+      imageSrc: "/clients/RicheMontCover.jpg",
+      header: "Richemont Master Baker",
+      stats: "+56%",
+      subStats: "Increased in click",
+      tags: ["Organic Social Media", "Paid Social"],
+    },
+    {
+      href: "/mint-case-study",
+      imageSrc: "/clients/MintCover.jpg",
+      header: "Mint Event Rentals",
+      stats: "+496%",
+      subStats: "Increase in conversion",
+      tags: ["Organic Social Media"],
+    },
+    {
+      href: "/prowork-case-study",
+      imageSrc: "/clients/ProworkCover.jpg",
+      header: "Prowork",
+      stats: "+317.41%",
+      subStats: "Increase in conversion",
+      tags: ["Google Ads Optimization", "Meta Ad Campaigns"],
+    },
+    {
+      href: "/css-case-study",
+      imageSrc: "/clients/CleaningStoreCover.jpg",
+      header: "Cleaning Superstore",
+      stats: "+60%",
+      subStats: "Increase in sales",
+      tags: ["Dynamic Search Ads", "Campaigns"],
+    },
+  ];
+
   const settings = {
     dots: true,
     infinite: false,
@@ -37,151 +180,80 @@ export default function CaseStudies() {
           <div className="CaseStudiesHeader">
             <div className="row">
               <div className="col-md-7">
-                <div className="CsT1"   data-aos="fade-up" data-aos-duration="700">Case Studies</div>
-                <div className="CsT2"   data-aos="fade-up" data-aos-duration="700">Our Work Drives Businesses Forward</div>
+                <div
+                  className="CsT1"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                >
+                  Case Studies
+                </div>
+                <div
+                  className="CsT2"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                >
+                  Our Work Drives Businesses Forward
+                </div>
               </div>
               <div className="col-md-5">
-                <div className="CsT3"  data-aos="fade-up" data-aos-duration="700">
-                Explore how our strategies and expertise have propelled businesses forward, achieving measurable results and tangible success stories
+                <div
+                  className="CsT3"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                >
+                  Explore how our strategies and expertise have propelled
+                  businesses forward, achieving measurable results and tangible
+                  success stories
                 </div>
               </div>
             </div>
           </div>
-          <div className="BrndBoxes slider1"  data-aos="fade-up" data-aos-duration="700">
+          <div
+            className="BrndBoxes slider1"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
             <Slider {...settings}>
-            <div>
-              <Link href={"/toshiba-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/nc2.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">TOSHIBA</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+230%</div>
-                        <div className="CsTt2">Growth in engagement </div>
+              {caseStudies.map((study, index) => (
+                <div key={index}>
+                  <Link href={study.href}>
+                    <div className="CaseStudyItem">
+                      <div className="CaseStudyItemImage">
+                        <Image
+                          src={study.imageSrc}
+                          layout="responsive"
+                          width={394}
+                          height={446}
+                          priority
+                          className="MainBanner"
+                        />
+                      </div>
+                      <div className="CaseStudyItemHeader">{study.header}</div>
+                      <div className="CaseStudyItemFooter">
+                        <div className="CsTt1">{study.stats}</div>
+                        <div className="CsTt2">{study.subStats}</div>
                         <div className="TagBox">
-                            <div className="TagBoxItem">Performance Marketing</div>
-                            <div className="TagBoxItem">Localized Content Development </div>
-                            <div className="TagBoxItem">Collaborative Engagement</div>
+                          {study.tags.map((tag, i) => (
+                            <div key={i} className="TagBoxItem">
+                              {tag}
+                            </div>
+                          ))}
                         </div>
+                      </div>
                     </div>
+                  </Link>
                 </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/pioneer-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/nc1.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">PIONEER</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+150%</div>
-                        <div className="CsTt2">Website traffic Increased</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Website Development</div>
-                            <div className="TagBoxItem">Search Engine Optimization</div>
-                            <div className="TagBoxItem">Performance-Driven Campaigns </div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/bombbar-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/nc3.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">Bombbar</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+100%</div>
-                        <div className="CsTt2">Increased Organic Traffic </div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Website Development</div>
-                            <div className="TagBoxItem">Keyword Research & On page Optimization</div>
-                            <div className="TagBoxItem">Content Creation </div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/dfc-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c25.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">DUBAI FREE ZONE</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+78%</div>
-                        <div className="CsTt2">Effective Strategy Increased</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div> 
-              <div>
-              <Link href={"/oakberry-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c22.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">OAKBERRY</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+55%</div>
-                        <div className="CsTt2">Effective Strategy Increased</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
+              ))}
+            </Slider>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
 
-
-
-              
-              {/* <div>
+{
+  /* <div>
               <Link href={"/fujifilm-case-study"}>
                 <div className="CaseStudyItem">
                     <div className="CaseStudyItemImage">
@@ -230,246 +302,5 @@ export default function CaseStudies() {
                     </div>
                 </div>
                 </Link>
-              </div> */}
-           
-
-            <div>
-              <Link href={"/mapei-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c7.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">MAPEI</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+45%</div>
-                        <div className="CsTt2">Effective Strategy Increased</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/heveya-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c5.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">Heveya</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+108%</div>
-                        <div className="CsTt2">Increased in AOV</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Paid SEO</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                            <div className="TagBoxItem">  Paid Search</div>
-                          
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/maison-b-more-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c4.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">MAISON-B-MORE</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+105%</div>
-                        <div className="CsTt2">Sales Increased</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Dynamic Search Ads</div>
-                            <div className="TagBoxItem">Campaigns</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              
-              <div>
-              <Link href={"/master-baker-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c6.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">Master Baker Studio</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+38%</div>
-                        <div className="CsTt2">Increased in purchase</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/mob-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c8.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">MODERN OMAN BAKERY</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+222.37%</div>
-                        <div className="CsTt2">Increased in click</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Paid SEO</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                            <div className="TagBoxItem">  Paid Search</div>
-                          
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/richemont-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c9.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">Richemont Master Baker</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+56%</div>
-                        <div className="CsTt2">Increased in click</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/mint-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c10.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">Mint Event Rentals</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+496%</div>
-                        <div className="CsTt2">Increase in conversion</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/prowork-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c11.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">Prowork</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+496%</div>
-                        <div className="CsTt2">Increase in conversion</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Organic Social Media</div>
-                            <div className="TagBoxItem">Paid Social</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              <div>
-              <Link href={"/css-case-study"}>
-                <div className="CaseStudyItem">
-                    <div className="CaseStudyItemImage">
-                    <Image
-                    src="/c12.jpg"
-                    layout="responsive"
-                    width={"394"}
-                    height={"446"}
-                    priority={true}
-                    className="MainBanner"
-                  />
-                    </div>
-                    <div className="CaseStudyItemHeader">Cleaning Superstore</div>
-                    <div className="CaseStudyItemFooter">
-                        <div className="CsTt1">+60%</div>
-                        <div className="CsTt2">Increase in sales</div>
-                        <div className="TagBox">
-                            <div className="TagBoxItem">Dynamic Search Ads</div>
-                            <div className="TagBoxItem">Campaigns</div>
-                        </div>
-                    </div>
-                </div>
-                </Link>
-              </div>
-              
-              
-             
-            </Slider>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+              </div> */
 }

@@ -62,7 +62,7 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon2">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">
@@ -77,7 +77,7 @@ export default function Home() {
                   <div className="Results">
                     <div className="ResultsLeft">
                       <div className="ReBoxWr">
-                        <div className="resultIcon Icon3">&nbsp;</div>
+                        <div className="resultIcon Icon1">&nbsp;</div>
                       </div>
                     </div>
                     <div className="ResultsRight">

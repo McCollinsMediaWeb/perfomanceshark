@@ -8,13 +8,15 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              OAKBERRY aimed to successfully launch in the Middle East market, drive awareness, increase footfall to stores, and establish a loyal customer base while expanding rapidly across the region.
-
+                To launch OAKBERRY in the Middle East, drive awareness, increase
+                footfall, and achieve measurable growth through paid marketing
+                campaigns and rapid regional expansion.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              Launching during the pandemic posed significant challenges in driving in-store footfall and maintaining consistent engagement, especially in a highly competitive F&B market.
-
+                Launching during the pandemic posed challenges in driving
+                in-store visits and maintaining consistent engagement in a
+                competitive F&B market.
               </div>
             </div>
             <div className="col-md-5">
@@ -41,28 +43,38 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-          Performance Marketing
-
-            <br />
-            Launched targeted campaigns on META, TikTok, and Snapchat to drive awareness and conversions.
-
-            <br />
-            Developed a fully functional e-commerce website for online orders, optimized with Search Engine Optimization (SEO) and Google Ads to ensure high visibility and traffic.
-<br/>
-Innovative Product Positioning
-
-<br/>
-Highlighted OAKBERRY’s Acai products&apos; health benefits to appeal to the region&apos;s growing health-conscious audience.
-<br/>
-Promoted new product launches like the Acai Bucket, Nut Butters, and Acai Popsicles to maintain interest and engagement during the pandemic.
-<br/>
-
-Creative Ads Content Development
-<br/>
-Created engaging mobile-first content, including fun Reels and TikToks, to align with the brand’s vibrant personality.
-
-<br/>
-
+            <div className="ListUlLi">
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>1</span>
+                  <div>Targeted Paid Ads</div>
+                </div>
+                <div className="ListBoxContent">
+                  Ran performance-focused campaigns on META, TikTok, and
+                  Snapchat to boost awareness and drive conversions.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>2</span>
+                  <div>Optimized E-commerce</div>
+                </div>
+                <div className="ListBoxContent">
+                  Built a user-friendly website with SEO and Google Ads to
+                  capture high-intent traffic and maximize online orders.
+                </div>
+              </div>
+              <div className="ListBox">
+                <div className="ListBoxHd">
+                  <span>3</span>
+                  <div>Product Promotions</div>
+                </div>
+                <div className="ListBoxContent">
+                  Highlighted unique offerings like Acai Buckets and Popsicles
+                  to sustain interest during lockdowns.
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -77,11 +89,59 @@ Created engaging mobile-first content, including fun Reels and TikToks, to align
                     </div>
                     <div className="ResultsRight">
                       <div>
-                        <div className="ResultsRightT1">90</div>
+                        <div className="ResultsRightT1">240%</div>
                         <div className="ResultsRightT2">
-                        locations launched across the Middle East, including the UAE, Saudi Arabia, and Kuwait, within just four years.
-
+                          Increase in conversions
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ResultBox">
+                  <div className="Results">
+                    <div className="ResultsLeft">
+                      <div className="ReBoxWr">
+                        <div className="resultIcon Icon1">&nbsp;</div>
+                      </div>
+                    </div>
+                    <div className="ResultsRight">
+                      <div>
+                        <div className="ResultsRightT1">150%</div>
+                        <div className="ResultsRightT2">
+                          Growth on online traffic
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ResultBox">
+                  <div className="Results">
+                    <div className="ResultsLeft">
+                      <div className="ReBoxWr">
+                        <div className="resultIcon Icon1">&nbsp;</div>
+                      </div>
+                    </div>
+                    <div className="ResultsRight">
+                      <div>
+                        <div className="ResultsRightT1">90+</div>
+                        <div className="ResultsRightT2">
+                          Locations across the Middle East
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ResultBox">
+                  <div className="Results">
+                    <div className="ResultsLeft">
+                      <div className="ReBoxWr">
+                        <div className="resultIcon Icon1">&nbsp;</div>
+                      </div>
+                    </div>
+                    <div className="ResultsRight">
+                      <div>
+                        <div className="ResultsRightT1">35%</div>
+                        <div className="ResultsRightT2">Reduction in CPA</div>
                       </div>
                     </div>
                   </div>
