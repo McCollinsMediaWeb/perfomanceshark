@@ -8,17 +8,21 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              To digitalize DAFZA’s operations by transitioning over 350 manual services into an integrated online portal and creating a seamless digital ecosystem through a website and mobile applications for stakeholders.
-
+                To digitalize DAFZA’s operations by transitioning over 350
+                manual services into an integrated online portal and creating a
+                seamless digital ecosystem through a website and mobile
+                applications for stakeholders.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              The challenge was to replace outdated manual processes with an efficient digital solution while meeting the highest standards of quality, given DAFZA’s reputation as a government entity and its diverse stakeholder base.
-
+                The challenge was to replace outdated manual processes with an
+                efficient digital solution while meeting the highest standards
+                of quality, given DAFZA’s reputation as a government entity and
+                its diverse stakeholder base.
               </div>
             </div>
             <div className="col-md-5">
-              <div className="CompanyDetails dfc">
+              {/* <div className="CompanyDetails dfc">
                 <div>
                   <div className="DetBox1">
                     <Image
@@ -32,6 +36,20 @@ export default function Home() {
                     <div className="Sec1T3 text-center">Case Study</div>
                   </div>
                 </div>
+              </div> */}
+              <div
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "400px",
+                  marginRight: "30px",
+                }}
+              >
+                <Image
+                  src="/clients/DafCover.jpg"
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
             </div>
           </div>
@@ -41,24 +59,24 @@ export default function Home() {
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
           <div className="Sec1T5 mrgB25">
-          Requirements Gathering & User Journey Design
-
+            Requirements Gathering & User Journey Design
             <br />
-            Collaborated closely with DAFZA to map out over 350 services, streamlining workflows into an intuitive user journey.
-Designed a comprehensive site map ensuring seamless navigation for diverse stakeholders, from business owners to logistics teams.
-
+            Collaborated closely with DAFZA to map out over 350 services,
+            streamlining workflows into an intuitive user journey. Designed a
+            comprehensive site map ensuring seamless navigation for diverse
+            stakeholders, from business owners to logistics teams.
             <br />
             Website & Mobile App Development
-<br/>
-Built state-of-the-art platforms compatible across Apple, Android, Windows, and Blackberry.
-<br/>
-
-Focused on UI/UX design for optimal usability and stakeholder satisfaction.
-
-<br/>
-Integrated automated processes for various services, including document submissions, approvals, and payment gateways.
-On-Site Development
-
+            <br />
+            Built state-of-the-art platforms compatible across Apple, Android,
+            Windows, and Blackberry.
+            <br />
+            Focused on UI/UX design for optimal usability and stakeholder
+            satisfaction.
+            <br />
+            Integrated automated processes for various services, including
+            document submissions, approvals, and payment gateways. On-Site
+            Development
           </div>
           <div className="row">
             <div className="col-md-5">
@@ -75,8 +93,8 @@ On-Site Development
                       <div>
                         <div className="ResultsRightT1">350</div>
                         <div className="ResultsRightT2">
-                        services successfully digitized, reducing manual errors and processing times by 60%.
-
+                          services successfully digitized, reducing manual
+                          errors and processing times by 60%.
                         </div>
                       </div>
                     </div>
@@ -93,8 +111,7 @@ On-Site Development
                       <div>
                         <div className="ResultsRightT1">40%</div>
                         <div className="ResultsRightT2">
-                         40% improvement in service delivery speed.
-
+                          40% improvement in service delivery speed.
                         </div>
                       </div>
                     </div>
