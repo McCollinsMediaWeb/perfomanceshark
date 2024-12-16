@@ -31,7 +31,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-5">
-              <div className="CompanyDetails mapei">
+              {/* <div className="CompanyDetails mapei">
                 <div>
                   <div className="DetBox1">
                     <Image
@@ -45,6 +45,21 @@ export default function Home() {
                     <div className="Sec1T3 text-center">Case Study</div>
                   </div>
                 </div>
+              </div> */}
+
+              <div
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "400px",
+                  marginRight: "30px",
+                }}
+              >
+                <Image
+                  src="/clients/MapeiCover.jpg"
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
             </div>
           </div>
@@ -61,8 +76,9 @@ export default function Home() {
                   <div>Keyword Optimization</div>
                 </div>
                 <div className="ListBoxContent">
-                  Targeted high-value, localized keywords like &quot;tile adhesives
-                  UAE&quot; and &quot;waterproofing solutions Dubai&quot;.
+                  Targeted high-value, localized keywords like &quot;tile
+                  adhesives UAE&quot; and &quot;waterproofing solutions
+                  Dubai&quot;.
                 </div>
               </div>
               <div className="ListBox">

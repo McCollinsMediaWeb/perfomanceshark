@@ -8,15 +8,18 @@ export default function Home() {
             <div className="col-md-7">
               <div className="Sec1T1">OBJECTIVE</div>
               <div className="Sec1T2 mrgB25">
-              The company aimed to increase high-quality leads for its rental units to expand its client base and drive revenue growth.
+                The company aimed to increase high-quality leads for its rental
+                units to expand its client base and drive revenue growth.
               </div>
               <div className="Sec1T1">CHALLENGE</div>
               <div className="Sec1T2">
-              The furniture industry in Dubai is highly competitive, dominated by established brands, while Prowork was newly entering the market.
+                The furniture industry in Dubai is highly competitive, dominated
+                by established brands, while Prowork was newly entering the
+                market.
               </div>
             </div>
             <div className="col-md-5">
-              <div className="CompanyDetails mint">
+              {/* <div className="CompanyDetails mint">
                 <div>
                   <div className="DetBox1">
                     <Image
@@ -30,6 +33,20 @@ export default function Home() {
                     <div className="Sec1T3 text-center">Case Study</div>
                   </div>
                 </div>
+              </div> */}
+              <div
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "400px",
+                  marginRight: "30px",
+                }}
+              >
+                <Image
+                  src="/clients/MintCover.jpg"
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
             </div>
           </div>
@@ -38,10 +55,16 @@ export default function Home() {
       <div className="Section2 pd-common pb-0">
         <div className="container">
           <div className="Sec1T4">Strategy & Implementation</div>
-          <div className="Sec1T5 mrgB25">Conduct thorough keyword research.<br/>
-Audit and optimize existing campaigns.<br/>
-Set up targeted ad groups with relevant keywords and copy.<br/>
-Adjust bids to prioritize visibility for users searching for event rentals.</div>
+          <div className="Sec1T5 mrgB25">
+            Conduct thorough keyword research.
+            <br />
+            Audit and optimize existing campaigns.
+            <br />
+            Set up targeted ad groups with relevant keywords and copy.
+            <br />
+            Adjust bids to prioritize visibility for users searching for event
+            rentals.
+          </div>
           <div className="row">
             <div className="col-md-5">
               <div className="Sec1T7 text-uppercase">Results</div>
@@ -56,7 +79,9 @@ Adjust bids to prioritize visibility for users searching for event rentals.</div
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">30391.17%</div>
-                        <div className="ResultsRightT2">Increased in Impressions</div>
+                        <div className="ResultsRightT2">
+                          Increased in Impressions
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -71,7 +96,9 @@ Adjust bids to prioritize visibility for users searching for event rentals.</div
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">10825.48%</div>
-                        <div className="ResultsRightT2">Increased in Clicks</div>
+                        <div className="ResultsRightT2">
+                          Increased in Clicks
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -86,7 +113,9 @@ Adjust bids to prioritize visibility for users searching for event rentals.</div
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">496.25%</div>
-                        <div className="ResultsRightT2">Increase in conversions</div>
+                        <div className="ResultsRightT2">
+                          Increase in conversions
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -101,7 +130,9 @@ Adjust bids to prioritize visibility for users searching for event rentals.</div
                     <div className="ResultsRight">
                       <div>
                         <div className="ResultsRightT1">33.40%</div>
-                        <div className="ResultsRightT2">Decreased In Cost Per Conversions</div>
+                        <div className="ResultsRightT2">
+                          Decreased In Cost Per Conversions
+                        </div>
                       </div>
                     </div>
                   </div>

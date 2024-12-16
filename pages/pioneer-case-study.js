@@ -22,7 +22,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-5">
-              <div className="CompanyDetails pioneer">
+              {/* <div className="CompanyDetails pioneer">
                 <div>
                   <div className="DetBox1">
                     <Image
@@ -36,6 +36,21 @@ export default function Home() {
                     <div className="Sec1T3 text-center">Case Study</div>
                   </div>
                 </div>
+              </div> */}
+
+              <div
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "400px",
+                  marginRight: "30px",
+                }}
+              >
+                <Image
+                  src="/clients/PioneerCover.jpg"
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
             </div>
           </div>
