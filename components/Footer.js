@@ -39,9 +39,7 @@ export default function Footer1() {
               <div className="col-md-4">
                 <Link href="/#zero">Email Campaign Marketing</Link>
               </div>
-              <div className="col-md-4">
-                <Link href="/#zero">Meta Performance Marketing</Link>
-              </div>
+              
               <div className="col-md-4">
                 <Link href="/#zero">Web Analytics & Optimization</Link>
               </div>

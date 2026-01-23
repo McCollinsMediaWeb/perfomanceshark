@@ -23,9 +23,10 @@ export default function WhatWeDo() {
                   Latest Way To Get Web Solutions & Business Growth
                 </div>
                 <div className="T3"  data-aos="fade-up" data-aos-duration="700">
-                  Together, we help our clients achieve tangible, measurable
-                  results. Focused on business outcomes we bring a unique set of
-                  expertise and skills to the party.
+                  From custom development to growth-focused strategy, we deliver high-impact digital
+solutions that produce tangible results. Your business outcomes are our only metric for
+success.
+Ready to scale? Let’s talk.
                 </div>
               </div>
               <div className="col-md-3">

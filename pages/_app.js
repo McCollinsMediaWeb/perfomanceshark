@@ -59,12 +59,13 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          Web Development Company in Dubai | Web Design Company Dubai-
-          perfomanceshark
+         Performance Marketing Agency Dubai | Google & Meta Ads Experts
         </title>
         <meta
           name="description"
-          content="Are you looking for a web development company to build your website and brand in Dubai? perfomanceshark is the leading web development and design agency providing web solutions cost-effectively. Reach out to us for responsive custom web development services."
+          content="Scale your revenue with Performance Sharks. We specialize in
+data-driven Google Ads, Meta Ads, and SEO to generate high-quality leads for Dubai
+brands. Book a strategy call today!"
         />
         <link rel="canonical" href="https://performancesharks.com/" />
         <meta

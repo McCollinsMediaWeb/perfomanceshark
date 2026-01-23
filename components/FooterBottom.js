@@ -59,18 +59,18 @@ export default function FooterBottom11() {
           </div>
           <div className="FtBtm">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-6">
                 <div className="FtBtm1">
                   © 2024 Performance Shark. All Right Reserved{" "}
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6 text-right">
                 <div className="FtBtm2">
                   <Link href="#">Terms & Conditions </Link>
                   <Link href="#">Privacy Policy</Link>
                 </div>
               </div>
-              <div className="col-md-4">
+              {/* <div className="col-md-4">
                 <div className="FtBtm3">
                   <div className="SocialMediaIcons">
                     <Link target="_blank" href="#">
@@ -87,7 +87,7 @@ export default function FooterBottom11() {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
