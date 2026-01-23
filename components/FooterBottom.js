@@ -8,7 +8,7 @@ export default function FooterBottom11() {
       <div class="FooterMediaIcons">
         <div>
           <div class="mediaFlex">
-            <Link href="https://calendar.app.google/jb64JdxiycDnPAZE6" class="mediaFlex1"  target="_blank">
+            <Link href="https://calendly.com/manjeet-0rp5/30min" class="mediaFlex1"  target="_blank">
               Book A Meeting
             </Link>
             <Link

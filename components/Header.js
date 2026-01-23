@@ -191,7 +191,7 @@ export default function Header() {
                     </Link>
                   </div>
                   <div className="col-md-4" onClick={() => setOpen(false)}>
-                    <a target="_blank" href="https://calendar.app.google/jb64JdxiycDnPAZE6" scroll={true} className="FreeAudiBtn">
+                    <a target="_blank" href="https://calendly.com/manjeet-0rp5/30min" scroll={true} className="FreeAudiBtn">
                       Book a meeting
                     </a>
                   </div>
