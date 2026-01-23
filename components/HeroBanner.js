@@ -41,27 +41,52 @@ export default function HeroBanner() {
         formData.append("Company", company);
         formData.append("Message", message);
 
-        const response = await fetch(
-          "https://script.google.com/macros/s/AKfycby8l6vy2_tZs57IJmXIek1X6sr2QipFs4TL_O25-53Ofn_aveUDV_nv61OownuLDcvf/exec",
-          {
-            method: "POST",
-            body: formData,
-          }
-        );
+        // const response = await fetch(
+        //   "https://script.google.com/macros/s/AKfycby8l6vy2_tZs57IJmXIek1X6sr2QipFs4TL_O25-53Ofn_aveUDV_nv61OownuLDcvf/exec",
+        //   {
+        //     method: "POST",
+        //     body: formData,
+        //   }
+        // );
 
-        if (response.ok) {
-          const data = await response.json();
-          console.log("Success:", data);
-          window.location.replace("/Thankyou");
+        const response = await fetch("/api/lead", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            Email: email,
+            Phone: phone,
+            Company: company,
+            Message: message,
+          }),
+        });
 
+        const data = await response.json();
+
+        // if (response.ok) {
+        //   const data = await response.json();
+        //   console.log("Success:", data);
+        //   window.location.replace("/Thankyou");
+
+        //   handleConversionEvent();
+        //   setLoading(false);
+        //   // Handle success - e.g., display a success message to the user
+        // } else {
+        //   console.log(response);
+        //   // Handle error - e.g., display an error message to the user
+        // }
+
+        if (response.ok && data.success) {
           handleConversionEvent();
           setLoading(false);
-          // Handle success - e.g., display a success message to the user
+          window.location.replace("/Thankyou");
         } else {
-          console.log(response);
-          // Handle error - e.g., display an error message to the user
+          console.error("Submission failed", data);
+          setLoading(false);
         }
-        window.location.replace("/Thankyou");
+        // window.location.replace("/Thankyou");
       } else {
         alert("Phone validation failed");
         setLoading(false);
