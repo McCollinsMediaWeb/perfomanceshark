@@ -117,7 +117,7 @@ export default function Header() {
                 Our Packages
               </Link>
               <a
-                href="https://calendar.app.google/jb64JdxiycDnPAZE6"
+                href="https://calendly.com/manjeet-0rp5/30min"
                 scroll={true}
                 className="FreeAudiBtn"
                 target="_blank"
