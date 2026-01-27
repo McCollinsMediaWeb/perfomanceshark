@@ -9,6 +9,7 @@ import FooterBottom11 from "@/components/FooterBottom";
 import Head from "next/head";
 import TagManager from "react-gtm-module";
 import MetaPixel from "../components/MetaPixel";
+import Script from "next/script";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -24,28 +25,42 @@ export default function App({ Component, pageProps }) {
     });
   });
 
-  useEffect(() => {
-    // Load Google Tag Manager
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "https://www.googletagmanager.com/gtag/js?id=AW-16544595887";
-    document.head.appendChild(script);
+  // useEffect(() => {
+  //   const onScroll = () => {
+  //     const scrollCheck = window.scrollY > 100;
+  //     document.body.classList.toggle("StickyHeader", scrollCheck);
+  //   };
 
-    // Function to handle data layer push
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+  //   window.addEventListener("scroll", onScroll);
 
-    // Configure Google Tag Manager
-    gtag("config", "AW-16544595887");
+  //   return () => {
+  //     window.removeEventListener("scroll", onScroll);
+  //   };
+  // }, []);
 
-    // Cleanup function to remove the script element when the component unmounts
-    return () => {
-      document.head.removeChild(script);
-    };
-  }, []);
+
+  // useEffect(() => {
+  //   // Load Google Tag Manager
+  //   const script = document.createElement("script");
+  //   script.async = true;
+  //   script.src = "https://www.googletagmanager.com/gtag/js?id=AW-16544595887";
+  //   document.head.appendChild(script);
+
+  //   // Function to handle data layer push
+  //   window.dataLayer = window.dataLayer || [];
+  //   function gtag() {
+  //     dataLayer.push(arguments);
+  //   }
+  //   gtag("js", new Date());
+
+  //   // Configure Google Tag Manager
+  //   gtag("config", "AW-16544595887");
+
+  //   // Cleanup function to remove the script element when the component unmounts
+  //   return () => {
+  //     document.head.removeChild(script);
+  //   };
+  // }, []);
 
   useEffect(() => {
     const tagManagerArgs = {
@@ -59,7 +74,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>
-         Performance Marketing Agency Dubai | Google & Meta Ads Experts
+          Performance Marketing Agency Dubai | Google & Meta Ads Experts
         </title>
         <meta
           name="description"
@@ -184,9 +199,23 @@ brands. Book a strategy call today!"
           href="/favicon-16x16.png"
         />
       </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-10803441186"
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-ads-gtag" strategy="afterInteractive">
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-10803441186');
+  `}
+      </Script>
+
       <MetaPixel />
       <Header />
-      
+
       <Component {...pageProps} />
       <Footer1 />
       <FooterBottom11 />
